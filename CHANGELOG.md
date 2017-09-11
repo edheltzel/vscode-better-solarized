@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.6 | 09-11-2017
+added liquid tag color in syntax
+
 ## 0.0.5 | 09-11-2017
 added liquid scope to syntax
 - adds syntax highlighting for `{% %}` and `{{ }}`
