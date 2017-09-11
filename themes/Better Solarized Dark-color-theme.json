@@ -23,6 +23,13 @@
 				"foreground": "#586e75"
 			}
 		},
+    {
+      "name": "Javascript JSDoc Symbol",
+      "scope": "entity.name.type.instance.jsdoc",
+      "settings": {
+        "foreground": "#b58900"
+			}
+		},
 		{
 			"name": "Variable",
 			"scope": [
@@ -1130,9 +1137,9 @@
 		"list.dropBackground": "#00445488",
 		"list.highlightForeground": "#1ebcc5",
 		// "scrollbar.shadow": "",
-		// "scrollbarSlider.activeBackground": "",
-		// "scrollbarSlider.background": "",
-		// "scrollbarSlider.hoverBackground": "",
+		"scrollbarSlider.activeBackground": "#1ebcc5",
+		"scrollbarSlider.background": "#1ebcc530",
+		"scrollbarSlider.hoverBackground": "#1ebcc580",
 		// Editor
 		"editor.background": "#002b36",
 		"editor.foreground": "#839496",
@@ -1145,7 +1152,7 @@
 		"editorCursor.foreground": "#AB395B",
 		"editorHoverWidget.background": "#004052",
 		// "editorHoverWidget.border": "",
-		// "editorLineNumber.foreground": "",
+		"editorLineNumber.foreground": "#586e75",
 		// "editorMarkerNavigation.background": "",
 		"editorMarkerNavigationError.background": "#AB395B",
 		"editorMarkerNavigationWarning.background": "#5B7E7A",
@@ -1167,14 +1174,14 @@
 		// "editorSuggestWidget.highlightForeground": "",
 		// "editorSuggestWidget.selectedBackground": "",
 		// Editor: Peek View
-		"peekViewResult.background": "#00212B",
 		// "peekViewResult.lineForeground": "",
 		// "peekViewResult.selectionBackground": "",
 		// "peekViewResult.selectionForeground": "",
-		"peekViewEditor.background": "#10192c",
-		"peekViewTitle.background": "#00212B",
-		"peekView.border": "#2b2b4a",
-		"peekViewEditor.matchHighlightBackground": "#7744AA40",
+		"peekView.border": "#2aa198AB",
+		"peekViewTitle.background": "#002b36",
+		"peekViewResult.background": "#002b36",
+		"peekViewEditor.background": "#00212b",
+		"peekViewEditor.matchHighlightBackground": "#284b53",
 		// "peekViewResult.fileForeground": "",
 		// "peekViewResult.matchHighlightBackground": "",
 		// "peekViewTitleLabel.foreground": "",
@@ -1198,6 +1205,8 @@
 		// Workbench: Tabs
 		"tab.activeForeground": "#eee8d5",
 		"tab.activeBackground": "#002B37",
+		"tab.activeBorder": "#AB395B",
+		"tab.unfocusedActiveBorder": "#AB395B75",
 		"tab.inactiveForeground": "#93A1A1",
 		"tab.inactiveBackground": "#004052",
 		"tab.border": "#003847",
@@ -1246,13 +1255,13 @@
 		"terminal.ansiMagenta": "#d33682",
 		"terminal.ansiCyan": "#2aa198",
 		"terminal.ansiWhite": "#eee8d5",
-		"terminal.ansiBrightBlack": "#586e75",
+		"terminal.ansiBrightBlack": "#073642",
 		"terminal.ansiBrightRed": "#cb4b16",
-		"terminal.ansiBrightGreen": "#586e75",
-		"terminal.ansiBrightYellow": "#657b83",
+		"terminal.ansiBrightGreen": "#859900",
+		"terminal.ansiBrightYellow": "#b58900",
 		"terminal.ansiBrightBlue": "#839496",
 		"terminal.ansiBrightMagenta": "#6c71c4",
-		"terminal.ansiBrightCyan": "#93a1a1",
+		"terminal.ansiBrightCyan": "#268bd2",
 		"terminal.ansiBrightWhite": "#fdf6e3"
 	}
 }
