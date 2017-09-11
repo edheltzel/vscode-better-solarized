@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.1.0 | 09-10-2017
+## 0.0.2 | 09-11-2017
 - updating theme file to matach default Solarized theme
 - added `tab.activeBorder` 
 - added `tab.unfocusedActiveBorder`
