@@ -29,5 +29,12 @@
         "solarized dark",
         "sublime",
         "atom"
-    ]
+    ],
+    "license": "SEE license inf license.txt",
+    "homepage": "https://github.com/ginfuru/vscode-better-solarized-dark",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ginfuru/vscode-better-solarized-dark.git"
+    },
+    "bugs": "https://github.com/ginfuru/vscode-better-solarized-dark/issues"
 }

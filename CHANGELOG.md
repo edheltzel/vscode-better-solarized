@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.4 | 09-11-2017
+- updated `package.json` with VSCode sidebar info
+
 ## 0.0.3 | 09-11-2017
 - added image for IntelliSense
 
