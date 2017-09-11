@@ -19,8 +19,8 @@ Open up your `setttings.json` and hack way.
 
 # ScreenShot
 
-![ScreenShot Peek and Command Prompt](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotA.png)
+![ScreenShot Intellisense](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotA.png)
 
 ![ScreenShot Peek View](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotB.png)
 
-![ScreenShot Intellisense](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotC.png)
+![ScreenShot Liquid Tags](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotC.png)
