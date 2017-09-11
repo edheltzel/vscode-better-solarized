@@ -23,4 +23,4 @@ Open up your `setttings.json` and hack way.
 
 ![ScreenShot Peek View](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotB.png)
 
-![ScreenShot Intellisense](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/ScreenShotC.png)
+![ScreenShot Intellisense](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotC.png)
