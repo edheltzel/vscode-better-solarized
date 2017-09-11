@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.5 | 09-11-2017
+added liquid scope to syntax
+- adds syntax highlighting for `{% %}` and `{{ }}`
+
 ## 0.0.4 | 09-11-2017
 - updated `package.json` with VSCode sidebar info
 

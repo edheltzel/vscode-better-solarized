@@ -23,6 +23,16 @@
 				"foreground": "#586e75"
 			}
 		},
+		{
+			"name": "Liquid Tags",
+			"scope": [
+				"punctuation.output.liquid",
+				"punctuation.tag.liquid"
+			],
+			"settings":{
+				"foreground": "#839496"
+			}
+		},
     {
       "name": "Javascript JSDoc Symbol",
       "scope": "entity.name.type.instance.jsdoc",
