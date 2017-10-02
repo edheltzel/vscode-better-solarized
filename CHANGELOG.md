@@ -1,6 +1,9 @@
 # Change Log
 
 ## 0.0.7 | 09-11-2017
+better support for Jekyll
+
+## 0.0.7 | 09-11-2017
 added liquid and JSDocs screenshot
 
 ## 0.0.6 | 09-11-2017

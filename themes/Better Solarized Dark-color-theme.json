@@ -29,15 +29,26 @@
 				"punctuation.output.liquid",
 				"punctuation.tag.liquid"
 			],
-			"settings":{
+			"settings": {
 				"foreground": "#bbbbbb"
 			}
 		},
-    {
-      "name": "Javascript JSDoc Symbol",
-      "scope": "entity.name.type.instance.jsdoc",
-      "settings": {
-        "foreground": "#b58900"
+		{
+			"name": "Jekyll Tags",
+			"scope": [
+				"punctuation.output.jekyll",
+				"punctuation.tag.jekyll",
+				"punctuation.frontmatter.jekyll"
+			],
+			"settings": {
+				"foreground": "#bbbbbb"
+			}
+		},
+		{
+			"name": "Javascript JSDoc Symbol",
+			"scope": "entity.name.type.instance.jsdoc",
+			"settings": {
+				"foreground": "#b58900"
 			}
 		},
 		{
