@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.0 | 06-28-2018
+Better git decorations for added, changed, untracked, modified and deleted files
+
 ## 0.0.9 | 06-25-2018
 adds git decorations plus removes depreciated properties and updates a few colors
 
