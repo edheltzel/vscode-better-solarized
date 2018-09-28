@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.3.0 | 09-28-2018
+restores terminal colors
+
 ## 0.2.0 | 09-28-2018
 Fixes [issue #1](https://github.com/ginfuru/vscode-better-solarized-dark/issues/1) and [issue #2](https://github.com/ginfuru/vscode-better-solarized-dark/issues/2)
 
