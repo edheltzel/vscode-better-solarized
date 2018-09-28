@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.1.1| 09-28-2018
+## 0.2.0 | 09-28-2018
 Fixes [issue #1](https://github.com/ginfuru/vscode-better-solarized-dark/issues/1) and [issue #2](https://github.com/ginfuru/vscode-better-solarized-dark/issues/2)
 
 ## 0.1.0 | 06-28-2018
