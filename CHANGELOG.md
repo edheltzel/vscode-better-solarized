@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.1| 09-28-2018
+Fixes [issue #1](https://github.com/ginfuru/vscode-better-solarized-dark/issues/1) and [issue #2](https://github.com/ginfuru/vscode-better-solarized-dark/issues/2)
+
 ## 0.1.0 | 06-28-2018
 Better git decorations for added, changed, untracked, modified and deleted files
 
