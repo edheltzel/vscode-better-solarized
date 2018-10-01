@@ -21,33 +21,12 @@
       }
     },
     {
-      "name": "Liquid Tags",
-      "scope": ["punctuation.output.liquid", "punctuation.tag.liquid"],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-    {
-      "name": "Liquid Operators",
-      "scope": ["entity.name.tag.liquid"],
-      "settings": {
-        "foreground": "#D33682",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Liquid Variable",
-      "scope": ["punctuation.tag.liquid"],
-      "settings": {
-        "foreground": "#BBBBBB"
-      }
-    },
-    {
       "name": "Jekyll Tags",
       "scope": [
         "punctuation.output.jekyll",
         "punctuation.tag.jekyll",
-        "punctuation.frontmatter.jekyll"
+        "punctuation.frontmatter.jekyll",
+        "punctuation.output.liquid", "punctuation.tag.liquid"
       ],
       "settings": {
         "foreground": "#bbbbbb"
@@ -55,7 +34,7 @@
     },
     {
       "name": "Jekyll Operators",
-      "scope": ["entity.name.tag.jekyll"],
+      "scope": ["entity.name.tag.jekyll","entity.name.tag.liquid"],
       "settings": {
         "foreground": "#D33682",
         "fontStyle": "italic"
@@ -63,10 +42,25 @@
     },
     {
       "name": "Jekyll Variable",
-      "scope": ["punctuation.tag.jekyll"],
+      "scope": ["punctuation.tag.jekyll","punctuation.tag.liquid"],
       "settings": {
         "foreground": "#BBBBBB"
         // "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Jekyll Content",
+      "scope": ["variable.other.jekyll", "variable.other.liquid"],
+      "settings": {
+        "foreground": "#BBBBBB"
+        // "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Jekyll arguments",
+      "scope": ["support.function.with-args.jekyll"],
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -80,7 +74,8 @@
       "name": "Variable",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#839496"
+        "foreground": "#839496",
+        "fontStyle": "italic"
       }
     },
     {
@@ -104,6 +99,22 @@
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#6C71C4"
+      }
+    },
+    {
+      "name": "CSS/Scss At-Rules",
+      "scope": "keyword.control, keyword.operator.new, keyword.operator.module, variable.language.super",
+      "settings": {
+        "foreground": "#6C71C4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C# Keyword",
+      "scope": "keyword, storage.modifier,source.css meta.selector.css entity.other.attribute-name.pseudo-element.css",
+      "settings": {
+        "foreground": "#6C71C4",
+        "fontStyle": "italic"
       }
     },
     {
@@ -193,7 +204,8 @@
         "support.other.namespace.use.php",
         "meta.use.php",
         "support.other.namespace.php",
-        "markup.changed.git_gutter"
+        "markup.changed.git_gutter",
+        "keyword.other.unit.px.css"
       ],
       "settings": {
         "foreground": "#B58900"
@@ -233,7 +245,15 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#6C71C4",
-        "fontStyle": "italic"
+        // "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": "constant.numeric ",
+      "settings": {
+        "foreground": "#D33682",
+        // "fontStyle": "italic"
       }
     },
     {
@@ -1232,10 +1252,10 @@
     // "peekViewResult.lineForeground": "",
     // "peekViewResult.selectionBackground": "",
     // "peekViewResult.selectionForeground": "",
-    "peekViewEditor.background": "#10192c",
+    "peekViewEditor.background": "#00212B",
     "peekViewTitle.background": "#00212B",
-    "peekView.border": "#2b2b4a",
-    "peekViewEditor.matchHighlightBackground": "#7744AA40",
+    "peekView.border": "#EEE8D52B",
+    "peekViewEditor.matchHighlightBackground": "#004454AA",
     // "peekViewResult.fileForeground": "",
     // "peekViewResult.matchHighlightBackground": "",
     // "peekViewTitleLabel.foreground": "",
