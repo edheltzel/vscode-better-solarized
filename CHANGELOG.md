@@ -4,6 +4,7 @@
 * Improves Scss/Css at-rules and variables. 
 * Fixes Peek View colors
 * Betteer support for Liquid Tags via Jekyll or Liquid extensions
+* Fixes Bright Black inside of terminal 
 
 ## 0.5.0 | 10-01-2018
 Improves terminal colors and panel seperation from editor background and changes active tab color:
