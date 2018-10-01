@@ -1265,7 +1265,6 @@
     "tab.inactiveForeground": "#93A1A1",
     "tab.inactiveBackground": "#004052",
     "tab.border": "#003847",
-    "tab.activeBorder": "#AB395B",
 
     // Workbench: Activity Bar
     "activityBar.background": "#003847",
@@ -1276,7 +1275,7 @@
 
     // Workbench: Panel
     // "panel.background": "",
-    "panel.border": "#2b2b4a",
+    //"panel.border": "#2b2b4a",
     // "panelTitle.activeBorder": "",
     // "panelTitle.activeForeground": "",
     // "panelTitle.inactiveForeground": "",
@@ -1307,7 +1306,8 @@
 
     // Workbench: Terminal
     // Colors sourced from the official palette http://ethanschoonover.com/solarized
-    "terminal.ansiBlack": "#073642",
+
+    "terminal.ansiBlack": "#00212B",
     "terminal.ansiRed": "#DC322F",
     "terminal.ansiGreen": "#859900",
     "terminal.ansiYellow": "#B58900",
@@ -1315,13 +1315,26 @@
     "terminal.ansiMagenta": "#D33682",
     "terminal.ansiCyan": "#2AA198",
     "terminal.ansiWhite": "#EEE8D5",
-    "terminal.ansiBrightBlack": "#073642",
+    "terminal.ansiBrightBlack": "#00212B",
     "terminal.ansiBrightRed": "#CB4B16",
     "terminal.ansiBrightGreen": "#859900",
     "terminal.ansiBrightYellow": "#B58900",
     "terminal.ansiBrightBlue": "#839496",
     "terminal.ansiBrightMagenta": "#6C71C4",
     "terminal.ansiBrightCyan": "#268BD2",
-    "terminal.ansiBrightWhite": "#FDF6E3"
+    "terminal.ansiBrightWhite": "#FDF6E3",
+
+    // Better Color Changes:
+    "terminalCursor.background": "#00212B",
+    "terminalCursor.foreground": "#839496",
+    "terminal.background": "#00212B",
+    "terminal.border": "#EEE8D52B",
+    "terminal.selectionBackground": "#EEE8D52B",
+    // "statusBar.background": "#002C39",
+    "tab.activeBorder": "#2AA198",
+    "panelTitle.activeBorder": "#2AA198",
+    "panel.border": "#2AA1984A",
+    "statusBar.border": "#EEE8D509",
+    "sideBar.border": "#EEE8D52B"
   }
 }

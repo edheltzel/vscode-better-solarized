@@ -1,6 +1,12 @@
 # Change Log
 
-## 0.4.0 | 09-28-2018
+## 0.5.0 | 10-01-2018
+Improves terminal colors and panel seperation from editor background and changes active tab color:
+* If you want the pinkish color set `"workbench.colorCustomizations": {"tab.activeBorder": "#2AA198", "panelTitle.activeBorder": "#2AA198",}`
+		
+
+
+## 0.4.0 | 10-01-2018
 Adds better YAML/JSON/Jekyll/Liquid syntax plus a few minor changes
 * suggesting `Dank Mono` for font choice. 
 
