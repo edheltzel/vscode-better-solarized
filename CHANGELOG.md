@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.4.0 | 09-28-2018
+Adds better YAML/JSON/Jekyll/Liquid syntax plus a few minor changes
+* suggesting `Dank Mono` for font choice. 
+
 ## 0.3.0 | 09-28-2018
 restores terminal colors
 
