@@ -1,10 +1,13 @@
 # Change Log
 
+## 0.6.0 | 10-01-2018
+* Improves Scss/Css at-rules and variables. 
+* Fixes Peek View colors
+* Betteer support for Liquid Tags via Jekyll or Liquid extensions
+
 ## 0.5.0 | 10-01-2018
 Improves terminal colors and panel seperation from editor background and changes active tab color:
 * If you want the pinkish color set `"workbench.colorCustomizations": {"tab.activeBorder": "#2AA198", "panelTitle.activeBorder": "#2AA198",}`
-		
-
 
 ## 0.4.0 | 10-01-2018
 Adds better YAML/JSON/Jekyll/Liquid syntax plus a few minor changes
