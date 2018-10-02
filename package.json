@@ -2,7 +2,7 @@
     "name": "ginfuru-better-solarized-dark-theme",
     "displayName": "Better Solarized Dark",
     "description": "A Better Solarized Dark theme for Visual Studio Code",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "publisher": "ginfuru",
     "engines": {
         "vscode": "^1.13.0"
