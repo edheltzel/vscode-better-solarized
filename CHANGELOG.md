@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.7.0 | 10-02-2018
+* Reverts comments to original color versus the change that made it slighly opaque.
+* Fixes [#5](https://github.com/ginfuru/vscode-better-solarized-dark/issues/5) reported by [linhtto](https://github.com/linhtto) -- Thanks 👍
+* adds WaffleIO badge to readme.
+
 ## 0.6.0 | 10-01-2018
 * Improves Scss/Css at-rules and variables. 
 * Fixes Peek View colors

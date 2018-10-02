@@ -17,7 +17,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#586E75AB"
+        "foreground": "#586E75"
       }
     },
     {
