@@ -1,7 +1,7 @@
 # Better Solarized Dark [![GitHub release](https://img.shields.io/github/release/ginfuru/vscode-better-solarized-dark.svg)](https://github.com/ginfuru/vscode-better-solarized-dark/releases) 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/ginfuru/vscode-better-solarized-dark.svg?columns=all)](https://waffle.io/ginfuru/vscode-better-solarized-dark)
 
-A clone of the original version of the Solarized Dark Workbench theme for Visual Studio Code with a mobified version of the [Boxy Solarized Theme](https://github.com/ihodev/sublime-boxy) for Sublime Text.<br>
+A clone of the original version of the Solarized Dark Workbench theme for Visual Studio Code with a modified version of the [Boxy Solarized Theme](https://github.com/ihodev/sublime-boxy) for Sublime Text.<br>
 
 # Additional Customization and other Tweaks
 **See something that you'd rather change?**<br>
