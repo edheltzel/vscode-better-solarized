@@ -1,40 +1,38 @@
 {
-    "name": "ginfuru-better-solarized-dark-theme",
-    "displayName": "Better Solarized Dark",
-    "description": "A Better Solarized Dark theme for Visual Studio Code",
-    "version": "0.7.0",
-    "publisher": "ginfuru",
-    "engines": {
-        "vscode": "^1.13.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Better Solarized Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Better Solarized Dark-color-theme.json"
-            }
-        ]
-    },
-    "icon": "images/icon.png",
-    "galleryBanner": {
-        "color": "#00212b",
-        "theme": "dark"
-    },
-    "keywords": [
-        "solarized",
-        "solarized dark",
-        "sublime",
-        "atom"
-    ],
-    "license": "SEE license inf license.txt",
-    "homepage": "https://github.com/ginfuru/vscode-better-solarized-dark",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ginfuru/vscode-better-solarized-dark.git"
-    },
-    "bugs": "https://github.com/ginfuru/vscode-better-solarized-dark/issues"
+  "name": "ginfuru-better-solarized-dark-theme",
+  "displayName": "Better Solarized Dark",
+  "description": "A Better Solarized Dark theme for Visual Studio Code",
+  "version": "0.7.0",
+  "publisher": "ginfuru",
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [ "Themes" ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Better Solarized Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Better Solarized Dark-color-theme.json"
+      },
+      {
+        "label": "Better Solarized Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Better Solarized Dark Italic-color-theme.json"
+      }
+    ]
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#00212b",
+    "theme": "dark"
+  },
+  "keywords": [ "solarized", "solarized dark", "sublime", "atom" ],
+  "license": "SEE license inf license.txt",
+  "homepage": "https://github.com/ginfuru/vscode-better-solarized-dark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ginfuru/vscode-better-solarized-dark.git"
+  },
+  "bugs": "https://github.com/ginfuru/vscode-better-solarized-dark/issues"
 }

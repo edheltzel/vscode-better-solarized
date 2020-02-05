@@ -1,5 +1,5 @@
 {
-  "name": "Better Solarized Dark",
+  "name": "Better Solarized Dark Italics",
   "tokenColors": [
     {
       "settings": {
@@ -37,7 +37,7 @@
       "scope": ["entity.name.tag.jekyll","entity.name.tag.liquid"],
       "settings": {
         "foreground": "#D33682",
-"
+        "fontStyle": "italic"
       }
     },
     {
@@ -45,6 +45,7 @@
       "scope": ["punctuation.tag.jekyll","punctuation.tag.liquid"],
       "settings": {
         "foreground": "#BBBBBB"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -52,6 +53,7 @@
       "scope": ["variable.other.jekyll", "variable.other.liquid"],
       "settings": {
         "foreground": "#BBBBBB"
+        // "fontStyle": "italic"
       }
     },
     {
