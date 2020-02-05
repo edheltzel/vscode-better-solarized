@@ -1,15 +1,20 @@
 # Change Log
 
+## 0.8.0 | 02-05-2020
+* Adds Light Color Theme
+* Adds italic version of Dark theme
+* Reverts Dark theme to original (no italics)
+
 ## 0.7.0 | 10-02-2018
 * Reverts comments to original color versus the change that made it slighly opaque.
 * Fixes [#5](https://github.com/ginfuru/vscode-better-solarized-dark/issues/5) reported by [linhtto](https://github.com/linhtto) -- Thanks 👍
 * adds WaffleIO badge to readme.
 
 ## 0.6.0 | 10-01-2018
-* Improves Scss/Css at-rules and variables. 
+* Improves Scss/Css at-rules and variables.
 * Fixes Peek View colors
 * Betteer support for Liquid Tags via Jekyll or Liquid extensions
-* Fixes Bright Black inside of terminal 
+* Fixes Bright Black inside of terminal
 
 ## 0.5.0 | 10-01-2018
 Improves terminal colors and panel seperation from editor background and changes active tab color:
@@ -17,7 +22,7 @@ Improves terminal colors and panel seperation from editor background and changes
 
 ## 0.4.0 | 10-01-2018
 Adds better YAML/JSON/Jekyll/Liquid syntax plus a few minor changes
-* suggesting `Dank Mono` for font choice. 
+* suggesting `Dank Mono` for font choice.
 
 ## 0.3.0 | 09-28-2018
 restores terminal colors
@@ -52,7 +57,7 @@ added liquid scope to syntax
 
 ## 0.0.2 | 09-11-2017
 - updating theme file to matach default Solarized theme
-- added `tab.activeBorder` 
+- added `tab.activeBorder`
 - added `tab.unfocusedActiveBorder`
 - updated readme with description and images
 

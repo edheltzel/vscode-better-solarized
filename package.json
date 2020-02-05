@@ -1,7 +1,7 @@
 {
   "name": "ginfuru-better-solarized-dark-theme",
-  "displayName": "Better Solarized Dark",
-  "description": "A Better Solarized Dark theme for Visual Studio Code",
+  "displayName": "Better Solarized",
+  "description": "A Better Solarized theme for Visual Studio Code include light and dark versions",
   "version": "0.7.0",
   "publisher": "ginfuru",
   "engines": {
@@ -16,9 +16,14 @@
         "path": "./themes/Better Solarized Dark-color-theme.json"
       },
       {
-        "label": "Better Solarized Dark",
+        "label": "Better Solarized Dark Italics",
         "uiTheme": "vs-dark",
         "path": "./themes/Better Solarized Dark Italic-color-theme.json"
+      },
+      {
+        "label": "Better Solarized Light",
+        "uiTheme": "vs",
+        "path": "./themes/Better Solarized Light-color-theme.json"
       }
     ]
   },
