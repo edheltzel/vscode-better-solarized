@@ -23,6 +23,55 @@
         "foreground": "#93a1a1"
       }
     },
+
+    {
+      "name": "Jekyll Tags",
+      "scope": [
+        "punctuation.output.jekyll",
+        "punctuation.tag.jekyll",
+        "punctuation.frontmatter.jekyll",
+        "punctuation.output.liquid", "punctuation.tag.liquid"
+      ],
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
+    {
+      "name": "Jekyll Operators",
+      "scope": ["entity.name.tag.jekyll","entity.name.tag.liquid"],
+      "settings": {
+        "foreground": "#D33682",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Jekyll Variable",
+      "scope": ["punctuation.tag.jekyll","punctuation.tag.liquid"],
+      "settings": {
+        "foreground": "#BBBBBB"
+      }
+    },
+    {
+      "name": "Jekyll Content",
+      "scope": ["variable.other.jekyll", "variable.other.liquid"],
+      "settings": {
+        "foreground": "#BBBBBB"
+      }
+    },
+    {
+      "name": "Jekyll arguments",
+      "scope": ["support.function.with-args.jekyll"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Javascript JSDoc Symbol",
+      "scope": "entity.name.type.instance.jsdoc",
+      "settings": {
+        "foreground": "#b58900"
+      }
+    },
     {
       "name": "Variable",
       "scope": [

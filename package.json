@@ -7,9 +7,7 @@
   "engines": {
     "vscode": "^1.13.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": [ "Themes" ],
   "contributes": {
     "themes": [
       {
@@ -34,17 +32,12 @@
     "color": "#00212b",
     "theme": "dark"
   },
-  "keywords": [
-    "solarized",
-    "solarized dark",
-    "sublime",
-    "atom"
-  ],
+  "keywords": [ "solarized", "solarized dark", "solarized light", "sublime", "atom" ],
   "license": "SEE license inf license.txt",
-  "homepage": "https://github.com/ginfuru/vscode-better-solarized-dark",
+  "homepage": "https://github.com/ginfuru/vscode-better-solarized",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ginfuru/vscode-better-solarized-dark.git"
+    "url": "https://github.com/ginfuru/vscode-better-solarized.git"
   },
-  "bugs": "https://github.com/ginfuru/vscode-better-solarized-dark/issues"
+  "bugs": "https://github.com/ginfuru/vscode-better-solarized/issues"
 }

@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.8.1 | 02-07-2020
+* Update screenshot
+* Name Change
+
 ## 0.8.0 | 02-05-2020
 * Adds Light Color Theme
 * Adds italic version of Dark theme

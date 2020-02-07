@@ -1,9 +1,15 @@
-# Better Solarized Dark [![GitHub release](https://img.shields.io/github/release/ginfuru/vscode-better-solarized-dark.svg)](https://github.com/ginfuru/vscode-better-solarized-dark/releases) 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/ginfuru/vscode-better-solarized-dark.svg?columns=all)](https://waffle.io/ginfuru/vscode-better-solarized-dark)
+# Better Solarized [![GitHub release](https://img.shields.io/github/release/ginfuru/vscode-better-solarized.svg)](https://github.com/ginfuru/vscode-better-solarized/releases)
 
-A clone of the original version of the Solarized Dark Workbench theme for Visual Studio Code with a modified version of the [Boxy Solarized Theme](https://github.com/ihodev/sublime-boxy) for Sublime Text.<br>
+This is a modified version of the [Boxy Solarized Theme](https://github.com/ihodev/sublime-boxy) for Sublime Text, with the original Solarized Workbench theme for Visual Studio Code.
+
+This theme includes three(3) variants:
+
+1. Solarized Light
+2. Solarized Dark
+3. Solarized Dark with Italics
 
 # Additional Customization and other Tweaks
+
 **See something that you'd rather change?**<br>
 No problem, feel free to edit and customize by using the `workbench.colorCustomizations` setting. Check out the [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) for additional options.
 
@@ -21,7 +27,9 @@ Open up your `setttings.json` and hack way.
 
 # ScreenShot
 
-![ScreenShot Intellisense](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotA.png)
+![ScreenShot Dark](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotA.png)
+
+![ScreenShot Light](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotD.png)
 
 ![ScreenShot Peek View](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotB.png)
 
