@@ -1,5 +1,17 @@
 # Change Log
 
+## 0.9.3 | 02-22-2020
+
+- Adds Light theme
+- Adds Dark them with italics
+- Adds original Dark theme
+
+## 0.9.2 | 02-07-2020
+
+- Adds Light theme
+- Adds Dark them with italics
+- Adds original Dark theme
+
 ## 0.9.1 | 02-07-2020
 
 - Update screenshot
