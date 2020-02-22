@@ -1376,7 +1376,7 @@
     "terminal.ansiBrightBlue": "#839496",
     "terminal.ansiBrightMagenta": "#6C71C4",
     "terminal.ansiBrightCyan": "#268BD2",
-    "terminal.ansiBrightWhite": "#FDF6E3"
+    "terminal.ansiBrightWhite": "#FDF6E3",
     // Better Color Changes:
     "terminalCursor.background": "#00212B",
     "terminalCursor.foreground": "#839496",
