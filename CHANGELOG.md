@@ -2,9 +2,8 @@
 
 ## 0.9.3 | 02-22-2020
 
-- Adds Light theme
-- Adds Dark them with italics
-- Adds original Dark theme
+- merge of PR [#12](https://github.com/ginfuru/vscode-better-solarized/pull/12) from [@timrydefalk](https://github.com/timrydefalk) -- Thanks! 👍
+- resolves error
 
 ## 0.9.2 | 02-07-2020
 
