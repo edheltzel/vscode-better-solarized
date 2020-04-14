@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.9.4 | 04-14-2020
+- merge of PR [#13](https://github.com/ginfuru/vscode-better-solarized/pull/13) from [@1081](https://github.com/1081) -- Thanks! 👍
+
 ## 0.9.3 | 02-22-2020
 
 - merge of PR [#12](https://github.com/ginfuru/vscode-better-solarized/pull/12) from [@timrydefalk](https://github.com/timrydefalk) -- Thanks! 👍
