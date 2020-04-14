@@ -87,7 +87,7 @@
       "scope": "invalid",
       "settings": {
         "background": "#dc322f",
-        "foreground": "#ffffff"
+        "foreground": "#dc322f"
       }
     },
     {
@@ -95,7 +95,7 @@
       "scope": "invalid.deprecated",
       "settings": {
         "background": "#6c71c4",
-        "foreground": "#ffffff"
+        "foreground": "#dc322f"
       }
     },
     {
