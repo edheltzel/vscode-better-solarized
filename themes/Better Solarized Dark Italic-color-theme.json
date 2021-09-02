@@ -1,5 +1,6 @@
 {
   "name": "Better Solarized Dark Italics",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "settings": {
