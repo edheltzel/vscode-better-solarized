@@ -1,5 +1,6 @@
 {
   "name": "Better Solarized Light",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "settings": {
@@ -14,10 +15,7 @@
     },
     {
       "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#93a1a1"
@@ -30,7 +28,8 @@
         "punctuation.output.jekyll",
         "punctuation.tag.jekyll",
         "punctuation.frontmatter.jekyll",
-        "punctuation.output.liquid", "punctuation.tag.liquid"
+        "punctuation.output.liquid",
+        "punctuation.tag.liquid"
       ],
       "settings": {
         "foreground": "#bbbbbb"
@@ -38,7 +37,7 @@
     },
     {
       "name": "Jekyll Operators",
-      "scope": ["entity.name.tag.jekyll","entity.name.tag.liquid"],
+      "scope": ["entity.name.tag.jekyll", "entity.name.tag.liquid"],
       "settings": {
         "foreground": "#D33682",
         "fontStyle": "italic"
@@ -46,7 +45,7 @@
     },
     {
       "name": "Jekyll Variable",
-      "scope": ["punctuation.tag.jekyll","punctuation.tag.liquid"],
+      "scope": ["punctuation.tag.jekyll", "punctuation.tag.liquid"],
       "settings": {
         "foreground": "#BBBBBB"
       }
@@ -74,10 +73,7 @@
     },
     {
       "name": "Variable",
-      "scope": [
-        "variable",
-        "string constant.other.placeholder"
-      ],
+      "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
         "foreground": "#657b83"
       }
@@ -100,11 +96,7 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": [
-        "keyword",
-        "storage.type",
-        "storage.modifier"
-      ],
+      "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#6c71c4"
       }
@@ -155,10 +147,7 @@
     },
     {
       "name": "Other Variable, String Link",
-      "scope": [
-        "support.other.variable",
-        "string.other.link"
-      ],
+      "scope": ["support.other.variable", "string.other.link"],
       "settings": {
         "foreground": "#cf4b56"
       }
@@ -289,11 +278,7 @@
     },
     {
       "name": "URL",
-      "scope": [
-        "*url*",
-        "*link*",
-        "*uri*"
-      ],
+      "scope": ["*url*", "*link*", "*uri*"],
       "settings": {
         "fontStyle": "underline"
       }
@@ -459,20 +444,14 @@
     },
     {
       "name": "Markup - Italic",
-      "scope": [
-        "markup.italic",
-        "markup.italic string"
-      ],
+      "scope": ["markup.italic", "markup.italic string"],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Markup - Bold",
-      "scope": [
-        "markup.bold",
-        "markup.bold string"
-      ],
+      "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold"
       }
@@ -1145,17 +1124,13 @@
     },
     {
       "name": "Gutter Color Fix",
-      "scope": [
-        "gutter_color",
-        "mcol"
-      ],
+      "scope": ["gutter_color", "mcol"],
       "settings": {
         "foreground": "#ffffff"
       }
     }
   ],
   "colors": {
-
     // Base
     // "foreground": "",
     "focusBorder": "#D3AF86",
