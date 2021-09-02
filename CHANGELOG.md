@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.9.5 | 09-02-2021
+- merge of PR [#16](https://github.com/edheltzel/vscode-better-solarized/pull/16) which closed [issue #14](https://github.com/edheltzel/vscode-better-solarized/issues/14)
+
 ## 0.9.4 | 04-14-2020
 - merge of PR [#13](https://github.com/ginfuru/vscode-better-solarized/pull/13) from [@1081](https://github.com/1081) -- Thanks! 👍
 
