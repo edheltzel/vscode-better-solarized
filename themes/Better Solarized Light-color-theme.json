@@ -1226,6 +1226,10 @@
     // "peekViewTitleLabel.foreground": "",
     // "peekViewTitleDescription.foreground": "",
 
+    // Editor: Sticky Scroll
+    "editorStickyScroll.background": "#EEE8D5",
+    "editorStickyScrollHover.background": "#586E7530",
+
     // Editor: Diff
     // "diffEditor.insertedTextBackground": "",
     // "diffEditor.insertedTextBorder": "",

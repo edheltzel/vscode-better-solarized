@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.9.6 | 2023-08-21
+- adds editor sticky color support
+
 ## 0.9.5 | 09-02-2021
 - merge of PR [#16](https://github.com/edheltzel/vscode-better-solarized/pull/16) which closed [issue #14](https://github.com/edheltzel/vscode-better-solarized/issues/14)
 
