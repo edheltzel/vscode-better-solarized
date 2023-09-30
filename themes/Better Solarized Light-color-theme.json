@@ -1253,6 +1253,9 @@
     // "peekViewResult.matchHighlightBackground": "",
     // "peekViewTitleLabel.foreground": "",
     // "peekViewTitleDescription.foreground": "",
+    // Editor: Sticky Scroll
+    "editorStickyScroll.background": "#EEE8D5",
+    "editorStickyScrollHover.background": "#586E7530",
     // Editor: Diff
     // "diffEditor.insertedTextBackground": "",
     // "diffEditor.insertedTextBorder": "",
@@ -1280,7 +1283,7 @@
     // Workbench: Activity Bar
     "activityBar.background": "#DDD6C1",
     "activityBar.foreground": "#584c27",
-    "activityBar.dropBackground": "#EEE8D5",
+    // "activityBar.dropBackground": "#EEE8D5",
     "activityBarBadge.background": "#B58900",
     // "activityBarBadge.foreground": "",
     // Workbench: Panel
