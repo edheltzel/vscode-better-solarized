@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.9.8 | 2023-09-30
+- fixes #19 introduced in v0.9.7
+
 ## 0.9.7 | 2023-09-30
 - better notebook editor background colors
 - update desecrated properties
