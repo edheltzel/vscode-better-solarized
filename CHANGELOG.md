@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.9.9 | 2023-10-01
+- additional ui update for light version
+
 ## 0.9.8 | 2023-09-30
 - fixes #19 introduced in v0.9.7
 
