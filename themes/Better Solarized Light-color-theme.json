@@ -59,6 +59,16 @@
       }
     },
     {
+      "name": "Jekyll Content",
+      "scope": [
+        "variable.other.jekyll",
+        "variable.other.liquid"
+      ],
+      "settings": {
+        "foreground": "#BBBBBB"
+      }
+    },
+    {
       "name": "Jekyll arguments",
       "scope": [
         "support.function.with-args.jekyll"
@@ -1164,7 +1174,7 @@
     // "contrastBorder": "",
     // "widget.shadow": "",
     "input.background": "#DDD6C1",
-    // "input.border": "",
+    "input.border": "#586E754A",
     "input.foreground": "#586E75",
     "input.placeholderForeground": "#586E75AA",
     "inputOption.activeBorder": "#D3AF86",
@@ -1199,6 +1209,7 @@
     "editor.background": "#FDF6E3",
     // "editor.foreground": "#6688cc",
     "editorWidget.background": "#EEE8D5",
+    "editorCursor.background": "#EEE8D5",
     "editorCursor.foreground": "#657B83",
     "editorWhitespace.foreground": "#586E7580",
     "editor.lineHighlightBackground": "#EEE8D5",
@@ -1273,7 +1284,7 @@
     // Workbench: Activity Bar
     "activityBar.background": "#DDD6C1",
     "activityBar.foreground": "#584c27",
-    // "activityBar.dropBackground": "#EEE8D5",
+    "activityBar.dropBackground": "#EEE8D5",
     "activityBarBadge.background": "#B58900",
     // "activityBarBadge.foreground": "",
     // Workbench: Panel
