@@ -1202,9 +1202,6 @@
     // "scrollbarSlider.activeBackground": "",
     // "scrollbarSlider.background": "",
     // "scrollbarSlider.hoverBackground": "",
-    // Notebooks
-    "notebook.editorBackground": "#F7F0E0",
-    "notebook.cellEditorBackground": "#fdf6e3",
     // Editor
     "editor.background": "#FDF6E3",
     // "editor.foreground": "#6688cc",
