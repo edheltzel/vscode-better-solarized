@@ -10,10 +10,12 @@ This theme includes three(3) variants:
 
 # Additional Customization and other Tweaks
 
+> `# Additional Customization and other Tweaks`
+
 **See something that you'd rather change?**<br>
 No problem, feel free to edit and customize by using the `workbench.colorCustomizations` setting. Check out the [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) for additional options.
 
-Open up your `setttings.json` and hack way.
+Open up your `settings.json` and hack way.
 
 ```json
 "workbench.colorCustomizations":{
