@@ -1333,6 +1333,7 @@
     "terminal.ansiBrightMagenta": "#6c71c4",
     "terminal.ansiBrightCyan": "#93a1a1",
     "terminal.ansiBrightWhite": "#eee8d5",
+    "terminal.selectionBackground": "#DDD6C1",
     // Interactive Playground
     "walkThrough.embeddedEditorBackground": "#00000014"
   }
