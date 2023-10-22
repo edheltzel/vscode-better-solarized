@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.9.10 | 2023-10-22
+- merge PR [#20](https://github.com/edheltzel/vscode-better-solarized/pull/20) from [@joahjoah](https://github.com/joahjoah) -- Thanks! 👍
+
 ## 0.9.9 | 2023-10-01
 - additional ui update for light version
 
