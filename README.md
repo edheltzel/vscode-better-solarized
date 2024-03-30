@@ -32,10 +32,10 @@ Open up your `settings.json` and hack way.
 
 # ScreenShot
 
-![ScreenShot Dark](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotA.png)
+![ScreenShot Dark](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/assets/images/screenshotA.png)
 
-![ScreenShot Light](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/ScreenShotD.png)
+![ScreenShot Light](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/assets/images/ScreenShotD.png)
 
-![ScreenShot Peek View](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotB.png)
+![ScreenShot Peek View](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/assets/images/screenshotB.png)
 
-![ScreenShot Liquid Tags](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/screenshotC.png)
+![ScreenShot Liquid Tags](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/assets/images/screenshotC.png)
