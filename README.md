@@ -1,5 +1,8 @@
 # Better Solarized [![GitHub release](https://img.shields.io/github/release/ginfuru/vscode-better-solarized.svg)](https://github.com/ginfuru/vscode-better-solarized/releases)
 
+
+Featured in the [Nov 1 2023: issue 80](https://mailchi.mp/vscode/80?e=b9d3c8f738) of [vscode.email](https://vscode.email), a newsletter for news & tips on VSCode and IDEs.
+
 This is a modified version of the [Boxy Solarized Theme](https://github.com/ihodev/sublime-boxy) for Sublime Text, with the original Solarized Workbench theme for Visual Studio Code.
 
 This theme includes three(3) variants:
