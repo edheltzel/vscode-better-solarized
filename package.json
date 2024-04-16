@@ -13,7 +13,8 @@
     "build": "vite-node src/index.ts",
     "build:ext": "vsce package --out ./releases/%npm_package_version%.vsix --no-yarn",
     "fix": "prettier --write ./src/**/*.ts && eslint src/**/*.{vue,ts} --fix",
-    "release": "gh release create v%npm_package_version% --notes-file ./releases/%npm_package_version%.md --generate-notes"
+    "release": "gh release create v%npm_package_version% --notes-file ./releases/%npm_package_version%.md --generate-notes",
+    "publish": "vsce publish"
   },
   "contributes": {
     "themes": [
