@@ -1,2 +1,10 @@
-.vscode
+src/**
+.gitignore
+vsc-extension-quickstart.md
+**/tsconfig.json
+**/.eslintrc.json
+**/*.map
+**/*.ts
+save/**
 node_modules
+pnpm-lock.yaml

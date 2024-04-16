@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Better Solarized Dark",
+    "slug": "better-solarized-dark",
+    "theme": {
+      "colors": {
+        "blue": "#399fe8",
+        "green": "#94a522",
+        "greenAlt": "#A4EF58",
+        "orange": "#d8822c",
+        "pink": "#ce81c8",
+        "purple": "#767cde",
+        "red": "#eb4937",
+        "salmon": "#e54b95",
+        "turquoize": "#38bbb0",
+        "yellow": "#dfbe5a"
+      },
+      "levels": {
+        "danger": "#eb4937",
+        "info": "#399fe8",
+        "success": "#94a522",
+        "warning": "#dfbe5a"
+      },
+      "ui": {
+        "border": "#0b191e",
+        "default": "#c3e0e9",
+        "defaultMain": "#9eccdb",
+        "defaultalt": "#367b90",
+        "primary": "#47cfc4",
+        "primaryalt": "#1a3c47",
+        "uibackground": "#132c34",
+        "uibackgroundalt": "#10252c",
+        "uibackgroundmid": "#112830"
+      }
+    },
+    "uiTheme": "vs-dark"
+  },
+  {
+    "name": "Better Solarized Light",
+    "slug": "better-solarized-light",
+    "theme": {
+      "colors": {
+        "blue": "#399fe8",
+        "green": "#94a522",
+        "greenAlt": "#A4EF58",
+        "orange": "#d8822c",
+        "pink": "#ce81c8",
+        "purple": "#767cde",
+        "red": "#eb4937",
+        "salmon": "#e54b95",
+        "turquoize": "#38bbb0",
+        "yellow": "#dfbe5a"
+      },
+      "levels": {
+        "danger": "#eb4937",
+        "info": "#399fe8",
+        "success": "#94a522",
+        "warning": "#dfbe5a"
+      },
+      "ui": {
+        "border": "#ddd3b7",
+        "default": "#000000",
+        "defaultMain": "#000000",
+        "defaultalt": "#8fa2a0",
+        "primary": "#2aa198",
+        "primaryalt": "#fef9ed",
+        "uibackground": "#fdf6e3",
+        "uibackgroundalt": "#f4edda",
+        "uibackgroundmid": "#f8f1df"
+      }
+    },
+    "uiTheme": "vs-dark"
+  },
+  {
+    "name": "Better Solarized Reversed",
+    "slug": "better-solarized-reversed",
+    "theme": {
+      "colors": {
+        "blue": "#399fe8",
+        "green": "#94a522",
+        "greenAlt": "#A4EF58",
+        "orange": "#d8822c",
+        "pink": "#ce81c8",
+        "purple": "#767cde",
+        "red": "#eb4937",
+        "salmon": "#e54b95",
+        "turquoize": "#38bbb0",
+        "yellow": "#dfbe5a"
+      },
+      "levels": {
+        "danger": "#eb4937",
+        "info": "#399fe8",
+        "success": "#94a522",
+        "warning": "#dfbe5a"
+      },
+      "ui": {
+        "border": "#070f12",
+        "default": "#bad7e3",
+        "defaultMain": "#96c2d4",
+        "defaultalt": "#356c82",
+        "primary": "#47cfc4",
+        "primaryalt": "#17303a",
+        "uibackground": "#0d1a20",
+        "uibackgroundalt": "#102128",
+        "uibackgroundmid": "#0f1d24"
+      }
+    },
+    "uiTheme": "vs-dark"
+  }
+]
