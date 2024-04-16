@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.9.11 | 2024-04-16
+- Fixes [#21](https://github.com/edheltzel/vscode-better-solarized/issues/21#issuecomment-2058697762) from [@pintergreg](https://github.com/pintergreg) -- Thanks! 👍
+
 ## 0.9.10 | 2023-10-22
 - merge PR [#20](https://github.com/edheltzel/vscode-better-solarized/pull/20) from [@joahjoah](https://github.com/joahjoah) -- Thanks! 👍
 
