@@ -5,42 +5,42 @@
     {
       "settings": {
         "activeGuide": "#ffffff55",
-        "background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-        "foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
-        "gutter": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-"popupCss": "
+        "background": "#053d48",
+        "foreground": "#c8d7d8",
+        "gutter": "#053d48",
+        "popupCss": "
   html {
-    background-color: #srgb_hex0e4956basenamebg_1laba-13b-13l28srgbgreen73blue86red14;
-    color: #srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188;
+    background-color: #0e4956;
+    color: #adbcbc;
   }
  
   a {
-    color: #srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245;
+    color: #0096f5;
   }
   
   .error,
   .deleted {
-    color: #srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253;
+    color: #fd564e;
   }
   
   .success,
   .inserted,
   .name {
-    color: #srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55;
+    color: #80b83c;
   }
   
   .warning,
   .modified {
-    color: #srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow;
+    color: #e3b230;
   }
   
   .type {
-    color: #baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185;
+    color: #39c7b9;
     font-style: italic;
   }
   
   .param {
-    color: #baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73;
+    color: #f38649;
   }
   
   .current {
@@ -58,7 +58,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
+        "foreground": "#718b90"
       }
     },
     {
@@ -81,7 +81,7 @@
         "entity.name.tag.liquid"
       ],
       "settings": {
-        "foreground": "#srgb_hexf176bdbasenamemagentalabb-15l66a55srgbgreen118blue189red241",
+        "foreground": "#f176bd",
         "fontStyle": "italic"
       }
     },
@@ -118,7 +118,7 @@
       "name": "Javascript JSDoc Symbol",
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
+        "foreground": "#e3b230"
       }
     },
     {
@@ -128,14 +128,14 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188"
+        "foreground": "#adbcbc"
       }
     },
     {
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253",
+        "background": "#fd564e",
         "foreground": "#ffffff"
       }
     },
@@ -143,7 +143,7 @@
       "name": "Invalid",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec",
+        "background": "#a58cec",
         "foreground": "#ffffff"
       }
     },
@@ -155,7 +155,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
@@ -175,7 +175,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
+        "foreground": "#39c7b9"
       }
     },
     {
@@ -186,7 +186,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
+        "foreground": "#f38649"
       }
     },
     {
@@ -199,7 +199,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
+        "foreground": "#0096f5"
       }
     },
     {
@@ -209,7 +209,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
+        "foreground": "#f38649"
       }
     },
     {
@@ -223,7 +223,7 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
+        "foreground": "#f38649"
       }
     },
     {
@@ -239,7 +239,7 @@
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     },
     {
@@ -255,7 +255,7 @@
         "markup.changed.git_gutter"
       ],
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
+        "foreground": "#e3b230"
       }
     },
     {
@@ -266,7 +266,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
@@ -274,14 +274,14 @@
       "scope": "variable.language",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
       "name": "entity.name.method.js",
       "scope": "entity.name.method.js",
       "settings": {
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
+        "foreground": "#0096f5"
       }
     },
     {
@@ -291,49 +291,49 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
+        "foreground": "#0096f5"
       }
     },
     {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
       "name": "Inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     },
     {
       "name": "Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
       "name": "Changed",
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
+        "foreground": "#39c7b9"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
+        "foreground": "#39c7b9"
       }
     },
     {
@@ -351,14 +351,14 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
       "name": "Search Results Lines",
       "scope": "entity.name.filename.find-in-files",
       "settings": {
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     },
     {
@@ -369,7 +369,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
+        "foreground": "#0096f5"
       }
     },
     {
@@ -377,7 +377,7 @@
       "scope": "source.js constant.other.object.key.js string.unquoted.label.js",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
@@ -387,7 +387,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253bf"
+        "foreground": "#fd564ebf"
       }
     },
     {
@@ -397,7 +397,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245bf"
+        "foreground": "#0096f5bf"
       }
     },
     {
@@ -407,7 +407,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellowbf"
+        "foreground": "#e3b230bf"
       }
     },
     {
@@ -417,7 +417,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cecbf"
+        "foreground": "#a58cecbf"
       }
     },
     {
@@ -427,7 +427,7 @@
         "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
+        "foreground": "#f38649"
       }
     },
     {
@@ -437,7 +437,7 @@
         "source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
@@ -447,7 +447,7 @@
         "source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
+        "foreground": "#0096f5"
       }
     },
     {
@@ -457,7 +457,7 @@
         "source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
+        "foreground": "#e3b230"
       }
     },
     {
@@ -467,7 +467,7 @@
         "source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
@@ -477,7 +477,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188"
+        "foreground": "#adbcbc"
       }
     },
     {
@@ -485,7 +485,7 @@
       "scope": "text.html.markdown markup.raw.inline",
       "settings": {
         "background": "#ffffff08",
-        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188cc"
+        "foreground": "#adbcbccc"
       }
     },
     {
@@ -503,7 +503,7 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
+        "foreground": "#f38649"
       }
     },
     {
@@ -545,7 +545,7 @@
       "scope": "markup.underline",
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     },
     {
@@ -553,7 +553,7 @@
       "scope": "markup.strike",
       "settings": {
         "fontStyle": "strike",
-        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
+        "foreground": "#718b90"
       }
     },
     {
@@ -570,28 +570,28 @@
       "scope": "markup.quote",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
+        "foreground": "#718b90"
       }
     },
     {
       "name": "Markdown - Link",
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
+        "foreground": "#0096f5"
       }
     },
     {
       "name": "Markdown - Link Description",
       "scope": "string.other.link.description.title.markdown",
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
       "name": "Markdown - Link Anchor",
       "scope": "constant.other.reference.link.markdown",
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
+        "foreground": "#e3b230"
       }
     },
     {
@@ -599,7 +599,7 @@
       "scope": "markup.raw.block",
       "settings": {
         "background": "#ffffff08",
-        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188cc"
+        "foreground": "#adbcbccc"
       }
     },
     {
@@ -624,7 +624,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188"
+        "foreground": "#adbcbc"
       }
     },
     {
@@ -643,7 +643,7 @@
       "scope": "variable.language.fenced.markdown",
       "settings": {
         "fontStyle": "",
-        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
+        "foreground": "#718b90"
       }
     },
     {
@@ -652,7 +652,7 @@
       "settings": {
         "background": "#ffffff08",
         "fontStyle": "bold",
-        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
+        "foreground": "#718b90"
       }
     },
     {
@@ -660,7 +660,7 @@
       "scope": "markup.table",
       "settings": {
         "background": "#ffffff08",
-        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188cc"
+        "foreground": "#adbcbccc"
       }
     },
     {
@@ -680,28 +680,28 @@
       "name": "Markdown - HTML Punctuation Definition",
       "scope": "text.html.markdown meta.disable-markdown punctuation.definition",
       "settings": {
-        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
+        "foreground": "#39c7b9"
       }
     },
     {
       "name": "Markdown - TODO Done",
       "scope": "punctuation.definition.list_item.todo.done",
       "settings": {
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     },
     {
       "name": "Markdown - TODO Cancelled",
       "scope": "punctuation.definition.list_item.todo.cancelled",
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
       "name": "Markdown - TODO GitHub Checkbox",
       "scope": "markup.checkbox.markdown markup.checkbox.checked_symbol.markdown",
       "settings": {
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     },
     {
@@ -709,21 +709,21 @@
       "scope": "markup.admonition.markdown string.other.admonition.title.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188"
+        "foreground": "#adbcbc"
       }
     },
     {
       "name": "Markdown - Admonition Header",
       "scope": "markup.admonition.markdown markup.admonition.header.markdown",
       "settings": {
-        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec50"
+        "background": "#a58cec50"
       }
     },
     {
       "name": "Markdown - Admonition Body",
       "scope": "markup.admonition.markdown markup.admonition.body.markdown",
       "settings": {
-        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec15"
+        "background": "#a58cec15"
       }
     },
     {
@@ -750,7 +750,7 @@
         "markup.admonition.markdown meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec75"
+        "foreground": "#a58cec75"
       }
     },
     {
@@ -758,7 +758,7 @@
       "scope": "markup.admonition.markdown entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
@@ -773,29 +773,29 @@
         "markup.admonition.markdown markup.raw.block"
       ],
       "settings": {
-        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec25"
+        "background": "#a58cec25"
       }
     },
     {
       "name": "Markdown - Admonition Quote",
       "scope": "markup.admonition.markdown markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec35",
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec35"
+        "background": "#a58cec35",
+        "foreground": "#a58cec35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Hint)",
       "scope": "markup.admonition.markdown.hint markup.admonition.header.markdown",
       "settings": {
-        "background": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24550"
+        "background": "#0096f550"
       }
     },
     {
       "name": "Markdown - Admonition Body (Hint)",
       "scope": "markup.admonition.markdown.hint markup.admonition.body.markdown",
       "settings": {
-        "background": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24515"
+        "background": "#0096f515"
       }
     },
     {
@@ -822,7 +822,7 @@
         "markup.admonition.markdown.hint meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24575"
+        "foreground": "#0096f575"
       }
     },
     {
@@ -830,7 +830,7 @@
       "scope": "markup.admonition.markdown.hint entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
+        "foreground": "#0096f5"
       }
     },
     {
@@ -845,29 +845,29 @@
         "markup.admonition.markdown.hint markup.raw.block"
       ],
       "settings": {
-        "background": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24525"
+        "background": "#0096f525"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Hint)",
       "scope": "markup.admonition.markdown.hint markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24535",
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24535"
+        "background": "#0096f535",
+        "foreground": "#0096f535"
       }
     },
     {
       "name": "Markdown - Admonition Header (Warning)",
       "scope": "markup.admonition.markdown.warning markup.admonition.header.markdown",
       "settings": {
-        "background": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow50"
+        "background": "#e3b23050"
       }
     },
     {
       "name": "Markdown - Admonition Body (Warning)",
       "scope": "markup.admonition.markdown.warning markup.admonition.body.markdown",
       "settings": {
-        "background": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow15"
+        "background": "#e3b23015"
       }
     },
     {
@@ -894,7 +894,7 @@
         "markup.admonition.markdown.warning meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow75"
+        "foreground": "#e3b23075"
       }
     },
     {
@@ -902,7 +902,7 @@
       "scope": "markup.admonition.markdown.warning entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
+        "foreground": "#e3b230"
       }
     },
     {
@@ -917,29 +917,29 @@
         "markup.admonition.markdown.warning markup.raw.block"
       ],
       "settings": {
-        "background": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow25"
+        "background": "#e3b23025"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Warning)",
       "scope": "markup.admonition.markdown.warning markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow35",
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow35"
+        "background": "#e3b23035",
+        "foreground": "#e3b23035"
       }
     },
     {
       "name": "Markdown - Admonition Header (Danger)",
       "scope": "markup.admonition.markdown.danger markup.admonition.header.markdown",
       "settings": {
-        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25350"
+        "background": "#fd564e50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Danger)",
       "scope": "markup.admonition.markdown.danger markup.admonition.body.markdown",
       "settings": {
-        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25315"
+        "background": "#fd564e15"
       }
     },
     {
@@ -966,7 +966,7 @@
         "markup.admonition.markdown.danger meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25375"
+        "foreground": "#fd564e75"
       }
     },
     {
@@ -974,7 +974,7 @@
       "scope": "markup.admonition.markdown.danger entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
@@ -989,29 +989,29 @@
         "markup.admonition.markdown.danger markup.raw.block"
       ],
       "settings": {
-        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25325"
+        "background": "#fd564e25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Danger)",
       "scope": "markup.admonition.markdown.danger markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25335",
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25335"
+        "background": "#fd564e35",
+        "foreground": "#fd564e35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Attention)",
       "scope": "markup.admonition.markdown.attention markup.admonition.header.markdown",
       "settings": {
-        "background": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5550"
+        "background": "#80b83c50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Attention)",
       "scope": "markup.admonition.markdown.attention markup.admonition.body.markdown",
       "settings": {
-        "background": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5515"
+        "background": "#80b83c15"
       }
     },
     {
@@ -1038,7 +1038,7 @@
         "markup.admonition.markdown.attention meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5575"
+        "foreground": "#80b83c75"
       }
     },
     {
@@ -1046,7 +1046,7 @@
       "scope": "markup.admonition.markdown.attention entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     },
     {
@@ -1061,15 +1061,15 @@
         "markup.admonition.markdown.attention markup.raw.block"
       ],
       "settings": {
-        "background": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5525"
+        "background": "#80b83c25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Attention)",
       "scope": "markup.admonition.markdown.attention markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5535",
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5535"
+        "background": "#80b83c35",
+        "foreground": "#80b83c35"
       }
     },
     {
@@ -1084,7 +1084,7 @@
       "name": "SublimeLinter Warning",
       "scope": "sublimelinter.mark.warning",
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
+        "foreground": "#e3b230"
       }
     },
     {
@@ -1098,114 +1098,114 @@
       "name": "SublimeLinter Error",
       "scope": "sublimelinter.mark.error",
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
       "name": "GitGutter Ignored",
       "scope": "markup.ignored.git_gutter",
       "settings": {
-        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
+        "foreground": "#718b90"
       }
     },
     {
       "name": "GitGutter Untracked",
       "scope": "markup.untracked.git_gutter",
       "settings": {
-        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
+        "foreground": "#718b90"
       }
     },
     {
       "name": "GitGutter Inserted",
       "scope": "markup.inserted.git_gutter",
       "settings": {
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     },
     {
       "name": "GitGutter Changed",
       "scope": "markup.changed.git_gutter",
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
+        "foreground": "#e3b230"
       }
     },
     {
       "name": "GitGutter Deleted",
       "scope": "markup.deleted.git_gutter",
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
       "name": "Bracket Highlighter Default",
       "scope": "brackethighlighter.default",
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
       "name": "Bracket Highlighter Unmatched",
       "scope": "brackethighlighter.unmatched",
       "settings": {
-        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
+        "foreground": "#fd564e"
       }
     },
     {
       "name": "Bracket Highlighter Curly",
       "scope": "brackethighlighter.curly",
       "settings": {
-        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
+        "foreground": "#a58cec"
       }
     },
     {
       "name": "Bracket Highlighter Round",
       "scope": "brackethighlighter.round",
       "settings": {
-        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
+        "foreground": "#e3b230"
       }
     },
     {
       "name": "Bracket Highlighter Square",
       "scope": "brackethighlighter.square",
       "settings": {
-        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
+        "foreground": "#0096f5"
       }
     },
     {
       "name": "Bracket Highlighter Angle",
       "scope": "brackethighlighter.angle",
       "settings": {
-        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
+        "foreground": "#f38649"
       }
     },
     {
       "name": "Bracket Highlighter Tag",
       "scope": "brackethighlighter.tag",
       "settings": {
-        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
+        "foreground": "#39c7b9"
       }
     },
     {
       "name": "Bracket Highlighter Quote",
       "scope": "brackethighlighter.quote",
       "settings": {
-        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
+        "foreground": "#80b83c"
       }
     }
   ],
   "colors": {
     // Base
     // "foreground": "",
-    "focusBorder": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
+    "focusBorder": "#39c7b999",
     // "contrastActiveBorder": "",
     // "contrastBorder": "",
     // "widget.shadow": "",
-    "selection.background": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
+    "selection.background": "#39c7b999",
     "input.background": "#003847",
-    "input.foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
-    "input.placeholderForeground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215AA",
+    "input.foreground": "#c8d7d8",
+    "input.placeholderForeground": "#c8d7d8AA",
     // "input.border": "",
-    "inputOption.activeBorder": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
+    "inputOption.activeBorder": "#39c7b999",
     "inputValidation.infoBorder": "#363b5f",
     "inputValidation.infoBackground": "#052730",
     "inputValidation.warningBackground": "#5d5938",
@@ -1215,10 +1215,10 @@
     "errorForeground": "#ffeaea",
     "badge.background": "#047aa6",
     "progressBar.background": "#047aa6",
-    "dropdown.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "dropdown.border": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
+    "dropdown.background": "#053d48",
+    "dropdown.border": "#39c7b999",
     // "dropdown.foreground": "",
-    "button.background": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
+    "button.background": "#39c7b999",
     // "button.foreground": "",
     "list.activeSelectionBackground": "#005A6F",
     // "list.activeSelectionForeground": "",
@@ -1226,22 +1226,22 @@
     "list.hoverBackground": "#004454AA",
     "list.inactiveSelectionBackground": "#00445488",
     "list.dropBackground": "#00445488",
-    "list.highlightForeground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185",
+    "list.highlightForeground": "#39c7b9",
     // "scrollbar.shadow": "",
     // "scrollbarSlider.activeBackground": "",
     // "scrollbarSlider.background": "",
     // "scrollbarSlider.hoverBackground": "",
     // Editor
-    "editor.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    // "editor.foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec",
-    "editorWidget.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "editorCursor.foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253",
-    "editorWhitespace.foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green21525",
+    "editor.background": "#053d48",
+    // "editor.foreground": "#a58cec",
+    "editorWidget.background": "#053d48",
+    "editorCursor.foreground": "#fd564e",
+    "editorWhitespace.foreground": "#c8d7d825",
     "editor.lineHighlightBackground": "#073642",
     "editorLineNumber.activeForeground": "#949494",
     "editor.selectionBackground": "#274642",
-    "editorIndentGuide.background1": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green21540",
-    "editorIndentGuide.activeBackground1": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green21540",
+    "editorIndentGuide.background1": "#c8d7d840",
+    "editorIndentGuide.activeBackground1": "#c8d7d840",
     "editorHoverWidget.background": "#004052",
     // "editorHoverWidget.border": "",
     // "editorLineNumber.foreground": "",
@@ -1266,40 +1266,40 @@
     // "editorSuggestWidget.highlightForeground": "",
     // "editorSuggestWidget.selectedBackground": "",
     // Editor: Peek View
-    "peekViewResult.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "peekViewResult.background": "#053d48",
     // "peekViewResult.lineForeground": "",
     // "peekViewResult.selectionBackground": "",
     // "peekViewResult.selectionForeground": "",
     "peekViewEditor.background": "#10192c",
-    "peekViewTitle.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "peekViewTitle.background": "#053d48",
     "peekView.border": "#2b2b4a",
-    "peekViewEditor.matchHighlightBackground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec40",
+    "peekViewEditor.matchHighlightBackground": "#a58cec40",
     // "peekViewResult.fileForeground": "",
     // "peekViewResult.matchHighlightBackground": "",
     // "peekViewTitleLabel.foreground": "",
     // "peekViewTitleDescription.foreground": "",
     // Editor: Sticky Scroll
-    "editorStickyScroll.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "editorStickyScrollHover.background": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_030",
+    "editorStickyScroll.background": "#053d48",
+    "editorStickyScrollHover.background": "#718b9030",
     // Editor: Diff
     // "diffEditor.insertedTextBackground": "",
     // "diffEditor.insertedTextBorder": "",
     // "diffEditor.removedTextBackground": "",
     // "diffEditor.removedTextBorder": "",
     // Workbench: Title
-    "titleBar.activeBackground": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "titleBar.activeBackground": "#053d48",
     // "titleBar.inactiveBackground": "",
     // "titleBar.activeForeground": "",
     // "titleBar.inactiveForeground": "",
     // Workbench: Editors
     // "editorGroupHeader.noTabsBackground": "",
-    "editorGroup.border": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "editorGroup.dropBackground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18544",
+    "editorGroup.border": "#053d48",
+    "editorGroup.dropBackground": "#39c7b944",
     "editorGroupHeader.tabsBackground": "#004052",
     // Workbench: Tabs
-    "tab.activeForeground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
-    "tab.activeBackground": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "tab.inactiveForeground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
+    "tab.activeForeground": "#c8d7d8",
+    "tab.activeBackground": "#053d48",
+    "tab.inactiveForeground": "#c8d7d8",
     "tab.inactiveBackground": "#004052",
     "tab.border": "#003847",
     // "tab.activeBorder": "#AB395B",
@@ -1316,52 +1316,52 @@
     // "panelTitle.activeForeground": "",
     // "panelTitle.inactiveForeground": "",
     // Workbench: Side Bar
-    "sideBar.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "sideBarTitle.foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
+    "sideBar.background": "#053d48",
+    "sideBarTitle.foreground": "#c8d7d8",
     // "sideBarSectionHeader.background": "",
     // Workbench: Status Bar
-    "statusBar.foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
-    "statusBar.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "statusBar.debuggingBackground": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "statusBar.noFolderBackground": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "statusBar.foreground": "#c8d7d8",
+    "statusBar.background": "#053d48",
+    "statusBar.debuggingBackground": "#053d48",
+    "statusBar.noFolderBackground": "#053d48",
     "statusBarItem.prominentBackground": "#003847",
     "statusBarItem.prominentHoverBackground": "#003847",
     // "statusBarItem.activeBackground": "",
     // "statusBarItem.hoverBackground": "",
     // Workbench: Debug
-    "debugToolBar.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "debugExceptionWidget.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "debugToolBar.background": "#053d48",
+    "debugExceptionWidget.background": "#053d48",
     "debugExceptionWidget.border": "#AB395B",
     // Workbench: Quick Open
-    "pickerGroup.foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
-    "pickerGroup.border": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
+    "pickerGroup.foreground": "#39c7b999",
+    "pickerGroup.border": "#39c7b999",
     // Workbench: Terminal
-    "terminal.ansiBlack": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "terminal.ansiRed": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253",
-    "terminal.ansiGreen": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55",
-    "terminal.ansiYellow": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow",
-    "terminal.ansiBlue": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245",
-    "terminal.ansiMagenta": "#srgb_hexf176bdbasenamemagentalabb-15l66a55srgbgreen118blue189red241",
-    "terminal.ansiCyan": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185",
-    "terminal.ansiWhite": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
-    "terminal.ansiBrightBlack": "#srgb_hex0e4956basenamebg_1laba-13b-13l28srgbgreen73blue86red14",
-    "terminal.ansiBrightRed": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73",
-    "terminal.ansiBrightGreen": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55",
-    "terminal.ansiBrightYellow": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow",
-    "terminal.ansiBrightBlue": "#basenamebg_2laba-13b-13l36srgbgreen91red39blue105srgb_hex275b69",
-    "terminal.ansiBrightMagenta": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec",
-    "terminal.ansiBrightCyan": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245",
-    "terminal.ansiBrightWhite": "#srgb_hex0e4956basenamebg_1laba-13b-13l28srgbgreen73blue86red14",
+    "terminal.ansiBlack": "#053d48",
+    "terminal.ansiRed": "#fd564e",
+    "terminal.ansiGreen": "#80b83c",
+    "terminal.ansiYellow": "#e3b230",
+    "terminal.ansiBlue": "#0096f5",
+    "terminal.ansiMagenta": "#f176bd",
+    "terminal.ansiCyan": "#39c7b9",
+    "terminal.ansiWhite": "#c8d7d8",
+    "terminal.ansiBrightBlack": "#0e4956",
+    "terminal.ansiBrightRed": "#f38649",
+    "terminal.ansiBrightGreen": "#80b83c",
+    "terminal.ansiBrightYellow": "#e3b230",
+    "terminal.ansiBrightBlue": "#275b69",
+    "terminal.ansiBrightMagenta": "#a58cec",
+    "terminal.ansiBrightCyan": "#0096f5",
+    "terminal.ansiBrightWhite": "#0e4956",
     // Better Color Changes:
-    "terminalCursor.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "terminalCursor.foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0",
-    "terminal.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "terminalCursor.background": "#053d48",
+    "terminalCursor.foreground": "#718b90",
+    "terminal.background": "#053d48",
     "terminal.border": "#fef3da2b",
     "terminal.selectionBackground": "#fef3da2b",
-    // "statusBar.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
-    "tab.activeBorder": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185",
-    "panelTitle.activeBorder": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185",
-    "panel.border": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue1854A",
+    // "statusBar.background": "#053d48",
+    "tab.activeBorder": "#39c7b9",
+    "panelTitle.activeBorder": "#39c7b9",
+    "panel.border": "#39c7b94A",
     "statusBar.border": "#fef3da09",
     "sideBar.border": "#fef3da2b"
   }
