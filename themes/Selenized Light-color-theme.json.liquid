@@ -5,42 +5,42 @@
     {
       "settings": {
         "activeGuide": "#00000055",
-        "background": "#{{ bg_0 }}",
-        "foreground": "#{{ fg_1 }}",
-        "gutter": "#{{ bg_0 }}",
+        "background": "#{{ bg_0.srgb_hex }}",
+        "foreground": "#{{ fg_1.srgb_hex }}",
+        "gutter": "#{{ bg_0.srgb_hex }}",
 {%- capture popupCss %}
   html {
-    background-color: #{{ bg_1 }};
-    color: #{{ fg_0 }};
+    background-color: #{{ bg_1.srgb_hex }};
+    color: #{{ fg_0.srgb_hex }};
   }
 
   a {
-    color: #{{ blue }};
+    color: #{{ blue.srgb_hex }};
   }
 
   .error,
   .deleted {
-    color: #{{ red }};
+    color: #{{ red.srgb_hex }};
   }
 
   .success,
   .inserted,
   .name {
-    color: #{{ green }};
+    color: #{{ green.srgb_hex }};
   }
 
   .warning,
   .modified {
-    color: #{{ yellow }};
+    color: #{{ yellow.srgb_hex }};
   }
 
   .type {
-    color: #{{ cyan }};
+    color: #{{ cyan.srgb_hex }};
     font-style: italic;
   }
 
   .param {
-    color: #{{ orange }};
+    color: #{{ orange.srgb_hex }};
   }
 
   .current {
@@ -57,7 +57,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#{{ dim_0.srgb_hex }}"
       }
     },
     {
@@ -70,14 +70,14 @@
         "punctuation.tag.liquid"
       ],
       "settings": {
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
       "name": "Jekyll Operators",
       "scope": ["entity.name.tag.jekyll", "entity.name.tag.liquid"],
       "settings": {
-        "foreground": "#{{ magenta }}",
+        "foreground": "#{{ magenta.srgb_hex }}",
         "fontStyle": "italic"
       }
     },
@@ -85,14 +85,14 @@
       "name": "Jekyll Variable",
       "scope": ["punctuation.tag.jekyll", "punctuation.tag.liquid"],
       "settings": {
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
       "name": "Jekyll Content",
       "scope": ["variable.other.jekyll", "variable.other.liquid"],
       "settings": {
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -106,37 +106,37 @@
       "name": "Javascript JSDoc Symbol",
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#{{ yellow.srgb_hex }}"
       }
     },
     {
       "name": "Variable",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#{{ fg_1 }}"
+        "foreground": "#{{ fg_1.srgb_hex }}"
       }
     },
     {
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#{{ red }}",
-        "foreground": "#{{ red }}"
+        "background": "#{{ red.srgb_hex }}",
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
       "name": "Invalid",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#{{ violet }}",
-        "foreground": "#{{ violet }}"
+        "background": "#{{ violet.srgb_hex }}",
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
@@ -156,7 +156,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#{{ cyan.srgb_hex }}"
       }
     },
     {
@@ -167,7 +167,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#{{ orange.srgb_hex }}"
       }
     },
     {
@@ -180,14 +180,14 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#{{ blue.srgb_hex }}"
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#{{ orange.srgb_hex }}"
       }
     },
     {
@@ -201,7 +201,7 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#{{ orange.srgb_hex }}"
       }
     },
     {
@@ -217,7 +217,7 @@
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
@@ -233,7 +233,7 @@
         "markup.changed.git_gutter"
       ],
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#{{ yellow.srgb_hex }}"
       }
     },
     {
@@ -244,7 +244,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
@@ -252,14 +252,14 @@
       "scope": "variable.language",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
       "name": "entity.name.method.js",
       "scope": "entity.name.method.js",
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#{{ blue.srgb_hex }}"
       }
     },
     {
@@ -269,49 +269,49 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#{{ blue.srgb_hex }}"
       }
     },
     {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
       "name": "Inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
       "name": "Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
       "name": "Changed",
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#{{ cyan.srgb_hex }}"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#{{ cyan.srgb_hex }}"
       }
     },
     {
@@ -325,14 +325,14 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
       "name": "Search Results Lines",
       "scope": "entity.name.filename.find-in-files",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
@@ -343,7 +343,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ blue }}"
+        "foreground": "#{{ blue.srgb_hex }}"
       }
     },
     {
@@ -351,7 +351,7 @@
       "scope": "source.js constant.other.object.key.js string.unquoted.label.js",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
@@ -361,7 +361,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ red }}bf"
+        "foreground": "#{{ red.srgb_hex }}bf"
       }
     },
     {
@@ -371,7 +371,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ blue }}bf"
+        "foreground": "#{{ blue.srgb_hex }}bf"
       }
     },
     {
@@ -381,7 +381,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ yellow }}bf"
+        "foreground": "#{{ yellow.srgb_hex }}bf"
       }
     },
     {
@@ -391,7 +391,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ violet }}bf"
+        "foreground": "#{{ violet.srgb_hex }}bf"
       }
     },
     {
@@ -401,7 +401,7 @@
         "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#{{ orange.srgb_hex }}"
       }
     },
     {
@@ -411,7 +411,7 @@
         "source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
@@ -421,7 +421,7 @@
         "source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#{{ blue.srgb_hex }}"
       }
     },
     {
@@ -431,7 +431,7 @@
         "source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#{{ yellow.srgb_hex }}"
       }
     },
     {
@@ -441,7 +441,7 @@
         "source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
@@ -451,7 +451,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -459,7 +459,7 @@
       "scope": "text.html.markdown markup.raw.inline",
       "settings": {
         "background": "#00000008",
-        "foreground": "#{{ fg_0 }}cc"
+        "foreground": "#{{ fg_0.srgb_hex }}cc"
       }
     },
     {
@@ -477,7 +477,7 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#{{ orange.srgb_hex }}"
       }
     },
     {
@@ -513,7 +513,7 @@
       "scope": "markup.underline",
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
@@ -521,7 +521,7 @@
       "scope": "markup.strike",
       "settings": {
         "fontStyle": "strike",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#{{ dim_0.srgb_hex }}"
       }
     },
     {
@@ -538,28 +538,28 @@
       "scope": "markup.quote",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#{{ dim_0.srgb_hex }}"
       }
     },
     {
       "name": "Markdown - Link",
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#{{ blue.srgb_hex }}"
       }
     },
     {
       "name": "Markdown - Link Description",
       "scope": "string.other.link.description.title.markdown",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
       "name": "Markdown - Link Anchor",
       "scope": "constant.other.reference.link.markdown",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#{{ yellow.srgb_hex }}"
       }
     },
     {
@@ -567,7 +567,7 @@
       "scope": "markup.raw.block",
       "settings": {
         "background": "#00000008",
-        "foreground": "#{{ fg_0 }}cc"
+        "foreground": "#{{ fg_0.srgb_hex }}cc"
       }
     },
     {
@@ -592,7 +592,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -611,7 +611,7 @@
       "scope": "variable.language.fenced.markdown",
       "settings": {
         "fontStyle": "",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#{{ dim_0.srgb_hex }}"
       }
     },
     {
@@ -620,7 +620,7 @@
       "settings": {
         "background": "#00000008",
         "fontStyle": "bold",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#{{ dim_0.srgb_hex }}"
       }
     },
     {
@@ -628,7 +628,7 @@
       "scope": "markup.table",
       "settings": {
         "background": "#00000008",
-        "foreground": "#{{ fg_0 }}cc"
+        "foreground": "#{{ fg_0.srgb_hex }}cc"
       }
     },
     {
@@ -648,28 +648,28 @@
       "name": "Markdown - HTML Punctuation Definition",
       "scope": "text.html.markdown meta.disable-markdown punctuation.definition",
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#{{ cyan.srgb_hex }}"
       }
     },
     {
       "name": "Markdown - TODO Done",
       "scope": "punctuation.definition.list_item.todo.done",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
       "name": "Markdown - TODO Cancelled",
       "scope": "punctuation.definition.list_item.todo.cancelled",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
       "name": "Markdown - TODO GitHub Checkbox",
       "scope": "markup.checkbox.markdown markup.checkbox.checked_symbol.markdown",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
@@ -677,21 +677,21 @@
       "scope": "markup.admonition.markdown string.other.admonition.title.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
       "name": "Markdown - Admonition Header",
       "scope": "markup.admonition.markdown markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ violet }}50"
+        "background": "#{{ violet.srgb_hex }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body",
       "scope": "markup.admonition.markdown markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ violet }}15"
+        "background": "#{{ violet.srgb_hex }}15"
       }
     },
     {
@@ -718,7 +718,7 @@
         "markup.admonition.markdown meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ violet }}75"
+        "foreground": "#{{ violet.srgb_hex }}75"
       }
     },
     {
@@ -726,7 +726,7 @@
       "scope": "markup.admonition.markdown entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
@@ -741,29 +741,29 @@
         "markup.admonition.markdown markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ violet }}25"
+        "background": "#{{ violet.srgb_hex }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote",
       "scope": "markup.admonition.markdown markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ violet }}35",
-        "foreground": "#{{ violet }}35"
+        "background": "#{{ violet.srgb_hex }}35",
+        "foreground": "#{{ violet.srgb_hex }}35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Hint)",
       "scope": "markup.admonition.markdown.hint markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ blue }}50"
+        "background": "#{{ blue.srgb_hex }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Hint)",
       "scope": "markup.admonition.markdown.hint markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ blue }}15"
+        "background": "#{{ blue.srgb_hex }}15"
       }
     },
     {
@@ -790,7 +790,7 @@
         "markup.admonition.markdown.hint meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ blue }}75"
+        "foreground": "#{{ blue.srgb_hex }}75"
       }
     },
     {
@@ -798,7 +798,7 @@
       "scope": "markup.admonition.markdown.hint entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ blue }}"
+        "foreground": "#{{ blue.srgb_hex }}"
       }
     },
     {
@@ -813,29 +813,29 @@
         "markup.admonition.markdown.hint markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ blue }}25"
+        "background": "#{{ blue.srgb_hex }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Hint)",
       "scope": "markup.admonition.markdown.hint markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ blue }}35",
-        "foreground": "#{{ blue }}35"
+        "background": "#{{ blue.srgb_hex }}35",
+        "foreground": "#{{ blue.srgb_hex }}35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Warning)",
       "scope": "markup.admonition.markdown.warning markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ yellow }}50"
+        "background": "#{{ yellow.srgb_hex }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Warning)",
       "scope": "markup.admonition.markdown.warning markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ yellow }}15"
+        "background": "#{{ yellow.srgb_hex }}15"
       }
     },
     {
@@ -862,7 +862,7 @@
         "markup.admonition.markdown.warning meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ yellow }}75"
+        "foreground": "#{{ yellow.srgb_hex }}75"
       }
     },
     {
@@ -870,7 +870,7 @@
       "scope": "markup.admonition.markdown.warning entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ yellow }}"
+        "foreground": "#{{ yellow.srgb_hex }}"
       }
     },
     {
@@ -885,29 +885,29 @@
         "markup.admonition.markdown.warning markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ yellow }}25"
+        "background": "#{{ yellow.srgb_hex }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Warning)",
       "scope": "markup.admonition.markdown.warning markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ yellow }}35",
-        "foreground": "#{{ yellow }}35"
+        "background": "#{{ yellow.srgb_hex }}35",
+        "foreground": "#{{ yellow.srgb_hex }}35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Danger)",
       "scope": "markup.admonition.markdown.danger markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ red }}50"
+        "background": "#{{ red.srgb_hex }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Danger)",
       "scope": "markup.admonition.markdown.danger markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ red }}15"
+        "background": "#{{ red.srgb_hex }}15"
       }
     },
     {
@@ -934,7 +934,7 @@
         "markup.admonition.markdown.danger meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ red }}75"
+        "foreground": "#{{ red.srgb_hex }}75"
       }
     },
     {
@@ -942,7 +942,7 @@
       "scope": "markup.admonition.markdown.danger entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
@@ -957,29 +957,29 @@
         "markup.admonition.markdown.danger markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ red }}25"
+        "background": "#{{ red.srgb_hex }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Danger)",
       "scope": "markup.admonition.markdown.danger markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ red }}35",
-        "foreground": "#{{ red }}35"
+        "background": "#{{ red.srgb_hex }}35",
+        "foreground": "#{{ red.srgb_hex }}35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Attention)",
       "scope": "markup.admonition.markdown.attention markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ green }}50"
+        "background": "#{{ green.srgb_hex }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Attention)",
       "scope": "markup.admonition.markdown.attention markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ green }}15"
+        "background": "#{{ green.srgb_hex }}15"
       }
     },
     {
@@ -1006,7 +1006,7 @@
         "markup.admonition.markdown.attention meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ green }}75"
+        "foreground": "#{{ green.srgb_hex }}75"
       }
     },
     {
@@ -1014,7 +1014,7 @@
       "scope": "markup.admonition.markdown.attention entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
@@ -1029,15 +1029,15 @@
         "markup.admonition.markdown.attention markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ green }}25"
+        "background": "#{{ green.srgb_hex }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Attention)",
       "scope": "markup.admonition.markdown.attention markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ green }}35",
-        "foreground": "#{{ green }}35"
+        "background": "#{{ green.srgb_hex }}35",
+        "foreground": "#{{ green.srgb_hex }}35"
       }
     },
     {
@@ -1052,7 +1052,7 @@
       "name": "SublimeLinter Warning",
       "scope": "sublimelinter.mark.warning",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#{{ yellow.srgb_hex }}"
       }
     },
     {
@@ -1066,98 +1066,98 @@
       "name": "SublimeLinter Error",
       "scope": "sublimelinter.mark.error",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
       "name": "GitGutter Ignored",
       "scope": "markup.ignored.git_gutter",
       "settings": {
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#{{ dim_0.srgb_hex }}"
       }
     },
     {
       "name": "GitGutter Untracked",
       "scope": "markup.untracked.git_gutter",
       "settings": {
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#{{ dim_0.srgb_hex }}"
       }
     },
     {
       "name": "GitGutter Inserted",
       "scope": "markup.inserted.git_gutter",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
       "name": "GitGutter Changed",
       "scope": "markup.changed.git_gutter",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#{{ yellow.srgb_hex }}"
       }
     },
     {
       "name": "GitGutter Deleted",
       "scope": "markup.deleted.git_gutter",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
       "name": "Bracket Highlighter Default",
       "scope": "brackethighlighter.default",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
       "name": "Bracket Highlighter Unmatched",
       "scope": "brackethighlighter.unmatched",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#{{ red.srgb_hex }}"
       }
     },
     {
       "name": "Bracket Highlighter Curly",
       "scope": "brackethighlighter.curly",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#{{ violet.srgb_hex }}"
       }
     },
     {
       "name": "Bracket Highlighter Round",
       "scope": "brackethighlighter.round",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#{{ yellow.srgb_hex }}"
       }
     },
     {
       "name": "Bracket Highlighter Square",
       "scope": "brackethighlighter.square",
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#{{ blue.srgb_hex }}"
       }
     },
     {
       "name": "Bracket Highlighter Angle",
       "scope": "brackethighlighter.angle",
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#{{ orange.srgb_hex }}"
       }
     },
     {
       "name": "Bracket Highlighter Tag",
       "scope": "brackethighlighter.tag",
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#{{ cyan.srgb_hex }}"
       }
     },
     {
       "name": "Bracket Highlighter Quote",
       "scope": "brackethighlighter.quote",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#{{ green.srgb_hex }}"
       }
     },
     {
@@ -1175,10 +1175,10 @@
     // "contrastActiveBorder": "",
     // "contrastBorder": "",
     // "widget.shadow": "",
-    "input.background": "#{{ fg_0 }}",
-    "input.border": "#{{ dim_0 }}4A",
-    "input.foreground": "#{{ dim_0 }}",
-    "input.placeholderForeground": "#{{ dim_0 }}AA",
+    "input.background": "#{{ fg_0.srgb_hex }}",
+    "input.border": "#{{ dim_0.srgb_hex }}4A",
+    "input.foreground": "#{{ dim_0.srgb_hex }}",
+    "input.placeholderForeground": "#{{ dim_0.srgb_hex }}AA",
     "inputOption.activeBorder": "#D3AF86",
     // "inputValidation.infoBorder": "",
     // "inputValidation.infoBackground": "",
@@ -1186,9 +1186,9 @@
     // "inputValidation.warningBorder": "",
     // "inputValidation.errorBackground": "",
     // "inputValidation.errorBorder": "",
-    "badge.background": "#{{ yellow }}AA",
-    "progressBar.background": "#{{ yellow }}",
-    "dropdown.background": "#{{ bg_1 }}",
+    "badge.background": "#{{ yellow.srgb_hex }}AA",
+    "progressBar.background": "#{{ yellow.srgb_hex }}",
+    "dropdown.background": "#{{ bg_1.srgb_hex }}",
     // "dropdown.foreground": "",
     "dropdown.border": "#D3AF86",
     "button.background": "#AC9D57",
@@ -1199,7 +1199,7 @@
     "list.focusBackground": "#DFCA8866",
     "list.hoverBackground": "#DFCA8844",
     "list.inactiveSelectionBackground": "#D1CBB8",
-    "list.highlightForeground": "#{{ yellow }}",
+    "list.highlightForeground": "#{{ yellow.srgb_hex }}",
     // "scrollbar.shadow": "",
     // "scrollbarSlider.activeBackground": "",
     // "scrollbarSlider.background": "",
@@ -1210,14 +1210,14 @@
     // Editor
     "editor.background": "#FDF6E3",
     // "editor.foreground": "#6688cc",
-    "editorWidget.background": "#{{ bg_1 }}",
-    "editorCursor.background": "#{{ bg_1 }}",
-    "editorCursor.foreground": "#{{ fg_0 }}",
-    "editorWhitespace.foreground": "#{{ dim_0 }}80",
-    "editor.lineHighlightBackground": "#{{ bg_1 }}",
-    "editor.selectionBackground": "#{{ bg_1 }}",
-    "minimap.selectionHighlight": "#{{ bg_1 }}",
-    "editorIndentGuide.background1": "#{{ dim_0 }}80",
+    "editorWidget.background": "#{{ bg_1.srgb_hex }}",
+    "editorCursor.background": "#{{ bg_1.srgb_hex }}",
+    "editorCursor.foreground": "#{{ fg_0.srgb_hex }}",
+    "editorWhitespace.foreground": "#{{ dim_0.srgb_hex }}80",
+    "editor.lineHighlightBackground": "#{{ bg_1.srgb_hex }}",
+    "editor.selectionBackground": "#{{ bg_1.srgb_hex }}",
+    "minimap.selectionHighlight": "#{{ bg_1.srgb_hex }}",
+    "editorIndentGuide.background1": "#{{ dim_0.srgb_hex }}80",
     "editorIndentGuide.activeBackground1": "#081E2580",
     "editorHoverWidget.background": "#CCC4B0",
     "editorLineNumber.activeForeground": "#567983",
@@ -1244,100 +1244,100 @@
     // "editorSuggestWidget.highlightForeground": "",
     // "editorSuggestWidget.selectedBackground": "",
     // Editor: Peek View
-    "peekViewResult.background": "#{{ bg_1 }}",
+    "peekViewResult.background": "#{{ bg_1.srgb_hex }}",
     // "peekViewResult.lineForeground": "",
     // "peekViewResult.selectionBackground": "",
     // "peekViewResult.selectionForeground": "",
     "peekViewEditor.background": "#FFFBF2",
-    "peekViewTitle.background": "#{{ bg_1 }}",
-    "peekView.border": "#{{ yellow }}",
+    "peekViewTitle.background": "#{{ bg_1.srgb_hex }}",
+    "peekView.border": "#{{ yellow.srgb_hex }}",
     "peekViewEditor.matchHighlightBackground": "#7744AA40",
     // "peekViewResult.fileForeground": "",
     // "peekViewResult.matchHighlightBackground": "",
     // "peekViewTitleLabel.foreground": "",
     // "peekViewTitleDescription.foreground": "",
     // Editor: Sticky Scroll
-    "editorStickyScroll.background": "#{{ bg_1 }}",
-    "editorStickyScrollHover.background": "#{{ dim_0 }}30",
+    "editorStickyScroll.background": "#{{ bg_1.srgb_hex }}",
+    "editorStickyScrollHover.background": "#{{ dim_0.srgb_hex }}30",
     // Editor: Diff
     // "diffEditor.insertedTextBackground": "",
     // "diffEditor.insertedTextBorder": "",
     // "diffEditor.removedTextBackground": "",
     // "diffEditor.removedTextBorder": "",
     // Workbench: Title
-    "titleBar.activeBackground": "#{{ bg_1 }}",
+    "titleBar.activeBackground": "#{{ bg_1.srgb_hex }}",
     // "titleBar.activeForeground": "",
     // "titleBar.inactiveBackground": "",
     // "titleBar.inactiveForeground": "",
     // Workbench: Editors
     // "editorGroupHeader.noTabsBackground": "",
-    "editorGroup.border": "#{{ fg_0 }}",
-    "editorGroup.dropBackground": "#{{ fg_0 }}AA",
+    "editorGroup.border": "#{{ fg_0.srgb_hex }}",
+    "editorGroup.dropBackground": "#{{ fg_0.srgb_hex }}AA",
     "editorGroupHeader.tabsBackground": "#D9D2C2",
     // Workbench: Tabs
-    "tab.border": "#{{ fg_0 }}",
+    "tab.border": "#{{ fg_0.srgb_hex }}",
     "tab.activeBackground": "#FDF6E3",
-    "tab.inactiveForeground": "#{{ dim_0 }}",
+    "tab.inactiveForeground": "#{{ dim_0.srgb_hex }}",
     "tab.inactiveBackground": "#D3CBB7",
-    "tab.activeModifiedBorder": "#{{ orange }}",
+    "tab.activeModifiedBorder": "#{{ orange.srgb_hex }}",
     // "tab.activeBackground": "",
     // "tab.activeForeground": "",
     // "tab.inactiveForeground": "",
     // Workbench: Activity Bar
-    "activityBar.background": "#{{ fg_0 }}",
+    "activityBar.background": "#{{ fg_0.srgb_hex }}",
     "activityBar.foreground": "#584c27",
-    "activityBar.dropBackground": "#{{ bg_1 }}",
-    "activityBarBadge.background": "#{{ yellow }}",
+    "activityBar.dropBackground": "#{{ bg_1.srgb_hex }}",
+    "activityBarBadge.background": "#{{ yellow.srgb_hex }}",
     // "activityBarBadge.foreground": "",
     // Workbench: Panel
     // "panel.background": "",
-    "panel.border": "#{{ fg_0 }}",
+    "panel.border": "#{{ fg_0.srgb_hex }}",
     // "panelTitle.activeBorder": "",
     // "panelTitle.activeForeground": "",
     // "panelTitle.inactiveForeground": "",
     // Workbench: Side Bar
-    "sideBar.background": "#{{ bg_1 }}",
-    "sideBarTitle.foreground": "#{{ dim_0 }}",
+    "sideBar.background": "#{{ bg_1.srgb_hex }}",
+    "sideBarTitle.foreground": "#{{ dim_0.srgb_hex }}",
     // "sideBarSectionHeader.background": "",
     // Workbench: Status Bar
-    "statusBar.foreground": "#{{ dim_0 }}",
-    "statusBar.background": "#{{ bg_1 }}",
-    "statusBar.debuggingBackground": "#{{ bg_1 }}",
-    "statusBar.noFolderBackground": "#{{ bg_1 }}",
+    "statusBar.foreground": "#{{ dim_0.srgb_hex }}",
+    "statusBar.background": "#{{ bg_1.srgb_hex }}",
+    "statusBar.debuggingBackground": "#{{ bg_1.srgb_hex }}",
+    "statusBar.noFolderBackground": "#{{ bg_1.srgb_hex }}",
     // "statusBar.foreground": "",
     "statusBarItem.remoteBackground": "#AC9D57",
-    "statusBarItem.prominentBackground": "#{{ fg_0 }}",
-    "statusBarItem.prominentHoverBackground": "#{{ fg_0 }}99",
+    "statusBarItem.prominentBackground": "#{{ fg_0.srgb_hex }}",
+    "statusBarItem.prominentHoverBackground": "#{{ fg_0.srgb_hex }}99",
     // "statusBarItem.activeBackground": "",
     // "statusBarItem.hoverBackground": "",
     // Workbench: Debug
-    "debugToolBar.background": "#{{ fg_0 }}",
-    "debugExceptionWidget.background": "#{{ fg_0 }}",
+    "debugToolBar.background": "#{{ fg_0.srgb_hex }}",
+    "debugExceptionWidget.background": "#{{ fg_0.srgb_hex }}",
     "debugExceptionWidget.border": "#AB395B",
     // Workbench: Quick Open
-    "pickerGroup.border": "#{{ cyan }}99",
-    "pickerGroup.foreground": "#{{ cyan }}99",
+    "pickerGroup.border": "#{{ cyan.srgb_hex }}99",
+    "pickerGroup.foreground": "#{{ cyan.srgb_hex }}99",
     // Extensions
-    "extensionButton.prominentBackground": "#{{ yellow }}",
+    "extensionButton.prominentBackground": "#{{ yellow.srgb_hex }}",
     "extensionButton.prominentHoverBackground": "#584c27aa",
     // Workbench: Terminal
-    "terminal.ansiBlack": "#{{ fg_1 }}",
-    "terminal.ansiRed": "#{{ red }}",
-    "terminal.ansiGreen": "#{{ green }}",
-    "terminal.ansiYellow": "#{{ yellow }}",
-    "terminal.ansiBlue": "#{{ blue }}",
-    "terminal.ansiMagenta": "#{{ magenta }}",
-    "terminal.ansiCyan": "#{{ cyan }}",
-    "terminal.ansiWhite": "#{{ bg_1 }}",
-    "terminal.ansiBrightBlack": "{{ dim_0 }}",
-    "terminal.ansiBrightRed": "#{{ orange }}",
-    "terminal.ansiBrightGreen": "#{{ dim_0 }}",
-    "terminal.ansiBrightYellow": "#{{ dim_0 }}",
-    "terminal.ansiBrightBlue": "#{{ fg_0 }}",
-    "terminal.ansiBrightMagenta": "#{{ violet }}",
-    "terminal.ansiBrightCyan": "#{{ dim_0 }}",
-    "terminal.ansiBrightWhite": "#{{ bg_0 }}",
-    "terminal.selectionBackground": "#{{ bg_1 }}",
+    "terminal.ansiBlack": "#{{ fg_1.srgb_hex }}",
+    "terminal.ansiRed": "#{{ red.srgb_hex }}",
+    "terminal.ansiGreen": "#{{ green.srgb_hex }}",
+    "terminal.ansiYellow": "#{{ yellow.srgb_hex }}",
+    "terminal.ansiBlue": "#{{ blue.srgb_hex }}",
+    "terminal.ansiMagenta": "#{{ magenta.srgb_hex }}",
+    "terminal.ansiCyan": "#{{ cyan.srgb_hex }}",
+    "terminal.ansiWhite": "#{{ bg_1.srgb_hex }}",
+    "terminal.ansiBrightBlack": "{{ dim_0.srgb_hex }}",
+    "terminal.ansiBrightRed": "#{{ orange.srgb_hex }}",
+    "terminal.ansiBrightGreen": "#{{ dim_0.srgb_hex }}",
+    "terminal.ansiBrightYellow": "#{{ dim_0.srgb_hex }}",
+    "terminal.ansiBrightBlue": "#{{ fg_0.srgb_hex }}",
+    "terminal.ansiBrightMagenta": "#{{ violet.srgb_hex }}",
+    "terminal.ansiBrightCyan": "#{{ dim_0.srgb_hex }}",
+    "terminal.ansiBrightWhite": "#{{ bg_0.srgb_hex }}",
+    "terminal.selectionBackground": "#{{ bg_1.srgb_hex }}",
     // Interactive Playground
     "walkThrough.embeddedEditorBackground": "#00000014"
   }
