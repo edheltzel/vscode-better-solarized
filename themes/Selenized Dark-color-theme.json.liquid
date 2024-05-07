@@ -22,7 +22,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ dim_0.srgb_hex }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -517,7 +517,7 @@
       "scope": "markup.strike",
       "settings": {
         "fontStyle": "strike",
-        "foreground": "#{{ dim_0.srgb_hex }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -534,7 +534,7 @@
       "scope": "markup.quote",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ dim_0.srgb_hex }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -607,7 +607,7 @@
       "scope": "variable.language.fenced.markdown",
       "settings": {
         "fontStyle": "",
-        "foreground": "#{{ dim_0.srgb_hex }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -616,7 +616,7 @@
       "settings": {
         "background": "#ffffff08",
         "fontStyle": "bold",
-        "foreground": "#{{ dim_0.srgb_hex }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -1069,14 +1069,14 @@
       "name": "GitGutter Ignored",
       "scope": "markup.ignored.git_gutter",
       "settings": {
-        "foreground": "#{{ dim_0.srgb_hex }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
       "name": "GitGutter Untracked",
       "scope": "markup.untracked.git_gutter",
       "settings": {
-        "foreground": "#{{ dim_0.srgb_hex }}"
+        "foreground": "#{{ fg_0.srgb_hex }}"
       }
     },
     {
@@ -1197,11 +1197,11 @@
     // "scrollbarSlider.hoverBackground": "",
     // Editor
     "editor.background": "#{{ bg_0.srgb_hex }}",
-    // "editor.foreground": "#{{ violet.srgb_hex }}",
-    "editorWidget.background": "#{{ bg_0.srgb_hex }}",
+    "editor.foreground": "#{{ fg_1.srgb_hex }}",
+    "editorWidget.background": "#00212b",
     "editorCursor.foreground": "#{{ red.srgb_hex }}",
     "editorWhitespace.foreground": "#{{ fg_1.srgb_hex }}25",
-    "editor.lineHighlightBackground": "#073642",
+    "editor.lineHighlightBackground": "#{{ bg_1.srgb_hex }}",
     "editorLineNumber.activeForeground": "#949494",
     "editor.selectionBackground": "#274642",
     "editorIndentGuide.background1": "#{{ fg_1.srgb_hex }}40",
@@ -1230,12 +1230,12 @@
     // "editorSuggestWidget.highlightForeground": "",
     // "editorSuggestWidget.selectedBackground": "",
     // Editor: Peek View
-    "peekViewResult.background": "#{{ bg_0.srgb_hex }}",
+    "peekViewResult.background": "#00212b",
     // "peekViewResult.lineForeground": "",
     // "peekViewResult.selectionBackground": "",
     // "peekViewResult.selectionForeground": "",
     "peekViewEditor.background": "#10192c",
-    "peekViewTitle.background": "#{{ bg_0.srgb_hex }}",
+    "peekViewTitle.background": "#00212b",
     "peekView.border": "#2b2b4a",
     "peekViewEditor.matchHighlightBackground": "#{{ violet.srgb_hex }}40",
     // "peekViewResult.fileForeground": "",
@@ -1243,7 +1243,7 @@
     // "peekViewTitleLabel.foreground": "",
     // "peekViewTitleDescription.foreground": "",
     // Editor: Sticky Scroll
-    "editorStickyScroll.background": "#{{ bg_0.srgb_hex }}",
+    "editorStickyScroll.background": "#00212b",
     "editorStickyScrollHover.background": "#{{ dim_0.srgb_hex }}30",
     // Editor: Diff
     // "diffEditor.insertedTextBackground": "",
@@ -1257,7 +1257,7 @@
     // "titleBar.inactiveForeground": "",
     // Workbench: Editors
     // "editorGroupHeader.noTabsBackground": "",
-    "editorGroup.border": "#{{ bg_0.srgb_hex }}",
+    "editorGroup.border": "#00212b",
     "editorGroup.dropBackground": "#{{ cyan.srgb_hex }}44",
     "editorGroupHeader.tabsBackground": "#004052",
     // Workbench: Tabs
@@ -1280,21 +1280,21 @@
     // "panelTitle.activeForeground": "",
     // "panelTitle.inactiveForeground": "",
     // Workbench: Side Bar
-    "sideBar.background": "#{{ bg_0.srgb_hex }}",
+    "sideBar.background": "#00212B",
     "sideBarTitle.foreground": "#{{ fg_1.srgb_hex }}",
     // "sideBarSectionHeader.background": "",
     // Workbench: Status Bar
     "statusBar.foreground": "#{{ fg_1.srgb_hex }}",
-    "statusBar.background": "#{{ bg_0.srgb_hex }}",
-    "statusBar.debuggingBackground": "#{{ bg_0.srgb_hex }}",
-    "statusBar.noFolderBackground": "#{{ bg_0.srgb_hex }}",
+    "statusBar.background": "#00212b",
+    "statusBar.debuggingBackground": "#00212b",
+    "statusBar.noFolderBackground": "#00212b",
     "statusBarItem.prominentBackground": "#003847",
     "statusBarItem.prominentHoverBackground": "#003847",
     // "statusBarItem.activeBackground": "",
     // "statusBarItem.hoverBackground": "",
     // Workbench: Debug
-    "debugToolBar.background": "#{{ bg_0.srgb_hex }}",
-    "debugExceptionWidget.background": "#{{ bg_0.srgb_hex }}",
+    "debugToolBar.background": "#00212b",
+    "debugExceptionWidget.background": "#00212b",
     "debugExceptionWidget.border": "#AB395B",
     // Workbench: Quick Open
     "pickerGroup.foreground": "#{{ cyan.srgb_hex }}99",
@@ -1307,19 +1307,19 @@
     "terminal.ansiBlue": "#{{ blue.srgb_hex }}",
     "terminal.ansiMagenta": "#{{ magenta.srgb_hex }}",
     "terminal.ansiCyan": "#{{ cyan.srgb_hex }}",
-    "terminal.ansiWhite": "#{{ fg_1.srgb_hex }}",
-    "terminal.ansiBrightBlack": "#{{ bg_1.srgb_hex }}",
+    "terminal.ansiWhite": "#f0e4cc",
+    "terminal.ansiBrightBlack": "#00212b",
     "terminal.ansiBrightRed": "#{{ orange.srgb_hex }}",
     "terminal.ansiBrightGreen": "#{{ green.srgb_hex }}",
     "terminal.ansiBrightYellow": "#{{ yellow.srgb_hex }}",
-    "terminal.ansiBrightBlue": "#{{ bg_2.srgb_hex }}",
+    "terminal.ansiBrightBlue": "#{{ fg_0.srgb_hex }}",
     "terminal.ansiBrightMagenta": "#{{ violet.srgb_hex }}",
     "terminal.ansiBrightCyan": "#{{ blue.srgb_hex }}",
-    "terminal.ansiBrightWhite": "#{{ bg_1.srgb_hex }}",
+    "terminal.ansiBrightWhite": "#fef3da",
     // Better Color Changes:
-    "terminalCursor.background": "#{{ bg_0.srgb_hex }}",
-    "terminalCursor.foreground": "#{{ dim_0.srgb_hex }}",
-    "terminal.background": "#{{ bg_0.srgb_hex }}",
+    "terminalCursor.background": "#00212b",
+    "terminalCursor.foreground": "#{{ fg_0.srgb_hex }}",
+    "terminal.background": "#00212b",
     "terminal.border": "#fef3da2b",
     "terminal.selectionBackground": "#fef3da2b",
     // "statusBar.background": "#{{ bg_0.srgb_hex }}",
