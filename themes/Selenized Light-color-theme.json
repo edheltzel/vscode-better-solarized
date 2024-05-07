@@ -1,6 +1,7 @@
 {
   "name": "Selenized Light",
   "semanticHighlighting": true,
+  "type": "light",
   "tokenColors": [
     {
       "settings": {
