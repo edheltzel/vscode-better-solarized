@@ -5,49 +5,47 @@
     {
       "settings": {
         "activeGuide": "#ffffff55",
-        "background": "#{{ bg_0 }}",
-        "foreground": "#{{ fg_1 }}",
-        "gutter": "#{{ bg_0 }}",
-{%- capture popupCss %}
+        "background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+        "foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
+        "gutter": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+"popupCss": "
   html {
-    background-color: #{{ bg_1 }};
-    color: #{{ fg_0 }};
+    background-color: #srgb_hex0e4956basenamebg_1laba-13b-13l28srgbgreen73blue86red14;
+    color: #srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188;
   }
  
   a {
-    color: #{{ blue }};
+    color: #srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245;
   }
   
   .error,
   .deleted {
-    color: #{{ red }};
+    color: #srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253;
   }
   
   .success,
   .inserted,
   .name {
-    color: #{{ green }};
+    color: #srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55;
   }
   
   .warning,
   .modified {
-    color: #{{ yellow }};
+    color: #srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow;
   }
   
   .type {
-    color: #{{ cyan }};
+    color: #baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185;
     font-style: italic;
   }
   
   .param {
-    color: #{{ orange }};
+    color: #baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73;
   }
   
   .current {
     text-decoration: underline;
-  }
-{%- endcapture %}
-"popupCss": "{{ popupCss }}",
+  }",
         "selectionBorder": "#ffffff16",
         "stackGuide": "#ffffff40"
       }
@@ -60,7 +58,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
       }
     },
     {
@@ -83,7 +81,7 @@
         "entity.name.tag.liquid"
       ],
       "settings": {
-        "foreground": "#{{ magenta }}",
+        "foreground": "#srgb_hexf176bdbasenamemagentalabb-15l66a55srgbgreen118blue189red241",
         "fontStyle": "italic"
       }
     },
@@ -120,7 +118,7 @@
       "name": "Javascript JSDoc Symbol",
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
       }
     },
     {
@@ -130,14 +128,14 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188"
       }
     },
     {
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#{{ red }}",
+        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253",
         "foreground": "#ffffff"
       }
     },
@@ -145,7 +143,7 @@
       "name": "Invalid",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#{{ violet }}",
+        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec",
         "foreground": "#ffffff"
       }
     },
@@ -157,7 +155,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
@@ -177,7 +175,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
       }
     },
     {
@@ -188,7 +186,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
       }
     },
     {
@@ -201,7 +199,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
       }
     },
     {
@@ -211,7 +209,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
       }
     },
     {
@@ -225,7 +223,7 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
       }
     },
     {
@@ -241,7 +239,7 @@
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     },
     {
@@ -257,7 +255,7 @@
         "markup.changed.git_gutter"
       ],
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
       }
     },
     {
@@ -268,7 +266,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
@@ -276,14 +274,14 @@
       "scope": "variable.language",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
       "name": "entity.name.method.js",
       "scope": "entity.name.method.js",
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
       }
     },
     {
@@ -293,49 +291,49 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
       }
     },
     {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
       "name": "Inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     },
     {
       "name": "Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
       "name": "Changed",
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
       }
     },
     {
@@ -353,14 +351,14 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
       "name": "Search Results Lines",
       "scope": "entity.name.filename.find-in-files",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     },
     {
@@ -371,7 +369,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ blue }}"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
       }
     },
     {
@@ -379,7 +377,7 @@
       "scope": "source.js constant.other.object.key.js string.unquoted.label.js",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
@@ -389,7 +387,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ red }}bf"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253bf"
       }
     },
     {
@@ -399,7 +397,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ blue }}bf"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245bf"
       }
     },
     {
@@ -409,7 +407,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ yellow }}bf"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellowbf"
       }
     },
     {
@@ -419,7 +417,7 @@
         "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ violet }}bf"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cecbf"
       }
     },
     {
@@ -429,7 +427,7 @@
         "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
       }
     },
     {
@@ -439,7 +437,7 @@
         "source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
@@ -449,7 +447,7 @@
         "source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
       }
     },
     {
@@ -459,7 +457,7 @@
         "source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
       }
     },
     {
@@ -469,7 +467,7 @@
         "source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
@@ -479,7 +477,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188"
       }
     },
     {
@@ -487,7 +485,7 @@
       "scope": "text.html.markdown markup.raw.inline",
       "settings": {
         "background": "#ffffff08",
-        "foreground": "#{{ fg_0 }}cc"
+        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188cc"
       }
     },
     {
@@ -505,7 +503,7 @@
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
       }
     },
     {
@@ -547,7 +545,7 @@
       "scope": "markup.underline",
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     },
     {
@@ -555,7 +553,7 @@
       "scope": "markup.strike",
       "settings": {
         "fontStyle": "strike",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
       }
     },
     {
@@ -572,28 +570,28 @@
       "scope": "markup.quote",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
       }
     },
     {
       "name": "Markdown - Link",
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
       }
     },
     {
       "name": "Markdown - Link Description",
       "scope": "string.other.link.description.title.markdown",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
       "name": "Markdown - Link Anchor",
       "scope": "constant.other.reference.link.markdown",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
       }
     },
     {
@@ -601,7 +599,7 @@
       "scope": "markup.raw.block",
       "settings": {
         "background": "#ffffff08",
-        "foreground": "#{{ fg_0 }}cc"
+        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188cc"
       }
     },
     {
@@ -626,7 +624,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188"
       }
     },
     {
@@ -645,7 +643,7 @@
       "scope": "variable.language.fenced.markdown",
       "settings": {
         "fontStyle": "",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
       }
     },
     {
@@ -654,7 +652,7 @@
       "settings": {
         "background": "#ffffff08",
         "fontStyle": "bold",
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
       }
     },
     {
@@ -662,7 +660,7 @@
       "scope": "markup.table",
       "settings": {
         "background": "#ffffff08",
-        "foreground": "#{{ fg_0 }}cc"
+        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188cc"
       }
     },
     {
@@ -682,28 +680,28 @@
       "name": "Markdown - HTML Punctuation Definition",
       "scope": "text.html.markdown meta.disable-markdown punctuation.definition",
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
       }
     },
     {
       "name": "Markdown - TODO Done",
       "scope": "punctuation.definition.list_item.todo.done",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     },
     {
       "name": "Markdown - TODO Cancelled",
       "scope": "punctuation.definition.list_item.todo.cancelled",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
       "name": "Markdown - TODO GitHub Checkbox",
       "scope": "markup.checkbox.markdown markup.checkbox.checked_symbol.markdown",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     },
     {
@@ -711,21 +709,21 @@
       "scope": "markup.admonition.markdown string.other.admonition.title.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ fg_0 }}"
+        "foreground": "#srgb_hexadbcbcbaselaba-5b-2l75namefg_0srgbblue188red173green188"
       }
     },
     {
       "name": "Markdown - Admonition Header",
       "scope": "markup.admonition.markdown markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ violet }}50"
+        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec50"
       }
     },
     {
       "name": "Markdown - Admonition Body",
       "scope": "markup.admonition.markdown markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ violet }}15"
+        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec15"
       }
     },
     {
@@ -752,7 +750,7 @@
         "markup.admonition.markdown meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ violet }}75"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec75"
       }
     },
     {
@@ -760,7 +758,7 @@
       "scope": "markup.admonition.markdown entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
@@ -775,29 +773,29 @@
         "markup.admonition.markdown markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ violet }}25"
+        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec25"
       }
     },
     {
       "name": "Markdown - Admonition Quote",
       "scope": "markup.admonition.markdown markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ violet }}35",
-        "foreground": "#{{ violet }}35"
+        "background": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec35",
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Hint)",
       "scope": "markup.admonition.markdown.hint markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ blue }}50"
+        "background": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24550"
       }
     },
     {
       "name": "Markdown - Admonition Body (Hint)",
       "scope": "markup.admonition.markdown.hint markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ blue }}15"
+        "background": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24515"
       }
     },
     {
@@ -824,7 +822,7 @@
         "markup.admonition.markdown.hint meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ blue }}75"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24575"
       }
     },
     {
@@ -832,7 +830,7 @@
       "scope": "markup.admonition.markdown.hint entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ blue }}"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
       }
     },
     {
@@ -847,29 +845,29 @@
         "markup.admonition.markdown.hint markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ blue }}25"
+        "background": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24525"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Hint)",
       "scope": "markup.admonition.markdown.hint markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ blue }}35",
-        "foreground": "#{{ blue }}35"
+        "background": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24535",
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue24535"
       }
     },
     {
       "name": "Markdown - Admonition Header (Warning)",
       "scope": "markup.admonition.markdown.warning markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ yellow }}50"
+        "background": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Warning)",
       "scope": "markup.admonition.markdown.warning markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ yellow }}15"
+        "background": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow15"
       }
     },
     {
@@ -896,7 +894,7 @@
         "markup.admonition.markdown.warning meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ yellow }}75"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow75"
       }
     },
     {
@@ -904,7 +902,7 @@
       "scope": "markup.admonition.markdown.warning entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ yellow }}"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
       }
     },
     {
@@ -919,29 +917,29 @@
         "markup.admonition.markdown.warning markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ yellow }}25"
+        "background": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Warning)",
       "scope": "markup.admonition.markdown.warning markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ yellow }}35",
-        "foreground": "#{{ yellow }}35"
+        "background": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow35",
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Danger)",
       "scope": "markup.admonition.markdown.danger markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ red }}50"
+        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25350"
       }
     },
     {
       "name": "Markdown - Admonition Body (Danger)",
       "scope": "markup.admonition.markdown.danger markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ red }}15"
+        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25315"
       }
     },
     {
@@ -968,7 +966,7 @@
         "markup.admonition.markdown.danger meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ red }}75"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25375"
       }
     },
     {
@@ -976,7 +974,7 @@
       "scope": "markup.admonition.markdown.danger entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
@@ -991,29 +989,29 @@
         "markup.admonition.markdown.danger markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ red }}25"
+        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25325"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Danger)",
       "scope": "markup.admonition.markdown.danger markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ red }}35",
-        "foreground": "#{{ red }}35"
+        "background": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25335",
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red25335"
       }
     },
     {
       "name": "Markdown - Admonition Header (Attention)",
       "scope": "markup.admonition.markdown.attention markup.admonition.header.markdown",
       "settings": {
-        "background": "#{{ green }}50"
+        "background": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5550"
       }
     },
     {
       "name": "Markdown - Admonition Body (Attention)",
       "scope": "markup.admonition.markdown.attention markup.admonition.body.markdown",
       "settings": {
-        "background": "#{{ green }}15"
+        "background": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5515"
       }
     },
     {
@@ -1040,7 +1038,7 @@
         "markup.admonition.markdown.attention meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#{{ green }}75"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5575"
       }
     },
     {
@@ -1048,7 +1046,7 @@
       "scope": "markup.admonition.markdown.attention entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     },
     {
@@ -1063,15 +1061,15 @@
         "markup.admonition.markdown.attention markup.raw.block"
       ],
       "settings": {
-        "background": "#{{ green }}25"
+        "background": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5525"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Attention)",
       "scope": "markup.admonition.markdown.attention markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#{{ green }}35",
-        "foreground": "#{{ green }}35"
+        "background": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5535",
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b5535"
       }
     },
     {
@@ -1086,7 +1084,7 @@
       "name": "SublimeLinter Warning",
       "scope": "sublimelinter.mark.warning",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
       }
     },
     {
@@ -1100,114 +1098,114 @@
       "name": "SublimeLinter Error",
       "scope": "sublimelinter.mark.error",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
       "name": "GitGutter Ignored",
       "scope": "markup.ignored.git_gutter",
       "settings": {
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
       }
     },
     {
       "name": "GitGutter Untracked",
       "scope": "markup.untracked.git_gutter",
       "settings": {
-        "foreground": "#{{ dim_0 }}"
+        "foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0"
       }
     },
     {
       "name": "GitGutter Inserted",
       "scope": "markup.inserted.git_gutter",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     },
     {
       "name": "GitGutter Changed",
       "scope": "markup.changed.git_gutter",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
       }
     },
     {
       "name": "GitGutter Deleted",
       "scope": "markup.deleted.git_gutter",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
       "name": "Bracket Highlighter Default",
       "scope": "brackethighlighter.default",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
       "name": "Bracket Highlighter Unmatched",
       "scope": "brackethighlighter.unmatched",
       "settings": {
-        "foreground": "#{{ red }}"
+        "foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253"
       }
     },
     {
       "name": "Bracket Highlighter Curly",
       "scope": "brackethighlighter.curly",
       "settings": {
-        "foreground": "#{{ violet }}"
+        "foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec"
       }
     },
     {
       "name": "Bracket Highlighter Round",
       "scope": "brackethighlighter.round",
       "settings": {
-        "foreground": "#{{ yellow }}"
+        "foreground": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow"
       }
     },
     {
       "name": "Bracket Highlighter Square",
       "scope": "brackethighlighter.square",
       "settings": {
-        "foreground": "#{{ blue }}"
+        "foreground": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245"
       }
     },
     {
       "name": "Bracket Highlighter Angle",
       "scope": "brackethighlighter.angle",
       "settings": {
-        "foreground": "#{{ orange }}"
+        "foreground": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73"
       }
     },
     {
       "name": "Bracket Highlighter Tag",
       "scope": "brackethighlighter.tag",
       "settings": {
-        "foreground": "#{{ cyan }}"
+        "foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185"
       }
     },
     {
       "name": "Bracket Highlighter Quote",
       "scope": "brackethighlighter.quote",
       "settings": {
-        "foreground": "#{{ green }}"
+        "foreground": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55"
       }
     }
   ],
   "colors": {
     // Base
     // "foreground": "",
-    "focusBorder": "#{{ cyan }}99",
+    "focusBorder": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
     // "contrastActiveBorder": "",
     // "contrastBorder": "",
     // "widget.shadow": "",
-    "selection.background": "#{{ cyan }}99",
+    "selection.background": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
     "input.background": "#003847",
-    "input.foreground": "#{{ fg_1 }}",
-    "input.placeholderForeground": "#{{ fg_1 }}AA",
+    "input.foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
+    "input.placeholderForeground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215AA",
     // "input.border": "",
-    "inputOption.activeBorder": "#{{ cyan }}99",
+    "inputOption.activeBorder": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
     "inputValidation.infoBorder": "#363b5f",
     "inputValidation.infoBackground": "#052730",
     "inputValidation.warningBackground": "#5d5938",
@@ -1217,10 +1215,10 @@
     "errorForeground": "#ffeaea",
     "badge.background": "#047aa6",
     "progressBar.background": "#047aa6",
-    "dropdown.background": "#{{ bg_0 }}",
-    "dropdown.border": "#{{ cyan }}99",
+    "dropdown.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "dropdown.border": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
     // "dropdown.foreground": "",
-    "button.background": "#{{ cyan }}99",
+    "button.background": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
     // "button.foreground": "",
     "list.activeSelectionBackground": "#005A6F",
     // "list.activeSelectionForeground": "",
@@ -1228,22 +1226,22 @@
     "list.hoverBackground": "#004454AA",
     "list.inactiveSelectionBackground": "#00445488",
     "list.dropBackground": "#00445488",
-    "list.highlightForeground": "#{{ cyan }}",
+    "list.highlightForeground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185",
     // "scrollbar.shadow": "",
     // "scrollbarSlider.activeBackground": "",
     // "scrollbarSlider.background": "",
     // "scrollbarSlider.hoverBackground": "",
     // Editor
-    "editor.background": "#{{ bg_0 }}",
-    // "editor.foreground": "#{{ violet }}",
-    "editorWidget.background": "#{{ bg_0 }}",
-    "editorCursor.foreground": "#{{ red }}",
-    "editorWhitespace.foreground": "#{{ fg_1 }}25",
+    "editor.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    // "editor.foreground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec",
+    "editorWidget.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "editorCursor.foreground": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253",
+    "editorWhitespace.foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green21525",
     "editor.lineHighlightBackground": "#073642",
     "editorLineNumber.activeForeground": "#949494",
     "editor.selectionBackground": "#274642",
-    "editorIndentGuide.background1": "#{{ fg_1 }}40",
-    "editorIndentGuide.activeBackground1": "#{{ fg_1 }}40",
+    "editorIndentGuide.background1": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green21540",
+    "editorIndentGuide.activeBackground1": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green21540",
     "editorHoverWidget.background": "#004052",
     // "editorHoverWidget.border": "",
     // "editorLineNumber.foreground": "",
@@ -1268,40 +1266,40 @@
     // "editorSuggestWidget.highlightForeground": "",
     // "editorSuggestWidget.selectedBackground": "",
     // Editor: Peek View
-    "peekViewResult.background": "#{{ bg_0 }}",
+    "peekViewResult.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
     // "peekViewResult.lineForeground": "",
     // "peekViewResult.selectionBackground": "",
     // "peekViewResult.selectionForeground": "",
     "peekViewEditor.background": "#10192c",
-    "peekViewTitle.background": "#{{ bg_0 }}",
+    "peekViewTitle.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
     "peekView.border": "#2b2b4a",
-    "peekViewEditor.matchHighlightBackground": "#{{ violet }}40",
+    "peekViewEditor.matchHighlightBackground": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec40",
     // "peekViewResult.fileForeground": "",
     // "peekViewResult.matchHighlightBackground": "",
     // "peekViewTitleLabel.foreground": "",
     // "peekViewTitleDescription.foreground": "",
     // Editor: Sticky Scroll
-    "editorStickyScroll.background": "#{{ bg_0 }}",
-    "editorStickyScrollHover.background": "#{{ dim_0 }}30",
+    "editorStickyScroll.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "editorStickyScrollHover.background": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_030",
     // Editor: Diff
     // "diffEditor.insertedTextBackground": "",
     // "diffEditor.insertedTextBorder": "",
     // "diffEditor.removedTextBackground": "",
     // "diffEditor.removedTextBorder": "",
     // Workbench: Title
-    "titleBar.activeBackground": "#{{ bg_0 }}",
+    "titleBar.activeBackground": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
     // "titleBar.inactiveBackground": "",
     // "titleBar.activeForeground": "",
     // "titleBar.inactiveForeground": "",
     // Workbench: Editors
     // "editorGroupHeader.noTabsBackground": "",
-    "editorGroup.border": "#{{ bg_0 }}",
-    "editorGroup.dropBackground": "#{{ cyan }}44",
+    "editorGroup.border": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "editorGroup.dropBackground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18544",
     "editorGroupHeader.tabsBackground": "#004052",
     // Workbench: Tabs
-    "tab.activeForeground": "#{{ fg_1 }}",
-    "tab.activeBackground": "#{{ bg_0 }}",
-    "tab.inactiveForeground": "#{{ fg_1 }}",
+    "tab.activeForeground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
+    "tab.activeBackground": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "tab.inactiveForeground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
     "tab.inactiveBackground": "#004052",
     "tab.border": "#003847",
     // "tab.activeBorder": "#AB395B",
@@ -1318,53 +1316,54 @@
     // "panelTitle.activeForeground": "",
     // "panelTitle.inactiveForeground": "",
     // Workbench: Side Bar
-    "sideBar.background": "#{{ bg_0 }}",
-    "sideBarTitle.foreground": "#{{ fg_1 }}",
+    "sideBar.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "sideBarTitle.foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
     // "sideBarSectionHeader.background": "",
     // Workbench: Status Bar
-    "statusBar.foreground": "#{{ fg_1 }}",
-    "statusBar.background": "#{{ bg_0 }}",
-    "statusBar.debuggingBackground": "#{{ bg_0 }}",
-    "statusBar.noFolderBackground": "#{{ bg_0 }}",
+    "statusBar.foreground": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
+    "statusBar.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "statusBar.debuggingBackground": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "statusBar.noFolderBackground": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
     "statusBarItem.prominentBackground": "#003847",
     "statusBarItem.prominentHoverBackground": "#003847",
     // "statusBarItem.activeBackground": "",
     // "statusBarItem.hoverBackground": "",
     // Workbench: Debug
-    "debugToolBar.background": "#{{ bg_0 }}",
-    "debugExceptionWidget.background": "#{{ bg_0 }}",
+    "debugToolBar.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "debugExceptionWidget.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
     "debugExceptionWidget.border": "#AB395B",
     // Workbench: Quick Open
-    "pickerGroup.foreground": "#{{ cyan }}99",
-    "pickerGroup.border": "#{{ cyan }}99",
+    "pickerGroup.foreground": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
+    "pickerGroup.border": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue18599",
     // Workbench: Terminal
-    "terminal.ansiBlack": "#{{ bg_0 }}",
-    "terminal.ansiRed": "#{{ red }}",
-    "terminal.ansiGreen": "#{{ green }}",
-    "terminal.ansiYellow": "#{{ yellow }}",
-    "terminal.ansiBlue": "#{{ blue }}",
-    "terminal.ansiMagenta": "#{{ magenta }}",
-    "terminal.ansiCyan": "#{{ cyan }}",
-    "terminal.ansiWhite": "#{{ fg_1 }}",
-    "terminal.ansiBrightBlack": "#{{ bg_1 }}",
-    "terminal.ansiBrightRed": "#{{ orange }}",
-    "terminal.ansiBrightGreen": "#{{ green }}",
-    "terminal.ansiBrightYellow": "#{{ yellow }}",
-    "terminal.ansiBrightBlue": "#{{ bg_2 }}",
-    "terminal.ansiBrightMagenta": "#{{ violet }}",
-    "terminal.ansiBrightCyan": "#{{ blue }}",
-    "terminal.ansiBrightWhite": "#{{ bg_1 }}",
+    "terminal.ansiBlack": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "terminal.ansiRed": "#srgb_hexfd564ebasenameredlabl60b40a63srgbgreen86blue78red253",
+    "terminal.ansiGreen": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55",
+    "terminal.ansiYellow": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow",
+    "terminal.ansiBlue": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245",
+    "terminal.ansiMagenta": "#srgb_hexf176bdbasenamemagentalabb-15l66a55srgbgreen118blue189red241",
+    "terminal.ansiCyan": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185",
+    "terminal.ansiWhite": "#srgb_hexc8d7d8basenamefg_1laba-5l85b-2srgbred200blue216green215",
+    "terminal.ansiBrightBlack": "#srgb_hex0e4956basenamebg_1laba-13b-13l28srgbgreen73blue86red14",
+    "terminal.ansiBrightRed": "#baselaba37l67b50nameorangesrgb_hexf38649srgbred243green134blue73",
+    "terminal.ansiBrightGreen": "#srgbgreen184blue60red128srgb_hex80b83cbasenamegreenlabl69a-38b55",
+    "terminal.ansiBrightYellow": "#srgbred227blue48green178srgb_hexe3b230baselaba6b68l75nameyellow",
+    "terminal.ansiBrightBlue": "#basenamebg_2laba-13b-13l36srgbgreen91red39blue105srgb_hex275b69",
+    "terminal.ansiBrightMagenta": "#srgbblue236red165green140basenamevioletlabb-45a30l64srgb_hexa58cec",
+    "terminal.ansiBrightCyan": "#srgb_hex0096f5basenamebluelabl60a0b-57srgbred0green150blue245",
+    "terminal.ansiBrightWhite": "#srgb_hex0e4956basenamebg_1laba-13b-13l28srgbgreen73blue86red14",
     // Better Color Changes:
-    "terminalCursor.background": "#{{ bg_0 }}",
-    "terminalCursor.foreground": "#{{ dim_0 }}",
-    "terminal.background": "#{{ bg_0 }}",
+    "terminalCursor.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "terminalCursor.foreground": "#srgb_hex718b90srgbred113blue144green139baselabl56b-6a-8namedim_0",
+    "terminal.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
     "terminal.border": "#fef3da2b",
     "terminal.selectionBackground": "#fef3da2b",
-    // "statusBar.background": "#{{ bg_0 }}",
-    "tab.activeBorder": "#{{ cyan }}",
-    "panelTitle.activeBorder": "#{{ cyan }}",
-    "panel.border": "#{{ cyan }}4A",
+    // "statusBar.background": "#srgb_hex053d48srgbred5green61blue72basenamebg_0laba-12b-12l23",
+    "tab.activeBorder": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185",
+    "panelTitle.activeBorder": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue185",
+    "panel.border": "#baselabl73a-40b-4namecyansrgb_hex39c7b9srgbred57green199blue1854A",
     "statusBar.border": "#fef3da09",
     "sideBar.border": "#fef3da2b"
   }
 }
+
