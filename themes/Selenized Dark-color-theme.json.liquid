@@ -8,46 +8,7 @@
         "background": "#{{ bg_0.srgb_hex }}",
         "foreground": "#{{ fg_1.srgb_hex }}",
         "gutter": "#{{ bg_0.srgb_hex }}",
-{%- capture popupCss %}
-  html {
-    background-color: #{{ bg_1.srgb_hex }};
-    color: #{{ fg_0.srgb_hex }};
-  }
- 
-  a {
-    color: #{{ blue.srgb_hex }};
-  }
-  
-  .error,
-  .deleted {
-    color: #{{ red.srgb_hex }};
-  }
-  
-  .success,
-  .inserted,
-  .name {
-    color: #{{ green.srgb_hex }};
-  }
-  
-  .warning,
-  .modified {
-    color: #{{ yellow.srgb_hex }};
-  }
-  
-  .type {
-    color: #{{ cyan.srgb_hex }};
-    font-style: italic;
-  }
-  
-  .param {
-    color: #{{ orange.srgb_hex }};
-  }
-  
-  .current {
-    text-decoration: underline;
-  }
-{%- endcapture %}
-        "popupCss": "{{ popupCss }}",
+        "popupCss": "\nhtml {\n background-color: #{{ bg_1.srgb_hex }};\n color: #{{ fg_0.srgb_hex }};\n }\n\n a {\n color: #{{ blue.srgb_hex }};\n }\n\n .error,\n .deleted {\n color: #{{ red.srgb_hex }};\n }\n\n .success,\n .inserted,\n .name {\n color: #{{ green.srgb_hex }};\n }\n\n .warning,\n .modified {\n color: #{{ yellow.srgb_hex }};\n }\n\n .type {\n color: #{{ cyan.srgb_hex }};\n font-style: italic;\n }\n\n .param {\n color: #{{ orange.srgb_hex }};\n }\n\n .current {\n text-decoration: underline;\n }\n",
         "selectionBorder": "#ffffff16",
         "stackGuide": "#ffffff40"
       }

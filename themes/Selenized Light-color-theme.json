@@ -8,44 +8,7 @@
         "background": "#fef3da",
         "foreground": "#384c52",
         "gutter": "#fef3da",
-        "popupCss": "
-  html {
-    background-color: #f0e4cc;
-    color: #52666d;
-  }
-
-  a {
-    color: #0073d2;
-  }
-
-  .error,
-  .deleted {
-    color: #d4212b;
-  }
-
-  .success,
-  .inserted,
-  .name {
-    color: #539100;
-  }
-
-  .warning,
-  .modified {
-    color: #b38800;
-  }
-
-  .type {
-    color: #009c8f;
-    font-style: italic;
-  }
-
-  .param {
-    color: #c75d20;
-  }
-
-  .current {
-    text-decoration: underline;
-  }",
+        "popupCss": "\nhtml {\n background-color: #f0e4cc;\n color: #52666d;\n }\n\n a {\n color: #0073d2;\n }\n\n .error,\n .deleted {\n color: #d4212b;\n }\n\n .success,\n .inserted,\n .name {\n color: #539100;\n }\n\n .warning,\n .modified {\n color: #b38800;\n }\n\n .type {\n color: #009c8f;\n font-style: italic;\n }\n\n .param {\n color: #c75d20;\n }\n\n .current {\n text-decoration: underline;\n }\n",
         "selectionBorder": "#00000016",
         "stackGuide": "#00000040"
       }
