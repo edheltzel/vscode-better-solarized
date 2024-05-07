@@ -29,7 +29,7 @@
       },
       {
         "label": "Selenized Dark",
-        "uiTheme": "vs",
+        "uiTheme": "vs-dark",
         "path": "./themes/Selenized Dark-color-theme.json"
       },
       {
