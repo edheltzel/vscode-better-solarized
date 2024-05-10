@@ -28,12 +28,12 @@
         "path": "./themes/Better Solarized Light-color-theme.json"
       },
       {
-        "label": "Selenized Dark",
+        "label": "Better Selenized Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Selenized Dark-color-theme.json"
       },
       {
-        "label": "Selenized Light",
+        "label": "Better Selenized Light",
         "uiTheme": "vs",
         "path": "./themes/Selenized Light-color-theme.json"
       }
