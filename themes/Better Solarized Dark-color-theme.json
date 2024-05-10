@@ -1197,7 +1197,7 @@
     // "scrollbarSlider.hoverBackground": "",
     // Editor
     "editor.background": "#002B36",
-    // "editor.foreground": "#6688cc",
+    "editor.foreground": "#839496",
     "editorWidget.background": "#00212B",
     "editorCursor.foreground": "#D30102",
     "editorWhitespace.foreground": "#93A1A125",
@@ -1205,7 +1205,7 @@
     "editorLineNumber.activeForeground": "#949494",
     "editor.selectionBackground": "#274642",
     "editorIndentGuide.background1": "#93A1A140",
-    "editorIndentGuide.activeBackground1": "#93A1A140",
+    "editorIndentGuide.activeBackground1": "#C3E1E180",
     "editorHoverWidget.background": "#004052",
     // "editorHoverWidget.border": "",
     // "editorLineNumber.foreground": "",
@@ -1223,6 +1223,10 @@
     "editor.selectionHighlightBackground": "#005A6FAA",
     "editor.wordHighlightBackground": "#004454AA",
     "editor.wordHighlightStrongBackground": "#005A6FAA",
+    // Editor: Colorized Bracket Highlighting
+    "editorBracketHighlight.foreground1": "#cdcdcdff",
+    "editorBracketHighlight.foreground2": "#b58900ff",
+    "editorBracketHighlight.foreground3": "#d33682ff",
     // Editor: Suggest
     // "editorSuggestWidget.background": "",
     // "editorSuggestWidget.border": "",
@@ -1236,7 +1240,7 @@
     // "peekViewResult.selectionForeground": "",
     "peekViewEditor.background": "#00212B",
     "peekViewTitle.background": "#00212B",
-    "peekView.border": "#EEE8D52B",
+    "peekView.border": "#2b2b4a",
     "peekViewEditor.matchHighlightBackground": "#00445440",
     // "peekViewResult.fileForeground": "",
     // "peekViewResult.matchHighlightBackground": "",
@@ -1275,7 +1279,7 @@
     // "activityBarBadge.foreground": "",
     // Workbench: Panel
     // "panel.background": "",
-    // "panel.border": "#2b2b4a",
+    "panel.border": "#2AA1984A",
     // "panelTitle.activeBorder": "",
     // "panelTitle.activeForeground": "",
     // "panelTitle.inactiveForeground": "",
@@ -1288,6 +1292,8 @@
     "statusBar.background": "#00212B",
     "statusBar.debuggingBackground": "#00212B",
     "statusBar.noFolderBackground": "#00212B",
+    "statusBarItem.remoteBackground": "#2AA19899",
+    "ports.iconRunningProcessForeground": "#369432",
     "statusBarItem.prominentBackground": "#003847",
     "statusBarItem.prominentHoverBackground": "#003847",
     // "statusBarItem.activeBackground": "",
@@ -1326,7 +1332,6 @@
     // "statusBar.background": "#002C39",
     "tab.activeBorder": "#2AA198",
     "panelTitle.activeBorder": "#2AA198",
-    "panel.border": "#2AA1984A",
     "statusBar.border": "#EEE8D509",
     "sideBar.border": "#EEE8D52B"
   }
