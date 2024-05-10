@@ -1234,10 +1234,10 @@
     // "peekViewResult.lineForeground": "",
     // "peekViewResult.selectionBackground": "",
     // "peekViewResult.selectionForeground": "",
-    "peekViewEditor.background": "#10192c",
+    "peekViewEditor.background": "#00212B",
     "peekViewTitle.background": "#00212b",
-    "peekView.border": "#2b2b4a",
-    "peekViewEditor.matchHighlightBackground": "#a58cec40",
+    "peekView.border": "#EEE8D52B",
+    "peekViewEditor.matchHighlightBackground": "#004454AA",
     // "peekViewResult.fileForeground": "",
     // "peekViewResult.matchHighlightBackground": "",
     // "peekViewTitleLabel.foreground": "",
@@ -1330,4 +1330,3 @@
     "sideBar.border": "#fef3da2b"
   }
 }
-
