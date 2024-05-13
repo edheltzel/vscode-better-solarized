@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.10.2 | 2024-05-13
+
+- Resolves issue
+  [#15](https://github.com/edheltzel/vscode-better-solarized/issues/15) from
+  [@andronocean](https://github.com/andronocean) -- Thanks! 👍
+
 ## 0.10.1 | 2024-05-13
 
 - Resolves issue
