@@ -1,3 +1,5 @@
+<!-- cSpell: disable -->
+
 # Change Log
 
 ## 0.10.2 | 2024-05-13
