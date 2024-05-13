@@ -297,7 +297,7 @@
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#2aa198"
+        "foreground": "#cb4b16"
       }
     },
     {

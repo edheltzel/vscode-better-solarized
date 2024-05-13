@@ -22,7 +22,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#adbcbc"
+        "foreground": "#adbcbcad"
       }
     },
     {
@@ -297,7 +297,7 @@
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#39c7b9"
+        "foreground": "#fd564e"
       }
     },
     {
