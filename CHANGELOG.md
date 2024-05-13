@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.10.1 | 2024-05-13
+
+- Resolves issue
+  [#24](https://github.com/edheltzel/vscode-better-solarized/issues/24) from
+  [@williamangelo](https://github.com/williamangelo) -- Thanks! 👍
+
 ## 0.10.0 | 2024-05-10
 
 - Includes Selenized Light and Dark themes from PR
