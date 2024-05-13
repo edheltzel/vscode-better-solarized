@@ -2,6 +2,11 @@
 
 # Change Log
 
+## 0.10.3 | 2024-05-13
+
+- Resolves
+  issue[#11](https://github.com/edheltzel/vscode-better-solarized/issues/11)
+
 ## 0.10.2 | 2024-05-13
 
 - Resolves issue
