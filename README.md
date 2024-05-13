@@ -17,11 +17,11 @@ color palette.
 
 Five(5) variants:
 
-1. Solarized Light
-2. Solarized Dark
+1. Solarized Dark
+2. Solarized Light
 3. Solarized Dark with Italics
 4. Selenized Dark
-5. Selenized Dark with Italics
+5. Selenized Light
 
 # Additional Customization and other Tweaks
 
