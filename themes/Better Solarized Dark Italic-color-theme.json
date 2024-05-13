@@ -16,7 +16,10 @@
     },
     {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#586E75"
@@ -37,7 +40,10 @@
     },
     {
       "name": "Jekyll Operators",
-      "scope": ["entity.name.tag.jekyll", "entity.name.tag.liquid"],
+      "scope": [
+        "entity.name.tag.jekyll",
+        "entity.name.tag.liquid"
+      ],
       "settings": {
         "foreground": "#D33682",
         "fontStyle": "italic"
@@ -45,7 +51,10 @@
     },
     {
       "name": "Jekyll Variable",
-      "scope": ["punctuation.tag.jekyll", "punctuation.tag.liquid"],
+      "scope": [
+        "punctuation.tag.jekyll",
+        "punctuation.tag.liquid"
+      ],
       "settings": {
         "foreground": "#BBBBBB"
         // "fontStyle": "italic"
@@ -53,7 +62,10 @@
     },
     {
       "name": "Jekyll Content",
-      "scope": ["variable.other.jekyll", "variable.other.liquid"],
+      "scope": [
+        "variable.other.jekyll",
+        "variable.other.liquid"
+      ],
       "settings": {
         "foreground": "#BBBBBB"
         // "fontStyle": "italic"
@@ -61,7 +73,9 @@
     },
     {
       "name": "Jekyll arguments",
-      "scope": ["support.function.with-args.jekyll"],
+      "scope": [
+        "support.function.with-args.jekyll"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
@@ -75,7 +89,10 @@
     },
     {
       "name": "Variable",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
       "settings": {
         "foreground": "#839496",
         "fontStyle": "italic"
@@ -99,7 +116,11 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
       "settings": {
         "foreground": "#6C71C4"
       }
@@ -166,7 +187,10 @@
     },
     {
       "name": "Other Variable, String Link",
-      "scope": ["support.other.variable", "string.other.link"],
+      "scope": [
+        "support.other.variable",
+        "string.other.link"
+      ],
       "settings": {
         "foreground": "#cf4b56"
       }
@@ -302,12 +326,16 @@
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#2AA198"
+        "foreground": "#CB4B16"
       }
     },
     {
       "name": "URL",
-      "scope": ["*url*", "*link*", "*uri*"],
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
       "settings": {
         "fontStyle": "underline"
       }
@@ -446,7 +474,9 @@
     },
     {
       "name": "[YML]",
-      "scope": ["punctuation.definition.block.sequence.item.yaml"],
+      "scope": [
+        "punctuation.definition.block.sequence.item.yaml"
+      ],
       "settings": {
         "foreground": "#6C71C4"
       }
@@ -505,14 +535,20 @@
     },
     {
       "name": "Markup - Italic",
-      "scope": ["markup.italic", "markup.italic string"],
+      "scope": [
+        "markup.italic",
+        "markup.italic string"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Markup - Bold",
-      "scope": ["markup.bold", "markup.bold string"],
+      "scope": [
+        "markup.bold",
+        "markup.bold string"
+      ],
       "settings": {
         "fontStyle": "bold italic"
       }
