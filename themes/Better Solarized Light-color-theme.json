@@ -16,7 +16,10 @@
     },
     {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#93a1a1"
@@ -37,7 +40,10 @@
     },
     {
       "name": "Jekyll Operators",
-      "scope": ["entity.name.tag.jekyll", "entity.name.tag.liquid"],
+      "scope": [
+        "entity.name.tag.jekyll",
+        "entity.name.tag.liquid"
+      ],
       "settings": {
         "foreground": "#D33682",
         "fontStyle": "italic"
@@ -45,21 +51,29 @@
     },
     {
       "name": "Jekyll Variable",
-      "scope": ["punctuation.tag.jekyll", "punctuation.tag.liquid"],
+      "scope": [
+        "punctuation.tag.jekyll",
+        "punctuation.tag.liquid"
+      ],
       "settings": {
         "foreground": "#BBBBBB"
       }
     },
     {
       "name": "Jekyll Content",
-      "scope": ["variable.other.jekyll", "variable.other.liquid"],
+      "scope": [
+        "variable.other.jekyll",
+        "variable.other.liquid"
+      ],
       "settings": {
         "foreground": "#BBBBBB"
       }
     },
     {
       "name": "Jekyll arguments",
-      "scope": ["support.function.with-args.jekyll"],
+      "scope": [
+        "support.function.with-args.jekyll"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
@@ -73,7 +87,10 @@
     },
     {
       "name": "Variable",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
       "settings": {
         "foreground": "#657b83"
       }
@@ -96,7 +113,11 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
       "settings": {
         "foreground": "#6c71c4"
       }
@@ -147,7 +168,10 @@
     },
     {
       "name": "Other Variable, String Link",
-      "scope": ["support.other.variable", "string.other.link"],
+      "scope": [
+        "support.other.variable",
+        "string.other.link"
+      ],
       "settings": {
         "foreground": "#cf4b56"
       }
@@ -278,7 +302,11 @@
     },
     {
       "name": "URL",
-      "scope": ["*url*", "*link*", "*uri*"],
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
       "settings": {
         "fontStyle": "underline"
       }
@@ -444,14 +472,20 @@
     },
     {
       "name": "Markup - Italic",
-      "scope": ["markup.italic", "markup.italic string"],
+      "scope": [
+        "markup.italic",
+        "markup.italic string"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Markup - Bold",
-      "scope": ["markup.bold", "markup.bold string"],
+      "scope": [
+        "markup.bold",
+        "markup.bold string"
+      ],
       "settings": {
         "fontStyle": "bold"
       }
@@ -1124,7 +1158,10 @@
     },
     {
       "name": "Gutter Color Fix",
-      "scope": ["gutter_color", "mcol"],
+      "scope": [
+        "gutter_color",
+        "mcol"
+      ],
       "settings": {
         "foreground": "#ffffff"
       }
@@ -1137,7 +1174,7 @@
     // "contrastActiveBorder": "",
     // "contrastBorder": "",
     // "widget.shadow": "",
-    "input.background": "#DDD6C1",
+    "input.background": "#eae2d0",
     "input.border": "#586E754A",
     "input.foreground": "#586E75",
     "input.placeholderForeground": "#586E75AA",
@@ -1155,7 +1192,7 @@
     "dropdown.border": "#D3AF86",
     "button.background": "#AC9D57",
     // "button.foreground": "",
-    "selection.background": "#CCC4B0",
+    "selection.background": "#DFCA8866",
     "list.activeSelectionBackground": "#DFCA88",
     "list.activeSelectionForeground": "#6C6C6C",
     "list.focusBackground": "#DFCA8866",
@@ -1177,9 +1214,9 @@
     "editorCursor.foreground": "#657B83",
     "editorWhitespace.foreground": "#586E7580",
     "editor.lineHighlightBackground": "#EEE8D5",
-    "editor.selectionBackground": "#EEE8D5",
-    "minimap.selectionHighlight": "#EEE8D5",
-    "editorIndentGuide.background1": "#586E7580",
+    "editor.selectionBackground": "#081E2540",
+    "minimap.selectionHighlight": "#081E2540",
+    "editorIndentGuide.background1": "#04040480",
     "editorIndentGuide.activeBackground1": "#081E2580",
     "editorHoverWidget.background": "#CCC4B0",
     "editorLineNumber.activeForeground": "#567983",
