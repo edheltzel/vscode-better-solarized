@@ -2,7 +2,7 @@
 
 # Change Log
 
-## 0.10.3 | 2024-05-13
+## 0.10.4 | 2024-05-14
 
 - Merge PR
   [#29](https://github.com/edheltzel/vscode-better-solarized/pull/29) from [@khipp](https://github.com/khipp) -- Thanks! 👍
