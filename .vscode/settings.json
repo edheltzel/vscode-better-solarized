@@ -1,5 +1,9 @@
 {
   "cSpell.words": [
     "Selenized"
-  ]
+  ],
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.vscodes": true
+  }
 }
