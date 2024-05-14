@@ -4,20 +4,20 @@
 
 ## 0.10.3 | 2024-05-13
 
-- Resolves
-  issue[#11](https://github.com/edheltzel/vscode-better-solarized/issues/11)
+- Merge PR
+  [#29](https://github.com/edheltzel/vscode-better-solarized/pull/29) from [@khipp](https://github.com/khipp) -- Thanks! 👍
+
+## 0.10.3 | 2024-05-13
+
+- Resolves issue [#11](https://github.com/edheltzel/vscode-better-solarized/issues/11)
 
 ## 0.10.2 | 2024-05-13
 
-- Resolves issue
-  [#15](https://github.com/edheltzel/vscode-better-solarized/issues/15) from
-  [@andronocean](https://github.com/andronocean) -- Thanks! 👍
+- Resolves issue [#15](https://github.com/edheltzel/vscode-better-solarized/issues/15) from [@andronocean](https://github.com/andronocean) -- Thanks! 👍
 
 ## 0.10.1 | 2024-05-13
 
-- Resolves issue
-  [#24](https://github.com/edheltzel/vscode-better-solarized/issues/24) from
-  [@williamangelo](https://github.com/williamangelo) -- Thanks! 👍
+- Resolves issue [#24](https://github.com/edheltzel/vscode-better-solarized/issues/24) from [@williamangelo](https://github.com/williamangelo) -- Thanks! 👍
 
 ## 0.10.0 | 2024-05-10
 
@@ -35,43 +35,43 @@
 
 ## 0.9.10 | 2023-10-22
 
-- merge PR [#20](https://github.com/edheltzel/vscode-better-solarized/pull/20)
+- Merge PR [#20](https://github.com/edheltzel/vscode-better-solarized/pull/20)
   from [@joahjoah](https://github.com/joahjoah) -- Thanks! 👍
 
 ## 0.9.9 | 2023-10-01
 
-- additional ui update for light version
+- Additional ui update for light version
 
 ## 0.9.8 | 2023-09-30
 
-- fixes #19 introduced in v0.9.7
+- Fixes #19 introduced in v0.9.7
 
 ## 0.9.7 | 2023-09-30
 
-- better notebook editor background colors
-- update desecrated properties
+- Better notebook editor background colors
+- Update desecrated properties
 
 ## 0.9.6 | 2023-08-21
 
-- adds editor sticky color support
+- Adds editor sticky color support
 
 ## 0.9.5 | 09-02-2021
 
-- merge of PR
+- Merge of PR
   [#16](https://github.com/edheltzel/vscode-better-solarized/pull/16) which
   closed
   [issue #14](https://github.com/edheltzel/vscode-better-solarized/issues/14)
 
 ## 0.9.4 | 04-14-2020
 
-- merge of PR [#13](https://github.com/ginfuru/vscode-better-solarized/pull/13)
+- Merge of PR [#13](https://github.com/ginfuru/vscode-better-solarized/pull/13)
   from [@1081](https://github.com/1081) -- Thanks! 👍
 
 ## 0.9.3 | 02-22-2020
 
-- merge of PR [#12](https://github.com/ginfuru/vscode-better-solarized/pull/12)
+- Merge of PR [#12](https://github.com/ginfuru/vscode-better-solarized/pull/12)
   from [@timrydefalk](https://github.com/timrydefalk) -- Thanks! 👍
-- resolves error
+- Resolves error
 
 ## 0.9.2 | 02-07-2020
 
@@ -117,11 +117,11 @@ active tab color:
 
 Adds better YAML/JSON/Jekyll/Liquid syntax plus a few minor changes
 
-- suggesting `Dank Mono` for font choice.
+- Suggesting `Dank Mono` for font choice.
 
 ## 0.3.0 | 09-28-2018
 
-restores terminal colors
+Restores terminal colors
 
 ## 0.2.0 | 09-28-2018
 
@@ -135,41 +135,41 @@ Better git decorations for added, changed, untracked, modified and deleted files
 
 ## 0.0.9 | 06-25-2018
 
-adds git decorations plus removes depreciated properties and updates a few
+Adds git decorations plus removes depreciated properties and updates a few
 colors
 
 ## 0.0.8 | 09-11-2017
 
-better support for Jekyll
+Better support for Jekyll
 
 ## 0.0.7 | 09-11-2017
 
-added liquid and JSDocs screenshot
+Added liquid and JSDocs screenshot
 
 ## 0.0.6 | 09-11-2017
 
-added liquid tag color in syntax
+Added liquid tag color in syntax
 
 ## 0.0.5 | 09-11-2017
 
-added liquid scope to syntax
+Added liquid scope to syntax
 
-- adds syntax highlighting for `{% %}` and `{{ }}`
+- Adds syntax highlighting for `{% %}` and `{{ }}`
 
 ## 0.0.4 | 09-11-2017
 
-- updated `package.json` with VSCode sidebar info
+- Updated `package.json` with VSCode sidebar info
 
 ## 0.0.3 | 09-11-2017
 
-- added image for IntelliSense
+- Added image for IntelliSense
 
 ## 0.0.2 | 09-11-2017
 
-- updating theme file to matach default Solarized theme
-- added `tab.activeBorder`
-- added `tab.unfocusedActiveBorder`
-- updated readme with description and images
+- Updating theme file to matach default Solarized theme
+- Added `tab.activeBorder`
+- Added `tab.unfocusedActiveBorder`
+- Updated readme with description and images
 
 ## [Unreleased]
 
