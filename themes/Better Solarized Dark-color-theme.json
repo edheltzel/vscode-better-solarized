@@ -445,10 +445,15 @@
       }
     },
     {
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#268BD2"
+      }
+    },
+    {
       "name": "Markdown - Markup Raw Inline",
       "scope": "text.html.markdown markup.raw.inline",
       "settings": {
-        "background": "#ffffff08",
         "foreground": "#839496cc"
       }
     },
