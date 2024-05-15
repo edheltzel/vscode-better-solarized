@@ -1,3 +1,7 @@
+/**
+ * Theme data
+ * @todo update the color palettes for the themes
+ */
 const themes = {
 	semanticHighlighting: true,
 	solarizedDark: {
