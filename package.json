@@ -15,27 +15,27 @@
       {
         "label": "Better Solarized Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/better-solarized-dark-color-theme.json"
+        "path": "./themes/better-solarized-dark.json"
       },
       {
         "label": "Better Solarized Dark Italics",
         "uiTheme": "vs-dark",
-        "path": "./themes/better-solarized-dark-italics.json"
+        "path": "./themes/better-solarized-dark-italic.json"
       },
       {
         "label": "Better Solarized Light",
         "uiTheme": "vs",
-        "path": "./themes/better-solarized-light-color-theme.json"
+        "path": "./themes/better-solarized-light.json"
       },
       {
         "label": "Better Selenized Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/selenized-dark-color-theme.json"
+        "path": "./themes/better-selenized-dark.json"
       },
       {
         "label": "Better Selenized Light",
         "uiTheme": "vs",
-        "path": "./themes/selenized-light-color-theme.json"
+        "path": "./themes/better-selenized-light.json"
       }
     ]
   },
@@ -63,12 +63,10 @@
   "bugs": "https://github.com/ginfuru/vscode-better-solarized/issues",
   "packageManager": "pnpm@9.0.0+sha256.bdfc9a7b372b5c462176993e586492603e20da5864d2f8881edc2462482c76fa",
   "scripts": {
-    "build": "eleventy",
-    "test": "ENV=prod eleventy",
+    "build": "ENV=prod pnpm dlx @11ty/eleventy",
+    "build:test": "pnpm dlx @11ty/eleventy",
+    "serve": "pnpm dlx @11ty/eleventy --watch",
     "release": "gh release create v%npm_package_version% --generate-notes --latest",
     "publish": "vsce publish"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
   }
 }
