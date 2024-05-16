@@ -55,3 +55,16 @@ Open up your `settings.json` and hack way.
 | ![solarized Light Peek](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-solarized-light-peek.png)     | ![selenized Light Peek](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-selenized-light-peek.png)     |
 | ![solarized Dark Terminal](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-solarized-dark-term.png)   | ![selenized Dark Terminal](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-selenized-dark-term.png)   |
 | ![solarized Light Terminal](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-solarized-light-term.png) | ![selenized Light Terminal](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-selenized-light-term.png) |
+
+
+## Development
+
+So theme development is a little unique, in the fact that I've chosen to use [Eleventy](https://11ty.dev) to generate the JSON files using Nunjucks for templates. Eleventy is very versatile without an opinionated structure, which is why I use it.
+
+Each theme is generated from the `./src/data/themes.js` file and has a companion Nunjucks template in `./src` which is then compiled into the `./themes` directory.
+
+### Getting Started
+1. Clone the repository `gh repo clone edheltzel/vscode-better-solarized && cd vscode-better-solarized`
+2. Run `pnpm install`
+3. Execute the **run without debugging**: `Run > Run without debugging` OR `ctrl + F5` (see: [VSCode Debugging](https://code.visualstudio.com/Docs/editor/debugging#_run-mode)) to start development.
+4. To edit the theme colors open the `./src/data/themes.js` file and edit the colors as needed.
