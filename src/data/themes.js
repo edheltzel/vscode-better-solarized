@@ -7,7 +7,7 @@ const themes = {
 	solarizedDark: {
 		type: "dark",
 		black: "#000000",
-		white: "#FFFFFF",
+		white: "#333333",
 		red: "#C00C00",
 		blue: "#0090d0",
 	},
