@@ -15,27 +15,27 @@
       {
         "label": "Better Solarized Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Better Solarized Dark-color-theme.json"
+        "path": "./test/better-solarized-dark.json"
       },
       {
         "label": "Better Solarized Dark Italics",
         "uiTheme": "vs-dark",
-        "path": "./themes/Better Solarized Dark Italic-color-theme.json"
+        "path": "./test/better-solarized-dark-italics.json"
       },
       {
         "label": "Better Solarized Light",
         "uiTheme": "vs",
-        "path": "./themes/Better Solarized Light-color-theme.json"
+        "path": "./test/better-solarized-light.json"
       },
       {
         "label": "Better Selenized Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Selenized Dark-color-theme.json"
+        "path": "./test/better-selenized-dark.json"
       },
       {
         "label": "Better Selenized Light",
         "uiTheme": "vs",
-        "path": "./themes/Selenized Light-color-theme.json"
+        "path": "./test/better-selenized-light.json"
       }
     ]
   },
