@@ -5,7 +5,7 @@
  * @param {Object} config
  */
 
-const isProd = process.env.ENV === "production";
+const isProd = process.env.ENV === "prod";
 const addTransforms = require("./_flightdeck/transforms");
 module.exports = (config) => {
 	if (isProd) {
@@ -15,7 +15,7 @@ module.exports = (config) => {
 	return {
 		dir: {
 			input: "src",
-			output: "test",
+			output: "themes",
 			data: "data",
 		},
 	};
