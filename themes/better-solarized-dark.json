@@ -5,13 +5,13 @@
   "tokenColors": [
     {
       "settings": {
-        "activeGuide": "#33333355",
+        "activeGuide": "#FFFFFF55",
         "background": "#002b36",
         "foreground": "#839496",
         "gutter": "#002b36",
         "popupCss": "\nhtml {\n  background-color: #123a44;\n  color: #839496;\n}\n\na {\n  color: #268bd2;\n}\n\n.error,\n.deleted {\n  color: #dc322f;\n}\n\n.success,\n.inserted,\n.name {\n  color: #859900;\n}\n\n.warning,\n.modified {\n  color: #b58900;\n}\n\n.type {\n  color: #2aa198;\n  font-style: italic;\n}\n\n.param {\n  color: #cb4b16;\n}\n\n.current {\n  text-decoration: underline;\n}\n",
-        "selectionBorder": "#33333316",
-        "stackGuide": "#33333340"
+        "selectionBorder": "#FFFFFF16",
+        "stackGuide": "#FFFFFF40"
       }
     },
     {
@@ -100,7 +100,7 @@
       "scope": "invalid",
       "settings": {
         "background": "#dc322f",
-        "foreground": "#333333"
+        "foreground": "#FFFFFF"
       }
     },
     {
@@ -108,7 +108,7 @@
       "scope": "invalid.deprecated",
       "settings": {
         "background": "#6c71c4",
-        "foreground": "#333333"
+        "foreground": "#FFFFFF"
       }
     },
     {
@@ -461,7 +461,7 @@
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
       "settings": {
-        "foreground": "#33333350"
+        "foreground": "#FFFFFF50"
       }
     },
     {
@@ -529,9 +529,9 @@
       "name": "Markdown - Blockquote",
       "scope": "markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#33333316",
+        "background": "#FFFFFF16",
         "fontStyle": "",
-        "foreground": "#33333316"
+        "foreground": "#FFFFFF16"
       }
     },
     {
@@ -567,7 +567,7 @@
       "name": "Markup - Raw Block",
       "scope": "markup.raw.block",
       "settings": {
-        "background": "#33333308",
+        "background": "#FFFFFF08",
         "foreground": "#839496cc"
       }
     },
@@ -575,14 +575,14 @@
       "name": "Markdown - Raw Block Fenced",
       "scope": "markup.raw.block.fenced.markdown",
       "settings": {
-        "background": "#33333308"
+        "background": "#FFFFFF08"
       }
     },
     {
       "name": "Markdown - Fenced Bode Block",
       "scope": "punctuation.definition.fenced.markdown",
       "settings": {
-        "background": "#33333308"
+        "background": "#FFFFFF08"
       }
     },
     {
@@ -604,7 +604,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#33333350"
+        "foreground": "#FFFFFF50"
       }
     },
     {
@@ -619,7 +619,7 @@
       "name": "Markdown - Separator",
       "scope": "meta.separator",
       "settings": {
-        "background": "#33333308",
+        "background": "#FFFFFF08",
         "fontStyle": "bold",
         "foreground": "#586e75"
       }
@@ -628,7 +628,7 @@
       "name": "Markup - Table",
       "scope": "markup.table",
       "settings": {
-        "background": "#33333308",
+        "background": "#FFFFFF08",
         "foreground": "#839496cc"
       }
     },
@@ -642,7 +642,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#33333350"
+        "foreground": "#FFFFFF50"
       }
     },
     {
@@ -1046,7 +1046,7 @@
       "scope": "acejump.label",
       "settings": {
         "background": "#528bff",
-        "foreground": "#333333"
+        "foreground": "#FFFFFF"
       }
     },
     {
@@ -1060,7 +1060,7 @@
       "name": "SublimeLinter Gutter Mark",
       "scope": "sublimelinter.gutter-mark",
       "settings": {
-        "foreground": "#333333"
+        "foreground": "#FFFFFF"
       }
     },
     {

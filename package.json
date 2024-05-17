@@ -64,8 +64,7 @@
   "packageManager": "pnpm@9.0.0+sha256.bdfc9a7b372b5c462176993e586492603e20da5864d2f8881edc2462482c76fa",
   "scripts": {
     "build": "ENV=prod pnpm dlx @11ty/eleventy",
-    "build:test": "pnpm dlx @11ty/eleventy",
-    "serve": "pnpm dlx @11ty/eleventy --watch",
+    "buildTest": "pnpm dlx @11ty/eleventy",
     "release": "gh release create v%npm_package_version% --generate-notes --latest",
     "publish": "vsce publish"
   }
