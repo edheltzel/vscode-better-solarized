@@ -10,8 +10,6 @@
             "args": [
                 "--extensionDevelopmentPath=${workspaceRoot}"
             ],
-            "preLaunchTask": "npm: build:test",
-            "postDebugTask": "npm: serve"
         }
     ]
 }
