@@ -10,10 +10,10 @@ permalink: /better-solarized-dark.json
     {
       "settings": {
         "activeGuide": "{{ themes.solarizedDark.white }}55",
-        "background": "#002b36",
-        "foreground": "#839496",
-        "gutter": "#002b36",
-        "popupCss": "\nhtml {\n  background-color: #123a44;\n  color: #839496;\n}\n\na {\n  color: #268bd2;\n}\n\n.error,\n.deleted {\n  color: #dc322f;\n}\n\n.success,\n.inserted,\n.name {\n  color: #859900;\n}\n\n.warning,\n.modified {\n  color: #b58900;\n}\n\n.type {\n  color: #2aa198;\n  font-style: italic;\n}\n\n.param {\n  color: #cb4b16;\n}\n\n.current {\n  text-decoration: underline;\n}\n",
+        "background": "{{ themes.solarizedDark.base03 }}",
+        "foreground": "{{ themes.solarizedDark.base0 }}",
+        "gutter": "{{ themes.solarizedDark.base03 }}",
+        "popupCss": "\nhtml {\n  background-color: #123a44;\n  color: {{ themes.solarizedDark.base0 }};\n}\n\na {\n  color: {{ themes.solarizedDark.blue }};\n}\n\n.error,\n.deleted {\n  color: {{ themes.solarizedDark.red }};\n}\n\n.success,\n.inserted,\n.name {\n  color: {{ themes.solarizedDark.green }};\n}\n\n.warning,\n.modified {\n  color: {{ themes.solarizedDark.yellow }};\n}\n\n.type {\n  color: {{ themes.solarizedDark.cyan }};\n  font-style: italic;\n}\n\n.param {\n  color: {{ themes.solarizedDark.orange }};\n}\n\n.current {\n  text-decoration: underline;\n}\n",
         "selectionBorder": "{{ themes.solarizedDark.white }}16",
         "stackGuide": "{{ themes.solarizedDark.white }}40"
       }
@@ -26,30 +26,33 @@ permalink: /better-solarized-dark.json
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#586e75"
+        "foreground": "{{ themes.solarizedDark.base01 }}"
       }
     },
     {
-      "name": "Jekyll Tags",
+      "name": "Liquid/Nunjucks/Jekyll Tags",
       "scope": [
         "punctuation.output.jekyll",
         "punctuation.tag.jekyll",
         "punctuation.frontmatter.jekyll",
         "punctuation.output.liquid",
-        "punctuation.tag.liquid"
+        "punctuation.tag.liquid",
+        "punctuation.output.njk",
+        "punctuation.tag.njk"
       ],
       "settings": {
-        "foreground": "#bbbbbb"
+        "foreground": "{{ themes.solarizedDark.base2 }}"
       }
     },
     {
       "name": "Jekyll Operators",
       "scope": [
         "entity.name.tag.jekyll",
-        "entity.name.tag.liquid"
+        "entity.name.tag.liquid",
+        "entity.name.tag.njk"
       ],
       "settings": {
-        "foreground": "#D33682",
+        "foreground": "{{ themes.solarizedDark.magenta }}",
         "fontStyle": "italic"
       }
     },
@@ -57,7 +60,8 @@ permalink: /better-solarized-dark.json
       "name": "Jekyll Variable",
       "scope": [
         "punctuation.tag.jekyll",
-        "punctuation.tag.liquid"
+        "punctuation.tag.liquid",
+        "punctuation.tag.njk"
       ],
       "settings": {
         "foreground": "#BBBBBB"
@@ -67,7 +71,8 @@ permalink: /better-solarized-dark.json
       "name": "Jekyll Content",
       "scope": [
         "variable.other.jekyll",
-        "variable.other.liquid"
+        "variable.other.liquid",
+        "variable.other.njk"
       ],
       "settings": {
         "foreground": "#BBBBBB"
@@ -86,7 +91,7 @@ permalink: /better-solarized-dark.json
       "name": "Javascript JSDoc Symbol",
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
-        "foreground": "#b58900"
+        "foreground": "{{ themes.solarizedDark.yellow }}"
       }
     },
     {
@@ -96,14 +101,14 @@ permalink: /better-solarized-dark.json
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#839496"
+        "foreground": "{{ themes.solarizedDark.base0 }}"
       }
     },
     {
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#dc322f",
+        "background": "{{ themes.solarizedDark.red }}",
         "foreground": "{{ themes.solarizedDark.white }}"
       }
     },
@@ -111,7 +116,7 @@ permalink: /better-solarized-dark.json
       "name": "Invalid",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#6c71c4",
+        "background": "{{ themes.solarizedDark.violet }}",
         "foreground": "{{ themes.solarizedDark.white }}"
       }
     },
@@ -123,7 +128,7 @@ permalink: /better-solarized-dark.json
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#6c71c4"
+        "foreground": "{{ themes.solarizedDark.violet }}"
       }
     },
     {
@@ -143,7 +148,7 @@ permalink: /better-solarized-dark.json
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#2aa198"
+        "foreground": "{{ themes.solarizedDark.cyan }}"
       }
     },
     {
@@ -167,7 +172,7 @@ permalink: /better-solarized-dark.json
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#268bd2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
@@ -191,7 +196,7 @@ permalink: /better-solarized-dark.json
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#cb4b16"
+        "foreground": "{{ themes.solarizedDark.orange }}"
       }
     },
     {
@@ -207,7 +212,7 @@ permalink: /better-solarized-dark.json
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     },
     {
@@ -223,7 +228,7 @@ permalink: /better-solarized-dark.json
         "markup.changed.git_gutter"
       ],
       "settings": {
-        "foreground": "#b58900"
+        "foreground": "{{ themes.solarizedDark.yellow }}"
       }
     },
     {
@@ -234,7 +239,7 @@ permalink: /better-solarized-dark.json
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
@@ -242,14 +247,14 @@ permalink: /better-solarized-dark.json
       "scope": "variable.language",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
       "name": "entity.name.method.js",
       "scope": "entity.name.method.js",
       "settings": {
-        "foreground": "#268bd2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
@@ -259,49 +264,49 @@ permalink: /better-solarized-dark.json
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#268bd2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#6c71c4"
+        "foreground": "{{ themes.solarizedDark.violet }}"
       }
     },
     {
       "name": "Inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     },
     {
       "name": "Deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
       "name": "Changed",
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#6c71c4"
+        "foreground": "{{ themes.solarizedDark.violet }}"
       }
     },
     {
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#2aa198"
+        "foreground": "{{ themes.solarizedDark.cyan }}"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#CB4B16"
+        "foreground": "{{ themes.solarizedDark.orange }}"
       }
     },
     {
@@ -326,7 +331,7 @@ permalink: /better-solarized-dark.json
       "name": "Search Results Lines",
       "scope": "entity.name.filename.find-in-files",
       "settings": {
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     },
     {
@@ -337,7 +342,7 @@ permalink: /better-solarized-dark.json
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#268bd2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
@@ -345,7 +350,7 @@ permalink: /better-solarized-dark.json
       "scope": "source.js constant.other.object.key.js string.unquoted.label.js",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
@@ -355,7 +360,7 @@ permalink: /better-solarized-dark.json
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#dc322fbf"
+        "foreground": "{{ themes.solarizedDark.red }}bf"
       }
     },
     {
@@ -365,7 +370,7 @@ permalink: /better-solarized-dark.json
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#268bd2bf"
+        "foreground": "{{ themes.solarizedDark.blue }}bf"
       }
     },
     {
@@ -375,7 +380,7 @@ permalink: /better-solarized-dark.json
         "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#b58900bf"
+        "foreground": "{{ themes.solarizedDark.yellow }}bf"
       }
     },
     {
@@ -385,7 +390,7 @@ permalink: /better-solarized-dark.json
         "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#6c71c4bf"
+        "foreground": "{{ themes.solarizedDark.violet }}bf"
       }
     },
     {
@@ -395,7 +400,7 @@ permalink: /better-solarized-dark.json
         "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#cb4b16"
+        "foreground": "{{ themes.solarizedDark.orange }}"
       }
     },
     {
@@ -405,7 +410,7 @@ permalink: /better-solarized-dark.json
         "source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
@@ -415,7 +420,7 @@ permalink: /better-solarized-dark.json
         "source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#268bd2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
@@ -425,7 +430,7 @@ permalink: /better-solarized-dark.json
         "source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#b58900"
+        "foreground": "{{ themes.solarizedDark.yellow }}"
       }
     },
     {
@@ -435,7 +440,7 @@ permalink: /better-solarized-dark.json
         "source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#6c71c4"
+        "foreground": "{{ themes.solarizedDark.violet }}"
       }
     },
     {
@@ -445,20 +450,20 @@ permalink: /better-solarized-dark.json
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#839496"
+        "foreground": "{{ themes.solarizedDark.base0 }}"
       }
     },
     {
       "scope": "punctuation.definition.list.begin.markdown",
       "settings": {
-        "foreground": "#268BD2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
       "name": "Markdown - Markup Raw Inline",
       "scope": "text.html.markdown markup.raw.inline",
       "settings": {
-        "foreground": "#839496cc"
+        "foreground": "{{ themes.solarizedDark.base0 }}cc"
       }
     },
     {
@@ -518,7 +523,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.underline",
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     },
     {
@@ -526,7 +531,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.strike",
       "settings": {
         "fontStyle": "strike",
-        "foreground": "#586e75"
+        "foreground": "{{ themes.solarizedDark.base01 }}"
       }
     },
     {
@@ -543,28 +548,28 @@ permalink: /better-solarized-dark.json
       "scope": "markup.quote",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#586e75"
+        "foreground": "{{ themes.solarizedDark.base01 }}"
       }
     },
     {
       "name": "Markdown - Link",
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#268bd2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
       "name": "Markdown - Link Description",
       "scope": "string.other.link.description.title.markdown",
       "settings": {
-        "foreground": "#6c71c4"
+        "foreground": "{{ themes.solarizedDark.violet }}"
       }
     },
     {
       "name": "Markdown - Link Anchor",
       "scope": "constant.other.reference.link.markdown",
       "settings": {
-        "foreground": "#b58900"
+        "foreground": "{{ themes.solarizedDark.yellow }}"
       }
     },
     {
@@ -572,7 +577,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.raw.block",
       "settings": {
         "background": "{{ themes.solarizedDark.white }}08",
-        "foreground": "#839496cc"
+        "foreground": "{{ themes.solarizedDark.base0 }}cc"
       }
     },
     {
@@ -597,7 +602,7 @@ permalink: /better-solarized-dark.json
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#839496"
+        "foreground": "{{ themes.solarizedDark.base0 }}"
       }
     },
     {
@@ -616,7 +621,7 @@ permalink: /better-solarized-dark.json
       "scope": "variable.language.fenced.markdown",
       "settings": {
         "fontStyle": "",
-        "foreground": "#586e75"
+        "foreground": "{{ themes.solarizedDark.base01 }}"
       }
     },
     {
@@ -625,7 +630,7 @@ permalink: /better-solarized-dark.json
       "settings": {
         "background": "{{ themes.solarizedDark.white }}08",
         "fontStyle": "bold",
-        "foreground": "#586e75"
+        "foreground": "{{ themes.solarizedDark.base01 }}"
       }
     },
     {
@@ -633,7 +638,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.table",
       "settings": {
         "background": "{{ themes.solarizedDark.white }}08",
-        "foreground": "#839496cc"
+        "foreground": "{{ themes.solarizedDark.base0 }}cc"
       }
     },
     {
@@ -653,28 +658,28 @@ permalink: /better-solarized-dark.json
       "name": "Markdown - HTML Punctuation Definition",
       "scope": "text.html.markdown meta.disable-markdown punctuation.definition",
       "settings": {
-        "foreground": "#2aa198"
+        "foreground": "{{ themes.solarizedDark.cyan }}"
       }
     },
     {
       "name": "Markdown - TODO Done",
       "scope": "punctuation.definition.list_item.todo.done",
       "settings": {
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     },
     {
       "name": "Markdown - TODO Cancelled",
       "scope": "punctuation.definition.list_item.todo.cancelled",
       "settings": {
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
       "name": "Markdown - TODO GitHub Checkbox",
       "scope": "markup.checkbox.markdown markup.checkbox.checked_symbol.markdown",
       "settings": {
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     },
     {
@@ -682,21 +687,21 @@ permalink: /better-solarized-dark.json
       "scope": "markup.admonition.markdown string.other.admonition.title.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#839496"
+        "foreground": "{{ themes.solarizedDark.base0 }}"
       }
     },
     {
       "name": "Markdown - Admonition Header",
       "scope": "markup.admonition.markdown markup.admonition.header.markdown",
       "settings": {
-        "background": "#644ea050"
+        "background": "{{ themes.solarizedDark.violet2 }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body",
       "scope": "markup.admonition.markdown markup.admonition.body.markdown",
       "settings": {
-        "background": "#644ea015"
+        "background": "{{ themes.solarizedDark.violet2 }}15"
       }
     },
     {
@@ -723,7 +728,7 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#644ea075"
+        "foreground": "{{ themes.solarizedDark.violet2 }}75"
       }
     },
     {
@@ -731,7 +736,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.admonition.markdown entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#644ea0"
+        "foreground": "{{ themes.solarizedDark.violet2 }}"
       }
     },
     {
@@ -746,29 +751,29 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown markup.raw.block"
       ],
       "settings": {
-        "background": "#644ea025"
+        "background": "{{ themes.solarizedDark.violet2 }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote",
       "scope": "markup.admonition.markdown markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#644ea035",
-        "foreground": "#644ea035"
+        "background": "{{ themes.solarizedDark.violet2 }}35",
+        "foreground": "{{ themes.solarizedDark.violet2 }}35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Hint)",
       "scope": "markup.admonition.markdown.hint markup.admonition.header.markdown",
       "settings": {
-        "background": "#268bd250"
+        "background": "{{ themes.solarizedDark.blue }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Hint)",
       "scope": "markup.admonition.markdown.hint markup.admonition.body.markdown",
       "settings": {
-        "background": "#268bd215"
+        "background": "{{ themes.solarizedDark.blue }}15"
       }
     },
     {
@@ -795,7 +800,7 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown.hint meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#268bd275"
+        "foreground": "{{ themes.solarizedDark.blue }}75"
       }
     },
     {
@@ -803,7 +808,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.admonition.markdown.hint entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#268bd2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
@@ -818,29 +823,29 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown.hint markup.raw.block"
       ],
       "settings": {
-        "background": "#268bd225"
+        "background": "{{ themes.solarizedDark.blue }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Hint)",
       "scope": "markup.admonition.markdown.hint markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#268bd235",
-        "foreground": "#268bd235"
+        "background": "{{ themes.solarizedDark.blue }}35",
+        "foreground": "{{ themes.solarizedDark.blue }}35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Warning)",
       "scope": "markup.admonition.markdown.warning markup.admonition.header.markdown",
       "settings": {
-        "background": "#b5890050"
+        "background": "{{ themes.solarizedDark.yellow }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Warning)",
       "scope": "markup.admonition.markdown.warning markup.admonition.body.markdown",
       "settings": {
-        "background": "#b5890015"
+        "background": "{{ themes.solarizedDark.yellow }}15"
       }
     },
     {
@@ -867,7 +872,7 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown.warning meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#b5890075"
+        "foreground": "{{ themes.solarizedDark.yellow }}75"
       }
     },
     {
@@ -875,7 +880,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.admonition.markdown.warning entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#b58900"
+        "foreground": "{{ themes.solarizedDark.yellow }}"
       }
     },
     {
@@ -890,29 +895,29 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown.warning markup.raw.block"
       ],
       "settings": {
-        "background": "#b5890025"
+        "background": "{{ themes.solarizedDark.yellow }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Warning)",
       "scope": "markup.admonition.markdown.warning markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#b5890035",
-        "foreground": "#b5890035"
+        "background": "{{ themes.solarizedDark.yellow }}35",
+        "foreground": "{{ themes.solarizedDark.yellow }}35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Danger)",
       "scope": "markup.admonition.markdown.danger markup.admonition.header.markdown",
       "settings": {
-        "background": "#dc322f50"
+        "background": "{{ themes.solarizedDark.red }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Danger)",
       "scope": "markup.admonition.markdown.danger markup.admonition.body.markdown",
       "settings": {
-        "background": "#dc322f15"
+        "background": "{{ themes.solarizedDark.red }}15"
       }
     },
     {
@@ -939,7 +944,7 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown.danger meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#dc322f75"
+        "foreground": "{{ themes.solarizedDark.red }}75"
       }
     },
     {
@@ -947,7 +952,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.admonition.markdown.danger entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
@@ -962,29 +967,29 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown.danger markup.raw.block"
       ],
       "settings": {
-        "background": "#dc322f25"
+        "background": "{{ themes.solarizedDark.red }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Danger)",
       "scope": "markup.admonition.markdown.danger markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#dc322f35",
-        "foreground": "#dc322f35"
+        "background": "{{ themes.solarizedDark.red }}35",
+        "foreground": "{{ themes.solarizedDark.red }}35"
       }
     },
     {
       "name": "Markdown - Admonition Header (Attention)",
       "scope": "markup.admonition.markdown.attention markup.admonition.header.markdown",
       "settings": {
-        "background": "#85990050"
+        "background": "{{ themes.solarizedDark.green }}50"
       }
     },
     {
       "name": "Markdown - Admonition Body (Attention)",
       "scope": "markup.admonition.markdown.attention markup.admonition.body.markdown",
       "settings": {
-        "background": "#85990015"
+        "background": "{{ themes.solarizedDark.green }}15"
       }
     },
     {
@@ -1011,7 +1016,7 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown.attention meta.definition.language.raw.block.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#85990075"
+        "foreground": "{{ themes.solarizedDark.green }}75"
       }
     },
     {
@@ -1019,7 +1024,7 @@ permalink: /better-solarized-dark.json
       "scope": "markup.admonition.markdown.attention entity.name.admonition.markdown",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     },
     {
@@ -1034,15 +1039,15 @@ permalink: /better-solarized-dark.json
         "markup.admonition.markdown.attention markup.raw.block"
       ],
       "settings": {
-        "background": "#85990025"
+        "background": "{{ themes.solarizedDark.green }}25"
       }
     },
     {
       "name": "Markdown - Admonition Quote (Attention)",
       "scope": "markup.admonition.markdown.attention markup.quote punctuation.definition.blockquote.markdown",
       "settings": {
-        "background": "#85990035",
-        "foreground": "#85990035"
+        "background": "{{ themes.solarizedDark.green }}35",
+        "foreground": "{{ themes.solarizedDark.green }}35"
       }
     },
     {
@@ -1054,152 +1059,131 @@ permalink: /better-solarized-dark.json
       }
     },
     {
-      "name": "SublimeLinter Warning",
-      "scope": "sublimelinter.mark.warning",
-      "settings": {
-        "foreground": "#b58900"
-      }
-    },
-    {
-      "name": "SublimeLinter Gutter Mark",
-      "scope": "sublimelinter.gutter-mark",
-      "settings": {
-        "foreground": "{{ themes.solarizedDark.white }}"
-      }
-    },
-    {
-      "name": "SublimeLinter Error",
-      "scope": "sublimelinter.mark.error",
-      "settings": {
-        "foreground": "#dc322f"
-      }
-    },
-    {
       "name": "GitGutter Ignored",
       "scope": "markup.ignored.git_gutter",
       "settings": {
-        "foreground": "#586e75"
+        "foreground": "{{ themes.solarizedDark.base01 }}"
       }
     },
     {
       "name": "GitGutter Untracked",
       "scope": "markup.untracked.git_gutter",
       "settings": {
-        "foreground": "#586e75"
+        "foreground": "{{ themes.solarizedDark.base01 }}"
       }
     },
     {
       "name": "GitGutter Inserted",
       "scope": "markup.inserted.git_gutter",
       "settings": {
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     },
     {
       "name": "GitGutter Changed",
       "scope": "markup.changed.git_gutter",
       "settings": {
-        "foreground": "#b58900"
+        "foreground": "{{ themes.solarizedDark.yellow }}"
       }
     },
     {
       "name": "GitGutter Deleted",
       "scope": "markup.deleted.git_gutter",
       "settings": {
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
       "name": "Bracket Highlighter Default",
       "scope": "brackethighlighter.default",
       "settings": {
-        "foreground": "#6c71c4"
+        "foreground": "{{ themes.solarizedDark.violet }}"
       }
     },
     {
       "name": "Bracket Highlighter Unmatched",
       "scope": "brackethighlighter.unmatched",
       "settings": {
-        "foreground": "#dc322f"
+        "foreground": "{{ themes.solarizedDark.red }}"
       }
     },
     {
       "name": "Bracket Highlighter Curly",
       "scope": "brackethighlighter.curly",
       "settings": {
-        "foreground": "#644ea0"
+        "foreground": "{{ themes.solarizedDark.violet2 }}"
       }
     },
     {
       "name": "Bracket Highlighter Round",
       "scope": "brackethighlighter.round",
       "settings": {
-        "foreground": "#b58900"
+        "foreground": "{{ themes.solarizedDark.yellow }}"
       }
     },
     {
       "name": "Bracket Highlighter Square",
       "scope": "brackethighlighter.square",
       "settings": {
-        "foreground": "#268bd2"
+        "foreground": "{{ themes.solarizedDark.blue }}"
       }
     },
     {
       "name": "Bracket Highlighter Angle",
       "scope": "brackethighlighter.angle",
       "settings": {
-        "foreground": "#cb4b16"
+        "foreground": "{{ themes.solarizedDark.orange }}"
       }
     },
     {
       "name": "Bracket Highlighter Tag",
       "scope": "brackethighlighter.tag",
       "settings": {
-        "foreground": "#2aa198"
+        "foreground": "{{ themes.solarizedDark.cyan }}"
       }
     },
     {
       "name": "Bracket Highlighter Quote",
       "scope": "brackethighlighter.quote",
       "settings": {
-        "foreground": "#859900"
+        "foreground": "{{ themes.solarizedDark.green }}"
       }
     }
   ],
   "colors": {
-    "focusBorder": "#2AA19899",
-    "selection.background": "#2AA19899",
+    "focusBorder": "{{ themes.solarizedDark.cyan }}99",
+    "selection.background": "{{ themes.solarizedDark.cyan }}99",
     "input.background": "#003847",
-    "input.foreground": "#93A1A1",
-    "input.placeholderForeground": "#93A1A1AA",
-    "inputOption.activeBorder": "#2AA19899",
+    "input.foreground": "{{ themes.solarizedDark.base1 }}",
+    "input.placeholderForeground": "{{ themes.solarizedDark.base1 }}AA",
+    "inputOption.activeBorder": "{{ themes.solarizedDark.cyan }}99",
     "inputValidation.infoBorder": "#363b5f",
     "inputValidation.infoBackground": "#052730",
     "inputValidation.warningBackground": "#5d5938",
     "inputValidation.warningBorder": "#9d8a5e",
     "inputValidation.errorBackground": "#571b26",
     "inputValidation.errorBorder": "#a92049",
-    "errorForeground": "#ffeaea",
+    "errorForeground": "{{ themes.solarizedDark.base3 }}",
     "badge.background": "#047aa6",
     "progressBar.background": "#047aa6",
-    "dropdown.background": "#00212B",
-    "dropdown.border": "#2AA19899",
-    "button.background": "#2AA19899",
+    "dropdown.background": "{{ themes.solarizedDark.base04 }}",
+    "dropdown.border": "{{ themes.solarizedDark.cyan }}99",
+    "button.background": "{{ themes.solarizedDark.cyan }}99",
     "list.activeSelectionBackground": "#005A6F",
     "list.focusBackground": "#005A6F",
     "list.hoverBackground": "#004454AA",
     "list.inactiveSelectionBackground": "#00445488",
     "list.dropBackground": "#00445488",
     "list.highlightForeground": "#1ebcc5",
-    "editor.background": "#002B36",
-    "editor.foreground": "#839496",
-    "editorWidget.background": "#00212B",
+    "editor.background": "{{ themes.solarizedDark.base03 }}",
+    "editor.foreground": "{{ themes.solarizedDark.base0 }}",
+    "editorWidget.background": "{{ themes.solarizedDark.base04 }}",
     "editorCursor.foreground": "#D30102",
-    "editorWhitespace.foreground": "#93A1A125",
-    "editor.lineHighlightBackground": "#073642",
+    "editorWhitespace.foreground": "{{ themes.solarizedDark.base1 }}25",
+    "editor.lineHighlightBackground": "{{ themes.solarizedDark.base02 }}",
     "editorLineNumber.activeForeground": "#949494",
     "editor.selectionBackground": "#274642",
-    "editorIndentGuide.background1": "#93A1A140",
+    "editorIndentGuide.background1": "{{ themes.solarizedDark.base1 }}40",
     "editorIndentGuide.activeBackground1": "#C3E1E180",
     "editorHoverWidget.background": "#004052",
     "editorMarkerNavigationError.background": "#AB395B",
@@ -1207,66 +1191,63 @@ permalink: /better-solarized-dark.json
     "editor.selectionHighlightBackground": "#005A6FAA",
     "editor.wordHighlightBackground": "#004454AA",
     "editor.wordHighlightStrongBackground": "#005A6FAA",
-    {# "editorBracketHighlight.foreground1": "#cdcdcdff",
-    "editorBracketHighlight.foreground2": "#b58900ff",
-    "editorBracketHighlight.foreground3": "#d33682ff", #}
-"peekViewResult.background": "#00212B",
-    "peekViewEditor.background": "#00212B",
-    "peekViewTitle.background": "#00212B",
+    "peekViewResult.background": "{{ themes.solarizedDark.base04 }}",
+    "peekViewEditor.background": "{{ themes.solarizedDark.base04 }}",
+    "peekViewTitle.background": "{{ themes.solarizedDark.base04 }}",
     "peekView.border": "#2b2b4a",
     "peekViewEditor.matchHighlightBackground": "#00445440",
-    "editorStickyScroll.background": "#00212B",
-    "editorStickyScrollHover.background": "#586E7530",
+    "editorStickyScroll.background": "{{ themes.solarizedDark.base04 }}",
+    "editorStickyScrollHover.background": "{{ themes.solarizedDark.base01 }}30",
     "titleBar.activeBackground": "#002C39",
-    "editorGroup.border": "#00212B",
-    "editorGroup.dropBackground": "#2AA19844",
+    "editorGroup.border": "{{ themes.solarizedDark.base04 }}",
+    "editorGroup.dropBackground": "{{ themes.solarizedDark.cyan }}44",
     "editorGroupHeader.tabsBackground": "#004052",
     "tab.activeForeground": "#d6dbdb",
     "tab.activeBackground": "#002B37",
-    "tab.inactiveForeground": "#93A1A1",
+    "tab.inactiveForeground": "{{ themes.solarizedDark.base1 }}",
     "tab.inactiveBackground": "#004052",
     "tab.border": "#003847",
     "activityBar.background": "#003847",
     "activityBarBadge.background": "#AB395B",
-    "panel.border": "#2AA1984A",
-    "sideBar.background": "#00212B",
-    "sideBarTitle.foreground": "#93A1A1",
-    "statusBar.foreground": "#93A1A1",
-    "statusBar.background": "#00212B",
-    "statusBar.debuggingBackground": "#00212B",
-    "statusBar.noFolderBackground": "#00212B",
-    "statusBarItem.remoteBackground": "#2AA19899",
+    "panel.border": "{{ themes.solarizedDark.cyan }}4A",
+    "sideBar.background": "{{ themes.solarizedDark.base04 }}",
+    "sideBarTitle.foreground": "{{ themes.solarizedDark.base1 }}",
+    "statusBar.foreground": "{{ themes.solarizedDark.base1 }}",
+    "statusBar.background": "{{ themes.solarizedDark.base04 }}",
+    "statusBar.debuggingBackground": "{{ themes.solarizedDark.base04 }}",
+    "statusBar.noFolderBackground": "{{ themes.solarizedDark.base04 }}",
+    "statusBarItem.remoteBackground": "{{ themes.solarizedDark.cyan }}99",
     "ports.iconRunningProcessForeground": "#369432",
     "statusBarItem.prominentBackground": "#003847",
     "statusBarItem.prominentHoverBackground": "#003847",
-    "debugToolBar.background": "#00212B",
-    "debugExceptionWidget.background": "#00212B",
+    "debugToolBar.background": "{{ themes.solarizedDark.base04 }}",
+    "debugExceptionWidget.background": "{{ themes.solarizedDark.base04 }}",
     "debugExceptionWidget.border": "#AB395B",
-    "pickerGroup.foreground": "#2AA19899",
-    "pickerGroup.border": "#2AA19899",
-    "terminal.ansiBlack": "#073642",
-    "terminal.ansiRed": "#DC322F",
-    "terminal.ansiGreen": "#859900",
-    "terminal.ansiYellow": "#B58900",
-    "terminal.ansiBlue": "#268BD2",
-    "terminal.ansiMagenta": "#D33682",
-    "terminal.ansiCyan": "#2AA198",
-    "terminal.ansiWhite": "#EEE8D5",
-    "terminal.ansiBrightBlack": "#00212B",
-    "terminal.ansiBrightRed": "#CB4B16",
-    "terminal.ansiBrightGreen": "#859900",
-    "terminal.ansiBrightYellow": "#B58900",
-    "terminal.ansiBrightBlue": "#839496",
-    "terminal.ansiBrightMagenta": "#6C71C4",
-    "terminal.ansiBrightCyan": "#268BD2",
-    "terminal.ansiBrightWhite": "#FDF6E3",
-    "terminalCursor.background": "#00212B",
-    "terminalCursor.foreground": "#839496",
-    "terminal.background": "#00212B",
+    "pickerGroup.foreground": "{{ themes.solarizedDark.cyan }}99",
+    "pickerGroup.border": "{{ themes.solarizedDark.cyan }}99",
+    "terminal.ansiBlack": "{{ themes.solarizedDark.base02 }}",
+    "terminal.ansiRed": "{{ themes.solarizedDark.red }}",
+    "terminal.ansiGreen": "{{ themes.solarizedDark.green }}",
+    "terminal.ansiYellow": "{{ themes.solarizedDark.yellow }}",
+    "terminal.ansiBlue": "{{ themes.solarizedDark.blue }}",
+    "terminal.ansiMagenta": "{{ themes.solarizedDark.magenta }}",
+    "terminal.ansiCyan": "{{ themes.solarizedDark.cyan }}",
+    "terminal.ansiWhite": "{{ themes.solarizedDark.base2}}",
+    "terminal.ansiBrightBlack": "{{ themes.solarizedDark.base04 }}",
+    "terminal.ansiBrightRed": "{{ themes.solarizedDark.orange }}",
+    "terminal.ansiBrightGreen": "{{ themes.solarizedDark.green }}",
+    "terminal.ansiBrightYellow": "{{ themes.solarizedDark.yellow }}",
+    "terminal.ansiBrightBlue": "{{ themes.solarizedDark.base0 }}",
+    "terminal.ansiBrightMagenta": "{{ themes.solarizedDark.violet }}",
+    "terminal.ansiBrightCyan": "{{ themes.solarizedDark.blue }}",
+    "terminal.ansiBrightWhite": "{{ themes.solarizedDark.base3}}",
+    "terminalCursor.background": "{{ themes.solarizedDark.base04 }}",
+    "terminalCursor.foreground": "{{ themes.solarizedDark.base0 }}",
+    "terminal.background": "{{ themes.solarizedDark.base04 }}",
     "terminal.border": "#EEE8D52B",
     "terminal.selectionBackground": "#EEE8D52B",
-    "tab.activeBorder": "#2AA198",
-    "panelTitle.activeBorder": "#2AA198",
+    "tab.activeBorder": "{{ themes.solarizedDark.cyan }}",
+    "panelTitle.activeBorder": "{{ themes.solarizedDark.cyan }}",
     "statusBar.border": "#EEE8D509",
     "sideBar.border": "#EEE8D52B"
   }
