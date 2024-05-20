@@ -26,6 +26,7 @@ const themes = {
 		blue: "#268BD2",
 		cyan: "#2AA198",
 		green: "#859900",
+		teal: "#004454",
 	},
 	solarizedLight: {
 		type: "light",
