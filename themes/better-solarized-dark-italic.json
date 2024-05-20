@@ -1103,27 +1103,6 @@
       }
     },
     {
-      "name": "SublimeLinter Warning",
-      "scope": "sublimelinter.mark.warning",
-      "settings": {
-        "foreground": "#B58900"
-      }
-    },
-    {
-      "name": "SublimeLinter Gutter Mark",
-      "scope": "sublimelinter.gutter-mark",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "SublimeLinter Error",
-      "scope": "sublimelinter.mark.error",
-      "settings": {
-        "foreground": "#DC322F"
-      }
-    },
-    {
       "name": "GitGutter Ignored",
       "scope": "markup.ignored.git_gutter",
       "settings": {
@@ -1256,9 +1235,6 @@
     "editor.selectionHighlightBackground": "#005A6FAA",
     "editor.wordHighlightBackground": "#004454AA",
     "editor.wordHighlightStrongBackground": "#005A6FAA",
-    "editorBracketHighlight.foreground1": "#cdcdcdff",
-    "editorBracketHighlight.foreground2": "#b58900ff",
-    "editorBracketHighlight.foreground3": "#d33682ff",
     "peekViewResult.background": "#00212B",
     "peekViewEditor.background": "#00212B",
     "peekViewTitle.background": "#00212B",
