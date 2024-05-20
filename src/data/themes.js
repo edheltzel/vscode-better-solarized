@@ -22,8 +22,9 @@ const themes = {
 		type: "dark",
 		black: "#000000",
 		white: "#FFFFFF",
-		red: "#C00C00",
-		blue: "#0090d0",
+		red: "#FD564E",
+		blue: "#0096F5",
+		yellow: "#E3B230",
 	},
 	selenizedLight: {
 		type: "light",
