@@ -4,8 +4,11 @@
  */
 const themes = {
 	semanticHighlighting: true,
-	solarizedDark: {
-		type: "dark",
+	type: {
+		dark: "dark",
+		light: "light",
+	},
+	solarized: {
 		base04: "#00212B",
 		base03: "#002B36",
 		base02: "#073642",
@@ -29,13 +32,12 @@ const themes = {
 		teal0: "#005A6F",
 		teal1: "#004454",
 		teal2: "#003847",
-	},
-	solarizedLight: {
-		type: "light",
-		black: "#000000",
-		white: "#FFFFFF",
-		red: "#C00C00",
-		blue: "#0090d0",
+		light: {
+			cream: "#DDD6C1",
+			gold0: "#DFCA88",
+			gold1: "#AC9D57",
+			gold2: "#D3AF86",
+		},
 	},
 	selenizedDark: {
 		type: "dark",
