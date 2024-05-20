@@ -87,3 +87,26 @@ Each theme is generated from the `./src/data/themes.js` file and has a companion
 3. Execute the **run without debugging**: `Run > Run without debugging` OR `ctrl + F5` (see: [VSCode Debugging](https://code.visualstudio.com/Docs/editor/debugging#_run-mode)) to start development.
 4. Either open the terminal and run `pnpm run serve` or run a task with the command prompt `Tasks: Run Task` and select `npm: serve` (Either option works - I personally run the task inside of the terminal).
 5. To edit the theme colors open the `./src/data/themes.js` file and edit the colors as needed and/or edit any of the Nunjucks files in the `./src` directory.
+
+
+#### NPM Scripts
+
+```shell
+Lifecycle scripts:
+  publish
+    vsce publish
+  release
+    gh release create v%npm_package_version% --generate-notes --latest
+
+Commands available via "pnpm run":
+  build
+    ENV=prod pnpm dlx @11ty/eleventy
+  buildTest
+    pnpm dlx @11ty/eleventy
+  serve
+    pnpm dlx @11ty/eleventy --watch
+```
+
+- `pnpm run build` - Builds the theme files for production
+- `pnpm run buildTest` - Builds the theme files without watch
+- `pnpm run serve` - Builds the theme files and watches for changes
