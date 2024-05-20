@@ -41,9 +41,27 @@ Open up your `settings.json` and hack way.
   "peekViewTitle.background": "#002b36",
   "peekViewResult.background": "#00212b",
   "peekViewEditor.background": "#002b36",
-  "peekViewEditor.matchHighlightBackground": "#00212bAB"
-}
+  "peekViewEditor.matchHighlightBackground": "#00212bAB",
+  "editorBracketHighlight.foreground1": "#cdcdcdff",
+  "editorBracketHighlight.foreground2": "#b58900ff",
+  "editorBracketHighlight.foreground3": "#d33682ff",
+},
+  "editor.tokenColorCustomizations": {
+    "[Better Solarized Dark]": {
+      "textMateRules": [
+        {
+          "scope": "support.type.property-name.table.toml",
+          "settings": {
+            "foreground": "#FDF6E3",
+            "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  },
 ```
+
+(this is just an example, you can customize any color you want)
 
 ## ScreenShots
 
@@ -67,4 +85,5 @@ Each theme is generated from the `./src/data/themes.js` file and has a companion
 1. Clone the repository `gh repo clone edheltzel/vscode-better-solarized && cd vscode-better-solarized`
 2. Run `pnpm install`
 3. Execute the **run without debugging**: `Run > Run without debugging` OR `ctrl + F5` (see: [VSCode Debugging](https://code.visualstudio.com/Docs/editor/debugging#_run-mode)) to start development.
-4. To edit the theme colors open the `./src/data/themes.js` file and edit the colors as needed.
+4. Either open the terminal and run `pnpm run serve` or run a task with the command prompt `Tasks: Run Task` and select `npm: serve` (Either option works - I personally run the task inside of the terminal).
+5. To edit the theme colors open the `./src/data/themes.js` file and edit the colors as needed and/or edit any of the Nunjucks files in the `./src` directory.
