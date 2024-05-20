@@ -22,7 +22,7 @@ const themes = {
 		red: "#DC322F",
 		magenta: "#D33682",
 		violet: "#6C71C4",
-		violet2: "#644EA0",
+		indigo: "#644EA0",
 		blue: "#268BD2",
 		cyan: "#2AA198",
 		green: "#859900",
