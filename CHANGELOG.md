@@ -2,6 +2,13 @@
 
 # Change Log
 
+## 0.10.5 | 2024-05-26
+
+## What's Changed
+* workflow by @edheltzel in https://github.com/edheltzel/vscode-better-solarized/pull/32
+
+**Full Changelog**: https://github.com/edheltzel/vscode-better-solarized/compare/v0.10.4...v0.10.5
+
 ## 0.10.4 | 2024-05-14
 
 - Merge PR
