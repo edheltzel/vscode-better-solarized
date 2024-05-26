@@ -100,8 +100,6 @@ Lifecycle scripts:
 
 Commands available via "pnpm run":
   build
-    ENV=prod pnpm dlx @11ty/eleventy
-  buildTest
     pnpm dlx @11ty/eleventy
   serve
     pnpm dlx @11ty/eleventy --watch
