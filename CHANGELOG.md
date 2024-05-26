@@ -6,6 +6,8 @@
 
 fixes typo in better-solarized-dark theme for `editorGroupHeader.tabsBackground`
 
+**Full Changelog**: https://github.com/edheltzel/vscode-better-solarized/compare/v0.10.6...v0.10.7
+
 ## 0.10.6 | 2024-05-26
 
 Resolves issue [#33](https://github.com/edheltzel/vscode-better-solarized/issues/33)
