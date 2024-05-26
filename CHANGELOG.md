@@ -6,6 +6,8 @@
 
 Resolves issue [#33](https://github.com/edheltzel/vscode-better-solarized/issues/33)
 
+**Full Changelog**: https://github.com/edheltzel/vscode-better-solarized/compare/v0.10.5...v0.10.6
+
 ## 0.10.5 | 2024-05-26
 
 ## What's Changed
