@@ -13,7 +13,7 @@ permalink: /better-solarized-light.json
         "background": "{{ themes.solarized.base3 }}",
         "foreground": "{{ themes.solarized.base00 }}",
         "gutter": "{{ themes.solarized.base3 }}",
-        "popupCss": "\nhtml {\n  background-color: #ebe5d3;\n  color: {{ themes.solarized.base00 }};\n}\n\na {\n  color: {{ themes.solarized.blue }};\n}\n\n.error,\n.deleted {\n  color: {{ themes.solarized.red }};\n}\n\n.success,\n.inserted,\n.name {\n  color: {{ themes.solarized.green }};\n}\n\n.warning,\n.modified {\n  color: {{ themes.solarized.yellow }};\n}\n\n.type {\n  color: {{ themes.solarized.cyan }};\n  font-style: italic;\n}\n\n.param {\n  color: {{ themes.solarized.orange }};\n}\n\n.current {\n  text-decoration: underline;\n}\n",
+        "popupCss": "\nhtml {\n  background-color: {{ themes.solarized.base2 }};\n  color: {{ themes.solarized.base00 }};\n}\n\na {\n  color: {{ themes.solarized.blue }};\n}\n\n.error,\n.deleted {\n  color: {{ themes.solarized.red }};\n}\n\n.success,\n.inserted,\n.name {\n  color: {{ themes.solarized.green }};\n}\n\n.warning,\n.modified {\n  color: {{ themes.solarized.yellow }};\n}\n\n.type {\n  color: {{ themes.solarized.cyan }};\n  font-style: italic;\n}\n\n.param {\n  color: {{ themes.solarized.orange }};\n}\n\n.current {\n  text-decoration: underline;\n}\n",
         "selectionBorder": "{{ themes.solarizedLight.black }}16",
         "stackGuide": "{{ themes.solarizedLight.black }}40"
       }
@@ -30,51 +30,59 @@ permalink: /better-solarized-light.json
       }
     },
     {
-      "name": "Jekyll Tags",
+      "name": "Nunjucks/Liquid/Jekyll Tags",
       "scope": [
         "punctuation.output.jekyll",
         "punctuation.tag.jekyll",
         "punctuation.frontmatter.jekyll",
+        "punctuation.frontmatter.liquid",
         "punctuation.output.liquid",
-        "punctuation.tag.liquid"
+        "punctuation.tag.liquid",
+        "punctuation.frontmatter.njk",
+        "punctuation.output.njk",
+        "punctuation.tag.njk"
       ],
       "settings": {
-        "foreground": "#bbbbbb"
+        "foreground": "{{ themes.solarized.light.base0 }}"
       }
     },
     {
-      "name": "Jekyll Operators",
+      "name": "Nunjucks/Liquid/Jekyll Operators",
       "scope": [
         "entity.name.tag.jekyll",
-        "entity.name.tag.liquid"
+        "entity.name.tag.liquid",
+        "entity.name.tag.njk"
       ],
       "settings": {
-        "foreground": "{{ themes.solarized.magenta }}",
+        "foreground": "{{ themes.solarized.magenta0 }}",
         "fontStyle": "italic"
       }
     },
     {
-      "name": "Jekyll Variable",
+      "name": "Nunjucks/Liquid/Jekyll Variable",
       "scope": [
         "punctuation.tag.jekyll",
-        "punctuation.tag.liquid"
+        "punctuation.tag.liquid",
+        "punctuation.tag.njk"
       ],
       "settings": {
-        "foreground": "#BBBBBB"
+        "foreground": "{{ themes.solarized.light.base0 }}"
       }
     },
     {
-      "name": "Jekyll Content",
+      "name": "Nunjucks/Liquid/Jekyll Content",
       "scope": [
         "variable.other.jekyll",
-        "variable.other.liquid"
+        "variable.other.liquid",
+        "variable.other.njk"
+
       ],
       "settings": {
-        "foreground": "#BBBBBB"
+        "foreground": "{{ themes.solarized.light.base0 }}"
       }
     },
     {
-      "name": "Jekyll arguments",
+      "name": "Nunjucks/Liquid/Jekyll arguments",
       "scope": [
         "support.function.with-args.jekyll"
       ],
@@ -154,7 +162,7 @@ permalink: /better-solarized-light.json
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#cf4b56"
+        "foreground": "{{ themes.solarized.red2 }}"
       }
     },
     {
@@ -177,7 +185,7 @@ permalink: /better-solarized-light.json
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#cf4b56"
+        "foreground": "{{ themes.solarized.red2 }}"
       }
     },
     {
@@ -476,7 +484,7 @@ permalink: /better-solarized-light.json
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#cf4b56"
+        "foreground": "{{ themes.solarized.red2 }}"
       }
     },
     {
@@ -1080,7 +1088,7 @@ permalink: /better-solarized-light.json
     "editorHoverWidget.background": "#CCC4B0",
     "editorBracketHighlight.foreground1": "{{ themes.solarized.indigo }}",
     "editorBracketHighlight.foreground2": "{{ themes.solarized.cyan }}",
-    "editorBracketHighlight.foreground3": "{{ themes.solarized.magenta }}",
+    "editorBracketHighlight.foreground3": "{{ themes.solarized.magenta0 }}",
     "editorBracketHighlight.foreground4": "{{ themes.solarized.blue }}",
     "editorBracketHighlight.foreground5": "{{ themes.solarized.orange }}",
     "editorBracketHighlight.foreground6": "{{ themes.solarized.teal0 }}",
@@ -1088,7 +1096,7 @@ permalink: /better-solarized-light.json
     "editorBracketMatch.border": "{{ themes.solarized.base00 }}A0",
     "editorBracketPairGuide.activeBackground1": "{{ themes.solarized.indigo }}",
     "editorBracketPairGuide.activeBackground2": "{{ themes.solarized.cyan }}",
-    "editorBracketPairGuide.activeBackground3": "{{ themes.solarized.magenta }}",
+    "editorBracketPairGuide.activeBackground3": "{{ themes.solarized.magenta0 }}",
     "editorBracketPairGuide.activeBackground4": "{{ themes.solarized.blue }}",
     "editorBracketPairGuide.activeBackground5": "{{ themes.solarized.orange }}",
     "editorBracketPairGuide.activeBackground6": "{{ themes.solarized.teal0 }}",
@@ -1125,7 +1133,7 @@ permalink: /better-solarized-light.json
     "statusBarItem.prominentHoverBackground": "#{{ themes.solarized.light.cream }}99",
     "debugToolBar.background": "#{{ themes.solarized.light.cream }}",
     "debugExceptionWidget.background": "#{{ themes.solarized.light.cream }}",
-    "debugExceptionWidget.border": "#AB395B",
+    "debugExceptionWidget.border": "{{ themes.solarized.magenta1 }}",
     "pickerGroup.border": "{{ themes.solarized.cyan }}99",
     "pickerGroup.foreground": "{{ themes.solarized.cyan }}99",
     "extensionButton.prominentBackground": "{{ themes.solarized.yellow }}",
@@ -1135,7 +1143,7 @@ permalink: /better-solarized-light.json
     "terminal.ansiGreen": "{{ themes.solarized.green }}",
     "terminal.ansiYellow": "{{ themes.solarized.yellow }}",
     "terminal.ansiBlue": "{{ themes.solarized.blue }}",
-    "terminal.ansiMagenta": "{{ themes.solarized.magenta }}",
+    "terminal.ansiMagenta": "{{ themes.solarized.magenta0 }}",
     "terminal.ansiCyan": "{{ themes.solarized.cyan }}",
     "terminal.ansiWhite": "{{ themes.solarized.base2 }}",
     "terminal.ansiBrightBlack": "{{ themes.solarized.base01 }}",

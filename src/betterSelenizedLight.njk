@@ -30,53 +30,62 @@ permalink: /better-selenized-light.json
       }
     },
     {
-      "name": "Jekyll Tags",
+      "name": "Nunjucks/Liquid/Jekyll Tags",
       "scope": [
         "punctuation.output.jekyll",
         "punctuation.tag.jekyll",
         "punctuation.frontmatter.jekyll",
+        "punctuation.frontmatter.liquid",
         "punctuation.output.liquid",
-        "punctuation.tag.liquid"
+        "punctuation.tag.liquid",
+        "punctuation.frontmatter.njk",
+        "punctuation.output.njk",
+        "punctuation.tag.njk"
       ],
       "settings": {
-        "foreground": "#bbbbbb"
+        "foreground": "{{ themes.solarized.light.base0 }}"
       }
     },
     {
-      "name": "Jekyll Operators",
+      "name": "Nunjucks/Liquid/Jekyll Operators",
       "scope": [
         "entity.name.tag.jekyll",
-        "entity.name.tag.liquid"
+        "entity.name.tag.liquid",
+        "entity.name.tag.njk"
       ],
       "settings": {
-        "foreground": "#D33682",
+        "foreground": "{{ themes.solarized.magenta0 }}",
         "fontStyle": "italic"
       }
     },
     {
-      "name": "Jekyll Variable",
+      "name": "Nunjucks/Liquid/Jekyll Variable",
       "scope": [
         "punctuation.tag.jekyll",
-        "punctuation.tag.liquid"
+        "punctuation.tag.liquid",
+        "punctuation.tag.njk",
       ],
       "settings": {
-        "foreground": "#BBBBBB"
+        "foreground": "{{ themes.solarized.light.base0 }}"
       }
     },
     {
-      "name": "Jekyll Content",
+      "name": "Nunjucks/Liquid/Jekyll Content",
       "scope": [
         "variable.other.jekyll",
-        "variable.other.liquid"
+        "variable.other.liquid",
+        "variable.other.njk"
       ],
       "settings": {
-        "foreground": "#BBBBBB"
+        "foreground": "{{ themes.solarized.light.base0 }}"
       }
     },
     {
-      "name": "Jekyll arguments",
+      "name": "Nunjucks/Liquid/Jekyll Arguments",
       "scope": [
-        "support.function.with-args.jekyll"
+        "support.function.with-args.jekyll",
+        "support.function.with-args.liquid",
+        "support.function.with-args.njk"
       ],
       "settings": {
         "fontStyle": "italic"
@@ -1067,7 +1076,7 @@ permalink: /better-selenized-light.json
     "list.highlightForeground": "{{ themes.solarized.yellow }}",
     "notebook.editorBackground": "#EAE0C0",
     "notebook.cellEditorBackground": "{{ themes.solarized.base3 }}",
-    "editor.background": "{{ themes.solarized.base3 }}",
+    "editor.background": "{{ themes.selenized.light.bg3 }}",
     "editorWidget.background": "{{ themes.solarized.base2 }}",
     "editorCursor.background": "{{ themes.solarized.base2 }}",
     "editorCursor.foreground": "{{ themes.solarized.base00 }}",
@@ -1111,7 +1120,7 @@ permalink: /better-selenized-light.json
     "statusBarItem.prominentHoverBackground": "{{ themes.solarized.light.cream }}99",
     "debugToolBar.background": "{{ themes.solarized.light.cream }}",
     "debugExceptionWidget.background": "{{ themes.solarized.light.cream }}",
-    "debugExceptionWidget.border": "#AB395B",
+    "debugExceptionWidget.border": "{{ themes.solarized.magenta1 }}",
     "pickerGroup.border": "{{ themes.solarized.cyan }}99",
     "pickerGroup.foreground": "{{ themes.solarized.cyan }}99",
     "extensionButton.prominentBackground": "{{ themes.solarized.yellow }}",
@@ -1121,7 +1130,7 @@ permalink: /better-selenized-light.json
     "terminal.ansiGreen": "{{ themes.solarized.green }}",
     "terminal.ansiYellow": "{{ themes.solarized.yellow }}",
     "terminal.ansiBlue": "{{ themes.solarized.blue }}",
-    "terminal.ansiMagenta": "#d33682",
+    "terminal.ansiMagenta": "{{ themes.solarized.magenta0 }}",
     "terminal.ansiCyan": "{{ themes.solarized.cyan }}",
     "terminal.ansiWhite": "{{ themes.solarized.base2 }}",
     "terminal.ansiBrightBlack": "{{ themes.solarized.base01 }}",
