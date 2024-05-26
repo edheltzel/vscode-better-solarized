@@ -25,7 +25,8 @@ const themes = {
 		red0: "#DC322F",
 		red1: "#D30102",
 		red2: "#CF4B56",
-		magenta: "#D33682",
+		magenta0: "#D33682",
+		magenta1: "#AB395B",
 		violet: "#6C71C4",
 		indigo: "#644EA0",
 		blue: "#268BD2",
@@ -35,6 +36,7 @@ const themes = {
 		teal1: "#004454",
 		teal2: "#003847",
 		light: {
+			base0: "#BBBBBB",
 			cream: "#DDD6C1",
 			gold0: "#DFCA88",
 			gold1: "#AC9D57",
@@ -42,6 +44,7 @@ const themes = {
 		},
 	},
 	selenized: {
+		bg1: "#184956",
 		fg0: "#ADBCBC",
 		fg1: "#C8D7D8",
 		red: "#FD564E",
@@ -52,9 +55,16 @@ const themes = {
 		cyan: "#39c7b9",
 		violet: "#A58CEC",
 		orange: "#ED8649",
-
+		light:{
+			bg0: "#FBF3DB",
+			bg1: "#E9E4D0",
+			bg2: "#CFCEBE",
+			bg3: "#FEF3DA",
+			dim0: "#909995",
+		}
+	},
+	unusedSelenized:{
 		bg0: "#103C48",
-		bg1: "#184956",
 		bg2: "#2D5B69",
 		dim0: "#72898F",
 		brRed: "#FF665C",
@@ -66,11 +76,6 @@ const themes = {
 		brOrange: "#FD9456",
 		brViolet: "#BD96FA",
 		light:{
-			bg0: "#FBF3DB",
-			bg1: "#E9E4D0",
-
-			bg2: "#CFCEBE",
-			dim0: "#909995",
 			fg0: "#53676D",
 			fg1: "#3A4D53",
 			red: "#D2212D",
