@@ -1,0 +1,1161 @@
+---
+title: Better Solarized Light
+permalink: /better-solarized-light.json
+---
+{
+  "name": "{{ title }}",
+  "semanticHighlighting": {{ themes.semanticHighlighting }},
+  "type": "{{ themes.type.light }}",
+  "tokenColors": [
+    {
+      "settings": {
+        "activeGuide": "{{ themes.solarized.black }}55",
+        "background": "{{ themes.solarized.base3 }}",
+        "foreground": "{{ themes.solarized.base00 }}",
+        "gutter": "{{ themes.solarized.base3 }}",
+        "popupCss": "\nhtml {\n  background-color: {{ themes.solarized.base2 }};\n  color: {{ themes.solarized.base00 }};\n}\n\na {\n  color: {{ themes.solarized.blue }};\n}\n\n.error,\n.deleted {\n  color: {{ themes.solarized.red }};\n}\n\n.success,\n.inserted,\n.name {\n  color: {{ themes.solarized.green }};\n}\n\n.warning,\n.modified {\n  color: {{ themes.solarized.yellow }};\n}\n\n.type {\n  color: {{ themes.solarized.cyan }};\n  font-style: italic;\n}\n\n.param {\n  color: {{ themes.solarized.orange }};\n}\n\n.current {\n  text-decoration: underline;\n}\n",
+        "selectionBorder": "{{ themes.solarized.black }}16",
+        "stackGuide": "{{ themes.solarized.black }}40"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "{{ themes.solarized.base1 }}"
+      }
+    },
+    {
+      "name": "Nunjucks/Liquid/Jekyll Tags",
+      "scope": [
+        "punctuation.output.jekyll",
+        "punctuation.tag.jekyll",
+        "punctuation.frontmatter.jekyll",
+        "punctuation.frontmatter.liquid",
+        "punctuation.output.liquid",
+        "punctuation.tag.liquid",
+        "punctuation.frontmatter.njk",
+        "punctuation.output.njk",
+        "punctuation.tag.njk"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.light.base0 }}"
+      }
+    },
+    {
+      "name": "Nunjucks/Liquid/Jekyll Operators",
+      "scope": [
+        "entity.name.tag.jekyll",
+        "entity.name.tag.liquid",
+        "entity.name.tag.njk"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.magenta0 }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Nunjucks/Liquid/Jekyll Variable",
+      "scope": [
+        "punctuation.tag.jekyll",
+        "punctuation.tag.liquid",
+        "punctuation.tag.njk"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.light.base0 }}"
+      }
+    },
+    {
+      "name": "Nunjucks/Liquid/Jekyll Content",
+      "scope": [
+        "variable.other.jekyll",
+        "variable.other.liquid",
+        "variable.other.njk"
+
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.light.base0 }}"
+      }
+    },
+    {
+      "name": "Nunjucks/Liquid/Jekyll arguments",
+      "scope": [
+        "support.function.with-args.jekyll"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Javascript JSDoc Symbol",
+      "scope": "entity.name.type.instance.jsdoc",
+      "settings": {
+        "foreground": "{{ themes.solarized.yellow }}"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.base00 }}"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "background": "{{ themes.solarized.red }}",
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "background": "{{ themes.solarized.violet }}",
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.violet }}"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.operator",
+        "constant.other.color",
+        "punctuation",
+        "meta.tag",
+        "punctuation.definition.tag",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.cyan }}"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.red2 }}"
+      }
+    },
+    {
+      "name": "Function, Special Method, Block Level",
+      "scope": [
+        "entity.name.function",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method",
+        "meta.block-level"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.blue }}"
+      }
+    },
+    {
+      "name": "Other Variable, String Link",
+      "scope": [
+        "support.other.variable",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.red2 }}"
+      }
+    },
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "variable.parameter",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.orange }}"
+      }
+    },
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "scope": [
+        "string",
+        "constant.other.symbol",
+        "constant.other.key",
+        "entity.other.inherited-class",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "fontStyle": "normal",
+        "foreground": "{{ themes.solarized.green }}"
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": [
+        "entity.name.class",
+        "entity.name.type.class",
+        "support.type",
+        "support.class",
+        "support.other.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.yellow }}"
+      }
+    },
+    {
+      "name": "Sub-methods",
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "Language methods",
+      "scope": "variable.language",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "entity.name.method.js",
+      "scope": "entity.name.method.js",
+      "settings": {
+        "foreground": "{{ themes.solarized.blue }}"
+      }
+    },
+    {
+      "name": "meta.method.js",
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.blue }}"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "{{ themes.solarized.violet }}"
+      }
+    },
+    {
+      "name": "Inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "{{ themes.solarized.green }}"
+      }
+    },
+    {
+      "name": "Deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "Changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "{{ themes.solarized.violet }}"
+      }
+    },
+    {
+      "name": "Regular Expressions",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "{{ themes.solarized.cyan }}"
+      }
+    },
+    {
+      "name": "Escape Characters",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "{{ themes.solarized.orange }}"
+      }
+    },
+    {
+      "name": "URL",
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Search Results Nums",
+      "scope": "constant.numeric.line-number.find-in-files - match",
+      "settings": {
+        "foreground": "#7f2a1d"
+      }
+    },
+    {
+      "name": "Search Results Lines",
+      "scope": "entity.name.filename.find-in-files",
+      "settings": {
+        "foreground": "{{ themes.solarized.green }}"
+      }
+    },
+    {
+      "name": "Decorators",
+      "scope": [
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "{{ themes.solarized.blue }}"
+      }
+    },
+    {
+      "name": "ES7 Bind Operator",
+      "scope": "source.js constant.other.object.key.js string.unquoted.label.js",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.red }}bf"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.blue }}bf"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.yellow }}bf"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.violet }}bf"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.orange }}"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.blue }}"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.yellow }}"
+      }
+    },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
+        "source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.violet }}"
+      }
+    },
+    {
+      "name": "Markdown - Plain",
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.base00 }}"
+      }
+    },
+    {
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "{{ themes.solarized.blue }}"
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline",
+      "scope": "text.html.markdown markup.raw.inline",
+      "settings": {
+        "foreground": "{{ themes.solarized.base00 }}cc"
+      }
+    },
+    {
+      "name": "Markdown - Line Break",
+      "scope": "text.html.markdown meta.dummy.line-break",
+      "settings": {
+        "foreground": "{{ themes.solarized.black }}50"
+      }
+    },
+    {
+      "name": "Markdown - Heading",
+      "scope": [
+        "markdown.heading",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.red2 }}"
+      }
+    },
+    {
+      "name": "Markup - Italic",
+      "scope": [
+        "markup.italic",
+        "markup.italic string"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup - Bold",
+      "scope": [
+        "markup.bold",
+        "markup.bold string"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup - Bold & Italic",
+      "scope": [
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold",
+        "markup.bold markup.italic string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold string"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Markup - Underline",
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "{{ themes.solarized.green }}"
+      }
+    },
+    {
+      "name": "Markup - Strike",
+      "scope": "markup.strike",
+      "settings": {
+        "fontStyle": "strike",
+        "foreground": "{{ themes.solarized.base1 }}"
+      }
+    },
+    {
+      "name": "Markdown - Blockquote",
+      "scope": "markup.quote punctuation.definition.blockquote.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.black }}16",
+        "fontStyle": "",
+        "foreground": "{{ themes.solarized.black }}16"
+      }
+    },
+    {
+      "name": "Markup - Quote",
+      "scope": "markup.quote",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "{{ themes.solarized.base1 }}"
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": "{{ themes.solarized.blue }}"
+      }
+    },
+    {
+      "name": "Markdown - Link Description",
+      "scope": "string.other.link.description.title.markdown",
+      "settings": {
+        "foreground": "{{ themes.solarized.violet }}"
+      }
+    },
+    {
+      "name": "Markdown - Link Anchor",
+      "scope": "constant.other.reference.link.markdown",
+      "settings": {
+        "foreground": "{{ themes.solarized.yellow }}"
+      }
+    },
+    {
+      "name": "Markup - Raw Block",
+      "scope": "markup.raw.block",
+      "settings": {
+        "background": "{{ themes.solarized.black }}08",
+        "foreground": "{{ themes.solarized.base00 }}cc"
+      }
+    },
+    {
+      "name": "Markdown - Raw Block Fenced",
+      "scope": "markup.raw.block.fenced.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.black }}08"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Bode Block",
+      "scope": "punctuation.definition.fenced.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.black }}08"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Bode Block Variable",
+      "scope": [
+        "markup.raw.block.fenced.markdown",
+        "variable.language.fenced.markdown",
+        "punctuation.section.class.end"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.base00 }}"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Bode Block Punctuation",
+      "scope": [
+        "punctuation.definition.fenced.markdown",
+        "meta.definition.language.raw.block.fenced.markdown"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "{{ themes.solarized.black }}50"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Language",
+      "scope": "variable.language.fenced.markdown",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "{{ themes.solarized.base1 }}"
+      }
+    },
+    {
+      "name": "Markdown - Separator",
+      "scope": "meta.separator",
+      "settings": {
+        "background": "{{ themes.solarized.black }}08",
+        "fontStyle": "bold",
+        "foreground": "{{ themes.solarized.base1 }}"
+      }
+    },
+    {
+      "name": "Markup - Table",
+      "scope": "markup.table",
+      "settings": {
+        "background": "{{ themes.solarized.black }}08",
+        "foreground": "{{ themes.solarized.base00 }}cc"
+      }
+    },
+    {
+      "name": "Markdown - Punctuation Definition",
+      "scope": [
+        "text.html.markdown punctuation.definition",
+        "text.html.markdown.note punctuation.definition.list_item.markdown",
+        "markup.table.markdown punctuation.definition.table.vertical-line.markdown",
+        "text.html.markdown markup.checkbox.markdown"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "{{ themes.solarized.black }}50"
+      }
+    },
+    {
+      "name": "Markdown - HTML Punctuation Definition",
+      "scope": "text.html.markdown meta.disable-markdown punctuation.definition",
+      "settings": {
+        "foreground": "{{ themes.solarized.cyan }}"
+      }
+    },
+    {
+      "name": "Markdown - TODO Done",
+      "scope": "punctuation.definition.list_item.todo.done",
+      "settings": {
+        "foreground": "{{ themes.solarized.green }}"
+      }
+    },
+    {
+      "name": "Markdown - TODO Cancelled",
+      "scope": "punctuation.definition.list_item.todo.cancelled",
+      "settings": {
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "Markdown - TODO GitHub Checkbox",
+      "scope": "markup.checkbox.markdown markup.checkbox.checked_symbol.markdown",
+      "settings": {
+        "foreground": "{{ themes.solarized.green }}"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Section Title",
+      "scope": "markup.admonition.markdown string.other.admonition.title.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "{{ themes.solarized.base00 }}"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Header",
+      "scope": "markup.admonition.markdown markup.admonition.header.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.indigo }}50"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Body",
+      "scope": "markup.admonition.markdown markup.admonition.body.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.indigo }}15"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Punctuation",
+      "scope": [
+        "markup.admonition.markdown punctuation.definition.admonition.markdown",
+        "markup.admonition.markdown punctuation.definition.heading",
+        "markup.admonition.markdown punctuation.definition.table.vertical-line",
+        "markup.admonition.markdown punctuation.definition.table.horizontal-line",
+        "markup.admonition.markdown punctuation.definition.table.alignments",
+        "markup.admonition.markdown punctuation.definition.heading",
+        "markup.admonition.markdown punctuation.definition.bold",
+        "markup.admonition.markdown punctuation.definition.italic",
+        "markup.admonition.markdown punctuation.definition.list_item",
+        "markup.admonition.markdown punctuation.definition.raw",
+        "markup.admonition.markdown markup.checkbox.markdown",
+        "markup.admonition.markdown punctuation.definition.list_item.todo.pending",
+        "markup.admonition.markdown meta.link punctuation.definition",
+        "markup.admonition.markdown meta.link.inline markup.underline.link",
+        "markup.admonition.markdown meta.link.reference.markdown constant.other.reference.link.markdown",
+        "markup.admonition.markdown punctuation.definition.entity.html",
+        "markup.admonition.markdown meta.separator.markdown",
+        "markup.admonition.markdown markup.table.markdown punctuation.definition.table.vertical-line.markdown",
+        "markup.admonition.markdown meta.definition.language.raw.block.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.indigo }}75"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Section Type",
+      "scope": "markup.admonition.markdown entity.name.admonition.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "{{ themes.solarized.indigo }}"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Element Background",
+      "scope": [
+        "markup.admonition.markdown markup.table",
+        "markup.admonition.markdown markup.raw",
+        "markup.admonition.markdown markup.raw.block.fenced meta.language",
+        "markup.admonition.markdown punctuation.definition.blockquote.markdown",
+        "markup.admonition.markdown meta.separator",
+        "markup.admonition.markdown markup.raw.inline",
+        "markup.admonition.markdown markup.raw.block"
+      ],
+      "settings": {
+        "background": "{{ themes.solarized.indigo }}25"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Quote",
+      "scope": "markup.admonition.markdown markup.quote punctuation.definition.blockquote.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.indigo }}35",
+        "foreground": "{{ themes.solarized.indigo }}35"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Header (Hint)",
+      "scope": "markup.admonition.markdown.hint markup.admonition.header.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.blue }}50"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Body (Hint)",
+      "scope": "markup.admonition.markdown.hint markup.admonition.body.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.blue }}15"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Punctuation (Hint)",
+      "scope": [
+        "markup.admonition.markdown.hint punctuation.definition.admonition.markdown",
+        "markup.admonition.markdown.hint punctuation.definition.heading",
+        "markup.admonition.markdown.hint punctuation.definition.table.vertical-line",
+        "markup.admonition.markdown.hint punctuation.definition.table.horizontal-line",
+        "markup.admonition.markdown.hint punctuation.definition.table.alignments",
+        "markup.admonition.markdown.hint punctuation.definition.heading",
+        "markup.admonition.markdown.hint punctuation.definition.bold",
+        "markup.admonition.markdown.hint punctuation.definition.italic",
+        "markup.admonition.markdown.hint punctuation.definition.list_item",
+        "markup.admonition.markdown.hint punctuation.definition.raw",
+        "markup.admonition.markdown.hint markup.checkbox.markdown",
+        "markup.admonition.markdown.hint punctuation.definition.list_item.todo.pending",
+        "markup.admonition.markdown.hint meta.link punctuation.definition",
+        "markup.admonition.markdown.hint meta.link.inline markup.underline.link",
+        "markup.admonition.markdown.hint meta.link.reference.markdown constant.other.reference.link.markdown",
+        "markup.admonition.markdown.hint punctuation.definition.entity.html",
+        "markup.admonition.markdown.hint meta.separator.markdown",
+        "markup.admonition.markdown.hint markup.table.markdown punctuation.definition.table.vertical-line.markdown",
+        "markup.admonition.markdown.hint meta.definition.language.raw.block.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.blue }}75"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Section Type (Hint)",
+      "scope": "markup.admonition.markdown.hint entity.name.admonition.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "{{ themes.solarized.blue }}"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Element Background (Hint)",
+      "scope": [
+        "markup.admonition.markdown.hint markup.table",
+        "markup.admonition.markdown.hint markup.raw",
+        "markup.admonition.markdown.hint markup.raw.block.fenced meta.language",
+        "markup.admonition.markdown.hint punctuation.definition.blockquote.markdown",
+        "markup.admonition.markdown.hint meta.separator",
+        "markup.admonition.markdown.hint markup.raw.inline",
+        "markup.admonition.markdown.hint markup.raw.block"
+      ],
+      "settings": {
+        "background": "{{ themes.solarized.blue }}25"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Quote (Hint)",
+      "scope": "markup.admonition.markdown.hint markup.quote punctuation.definition.blockquote.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.blue }}35",
+        "foreground": "{{ themes.solarized.blue }}35"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Header (Warning)",
+      "scope": "markup.admonition.markdown.warning markup.admonition.header.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.yellow }}50"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Body (Warning)",
+      "scope": "markup.admonition.markdown.warning markup.admonition.body.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.yellow }}15"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Punctuation (Warning)",
+      "scope": [
+        "markup.admonition.markdown.warning punctuation.definition.admonition.markdown",
+        "markup.admonition.markdown.warning punctuation.definition.heading",
+        "markup.admonition.markdown.warning punctuation.definition.table.vertical-line",
+        "markup.admonition.markdown.warning punctuation.definition.table.horizontal-line",
+        "markup.admonition.markdown.warning punctuation.definition.table.alignments",
+        "markup.admonition.markdown.warning punctuation.definition.heading",
+        "markup.admonition.markdown.warning punctuation.definition.bold",
+        "markup.admonition.markdown.warning punctuation.definition.italic",
+        "markup.admonition.markdown.warning punctuation.definition.list_item",
+        "markup.admonition.markdown.warning punctuation.definition.raw",
+        "markup.admonition.markdown.warning markup.checkbox.markdown",
+        "markup.admonition.markdown.warning punctuation.definition.list_item.todo.pending",
+        "markup.admonition.markdown.warning meta.link punctuation.definition",
+        "markup.admonition.markdown.warning meta.link.inline markup.underline.link",
+        "markup.admonition.markdown.warning meta.link.reference.markdown constant.other.reference.link.markdown",
+        "markup.admonition.markdown.warning punctuation.definition.entity.html",
+        "markup.admonition.markdown.warning meta.separator.markdown",
+        "markup.admonition.markdown.warning markup.table.markdown punctuation.definition.table.vertical-line.markdown",
+        "markup.admonition.markdown.warning meta.definition.language.raw.block.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.yellow }}75"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Section Type (Warning)",
+      "scope": "markup.admonition.markdown.warning entity.name.admonition.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "{{ themes.solarized.yellow }}"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Element Background (Warning)",
+      "scope": [
+        "markup.admonition.markdown.warning markup.table",
+        "markup.admonition.markdown.warning markup.raw",
+        "markup.admonition.markdown.warning markup.raw.block.fenced meta.language",
+        "markup.admonition.markdown.warning punctuation.definition.blockquote.markdown",
+        "markup.admonition.markdown.warning meta.separator",
+        "markup.admonition.markdown.warning markup.raw.inline",
+        "markup.admonition.markdown.warning markup.raw.block"
+      ],
+      "settings": {
+        "background": "{{ themes.solarized.yellow }}25"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Quote (Warning)",
+      "scope": "markup.admonition.markdown.warning markup.quote punctuation.definition.blockquote.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.yellow }}35",
+        "foreground": "{{ themes.solarized.yellow }}35"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Header (Danger)",
+      "scope": "markup.admonition.markdown.danger markup.admonition.header.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.red }}50"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Body (Danger)",
+      "scope": "markup.admonition.markdown.danger markup.admonition.body.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.red }}15"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Punctuation (Danger)",
+      "scope": [
+        "markup.admonition.markdown.danger punctuation.definition.admonition.markdown",
+        "markup.admonition.markdown.danger punctuation.definition.heading",
+        "markup.admonition.markdown.danger punctuation.definition.table.vertical-line",
+        "markup.admonition.markdown.danger punctuation.definition.table.horizontal-line",
+        "markup.admonition.markdown.danger punctuation.definition.table.alignments",
+        "markup.admonition.markdown.danger punctuation.definition.heading",
+        "markup.admonition.markdown.danger punctuation.definition.bold",
+        "markup.admonition.markdown.danger punctuation.definition.italic",
+        "markup.admonition.markdown.danger punctuation.definition.list_item",
+        "markup.admonition.markdown.danger punctuation.definition.raw",
+        "markup.admonition.markdown.danger markup.checkbox.markdown",
+        "markup.admonition.markdown.danger punctuation.definition.list_item.todo.pending",
+        "markup.admonition.markdown.danger meta.link punctuation.definition",
+        "markup.admonition.markdown.danger meta.link.inline markup.underline.link",
+        "markup.admonition.markdown.danger meta.link.reference.markdown constant.other.reference.link.markdown",
+        "markup.admonition.markdown.danger punctuation.definition.entity.html",
+        "markup.admonition.markdown.danger meta.separator.markdown",
+        "markup.admonition.markdown.danger markup.table.markdown punctuation.definition.table.vertical-line.markdown",
+        "markup.admonition.markdown.danger meta.definition.language.raw.block.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.red }}75"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Section Type (Danger)",
+      "scope": "markup.admonition.markdown.danger entity.name.admonition.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "{{ themes.solarized.red }}"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Element Background (Danger)",
+      "scope": [
+        "markup.admonition.markdown.danger markup.table",
+        "markup.admonition.markdown.danger markup.raw",
+        "markup.admonition.markdown.danger markup.raw.block.fenced meta.language",
+        "markup.admonition.markdown.danger punctuation.definition.blockquote.markdown",
+        "markup.admonition.markdown.danger meta.separator",
+        "markup.admonition.markdown.danger markup.raw.inline",
+        "markup.admonition.markdown.danger markup.raw.block"
+      ],
+      "settings": {
+        "background": "{{ themes.solarized.red }}25"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Quote (Danger)",
+      "scope": "markup.admonition.markdown.danger markup.quote punctuation.definition.blockquote.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.red }}35",
+        "foreground": "{{ themes.solarized.red }}35"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Header (Attention)",
+      "scope": "markup.admonition.markdown.attention markup.admonition.header.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.green }}50"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Body (Attention)",
+      "scope": "markup.admonition.markdown.attention markup.admonition.body.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.green }}15"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Punctuation (Attention)",
+      "scope": [
+        "markup.admonition.markdown.attention punctuation.definition.admonition.markdown",
+        "markup.admonition.markdown.attention punctuation.definition.heading",
+        "markup.admonition.markdown.attention punctuation.definition.table.vertical-line",
+        "markup.admonition.markdown.attention punctuation.definition.table.horizontal-line",
+        "markup.admonition.markdown.attention punctuation.definition.table.alignments",
+        "markup.admonition.markdown.attention punctuation.definition.heading",
+        "markup.admonition.markdown.attention punctuation.definition.bold",
+        "markup.admonition.markdown.attention punctuation.definition.italic",
+        "markup.admonition.markdown.attention punctuation.definition.list_item",
+        "markup.admonition.markdown.attention punctuation.definition.raw",
+        "markup.admonition.markdown.attention markup.checkbox.markdown",
+        "markup.admonition.markdown.attention punctuation.definition.list_item.todo.pending",
+        "markup.admonition.markdown.attention meta.link punctuation.definition",
+        "markup.admonition.markdown.attention meta.link.inline markup.underline.link",
+        "markup.admonition.markdown.attention meta.link.reference.markdown constant.other.reference.link.markdown",
+        "markup.admonition.markdown.attention punctuation.definition.entity.html",
+        "markup.admonition.markdown.attention meta.separator.markdown",
+        "markup.admonition.markdown.attention markup.table.markdown punctuation.definition.table.vertical-line.markdown",
+        "markup.admonition.markdown.attention meta.definition.language.raw.block.fenced.markdown"
+      ],
+      "settings": {
+        "foreground": "{{ themes.solarized.green }}75"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Section Type (Attention)",
+      "scope": "markup.admonition.markdown.attention entity.name.admonition.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "{{ themes.solarized.green }}"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Element Background (Attention)",
+      "scope": [
+        "markup.admonition.markdown.attention markup.table",
+        "markup.admonition.markdown.attention markup.raw",
+        "markup.admonition.markdown.attention markup.raw.block.fenced meta.language",
+        "markup.admonition.markdown.attention punctuation.definition.blockquote.markdown",
+        "markup.admonition.markdown.attention meta.separator",
+        "markup.admonition.markdown.attention markup.raw.inline",
+        "markup.admonition.markdown.attention markup.raw.block"
+      ],
+      "settings": {
+        "background": "{{ themes.solarized.green }}25"
+      }
+    },
+    {
+      "name": "Markdown - Admonition Quote (Attention)",
+      "scope": "markup.admonition.markdown.attention markup.quote punctuation.definition.blockquote.markdown",
+      "settings": {
+        "background": "{{ themes.solarized.green }}35",
+        "foreground": "{{ themes.solarized.green }}35"
+      }
+    }
+  ],
+  "colors": {
+    "focusBorder": "{{ themes.solarized.light.gold2 }}",
+    "input.background": "#{{ themes.solarized.base2 }}",
+    "input.border": "{{ themes.solarized.base01 }}4A",
+    "input.foreground": "{{ themes.solarized.base01 }}",
+    "input.placeholderForeground": "{{ themes.solarized.base01 }}AA",
+    "inputOption.activeBorder": "{{ themes.solarized.light.gold2 }}",
+    "badge.background": "{{ themes.solarized.yellow }}AA",
+    "progressBar.background": "{{ themes.solarized.yellow }}",
+    "dropdown.background": "{{ themes.solarized.base2 }}",
+    "dropdown.border": "{{ themes.solarized.light.gold2 }}",
+    "button.background": "{{ themes.solarized.light.gold1 }}",
+    "selection.background": "{{ themes.solarized.light.gold0 }}66",
+    "list.activeSelectionBackground": "{{ themes.solarized.light.gold0 }}",
+    "list.activeSelectionForeground": "#6C6C6C",
+    "list.focusBackground": "{{ themes.solarized.light.gold0 }}66",
+    "list.hoverBackground": "{{ themes.solarized.light.gold0 }}44",
+    "list.inactiveSelectionBackground": "#D1CBB8",
+    "list.highlightForeground": "{{ themes.solarized.yellow }}",
+    "notebook.editorBackground": "#EAE0C0",
+    "notebook.cellEditorBackground": "{{ themes.solarized.base3 }}",
+    "editor.background": "{{ themes.solarized.base3 }}",
+    "editorWidget.background": "{{ themes.solarized.base2 }}",
+    "editorCursor.background": "{{ themes.solarized.base2 }}",
+    "editorCursor.foreground": "{{ themes.solarized.base00 }}",
+    "editorWhitespace.foreground": "{{ themes.solarized.base01 }}80",
+    "editor.lineHighlightBackground": "{{ themes.solarized.base2 }}",
+    "editor.selectionBackground": "{{ themes.solarized.base04 }}40",
+    "minimap.selectionHighlight": "{{ themes.solarized.base04 }}40",
+    "editorIndentGuide.background1": "{{ themes.solarized.black }}80",
+    "editorIndentGuide.activeBackground1": "{{ themes.solarized.base04 }}",
+    "editorHoverWidget.background": "#CCC4B0",
+    "editorBracketHighlight.foreground1": "{{ themes.solarized.indigo }}",
+    "editorBracketHighlight.foreground2": "{{ themes.solarized.cyan }}",
+    "editorBracketHighlight.foreground3": "{{ themes.solarized.magenta0 }}",
+    "editorBracketHighlight.foreground4": "{{ themes.solarized.blue }}",
+    "editorBracketHighlight.foreground5": "{{ themes.solarized.orange }}",
+    "editorBracketHighlight.foreground6": "{{ themes.solarized.teal0 }}",
+    "editorBracketHighlight.unexpectedBracket.foreground": "{{ themes.solarized.red1 }}",
+    "editorBracketMatch.border": "{{ themes.solarized.base00 }}A0",
+    "editorBracketPairGuide.activeBackground1": "{{ themes.solarized.indigo }}",
+    "editorBracketPairGuide.activeBackground2": "{{ themes.solarized.cyan }}",
+    "editorBracketPairGuide.activeBackground3": "{{ themes.solarized.magenta0 }}",
+    "editorBracketPairGuide.activeBackground4": "{{ themes.solarized.blue }}",
+    "editorBracketPairGuide.activeBackground5": "{{ themes.solarized.orange }}",
+    "editorBracketPairGuide.activeBackground6": "{{ themes.solarized.teal0 }}",
+    "editorLineNumber.activeForeground": "{{ themes.solarized.base01 }}",
+    "peekViewResult.background": "{{ themes.solarized.base2 }}",
+    "peekViewEditor.background": "{{ themes.solarized.base3 }}",
+    "peekViewTitle.background": "{{ themes.solarized.base2 }}",
+    "peekView.border": "{{ themes.solarized.yellow }}",
+    "peekViewEditor.matchHighlightBackground": "#7744AA40",
+    "editorStickyScroll.background": "{{ themes.solarized.base2 }}",
+    "editorStickyScrollHover.background": "{{ themes.solarized.base01 }}30",
+    "titleBar.activeBackground": "{{ themes.solarized.base2 }}",
+    "editorGroup.border": "#{{ themes.solarized.light.cream }}",
+    "editorGroup.dropBackground": "#{{ themes.solarized.light.cream }}AA",
+    "editorGroupHeader.tabsBackground": "#D9D2C2",
+    "tab.border": "#{{ themes.solarized.light.cream }}",
+    "tab.activeBackground": "{{ themes.solarized.base3 }}",
+    "tab.inactiveForeground": "{{ themes.solarized.base01 }}",
+    "tab.inactiveBackground": "#D3CBB7",
+    "tab.activeModifiedBorder": "{{ themes.solarized.orange }}",
+    "activityBar.background": "#{{ themes.solarized.light.cream }}",
+    "activityBar.foreground": "#584C27",
+    "activityBarBadge.background": "{{ themes.solarized.yellow }}",
+    "panel.border": "#{{ themes.solarized.light.cream }}",
+    "sideBar.background": "{{ themes.solarized.base2 }}",
+    "sideBarTitle.foreground": "{{ themes.solarized.base01 }}",
+    "statusBar.foreground": "{{ themes.solarized.base01 }}",
+    "statusBar.background": "{{ themes.solarized.base2 }}",
+    "statusBar.debuggingBackground": "{{ themes.solarized.base2 }}",
+    "statusBar.noFolderBackground": "{{ themes.solarized.base2 }}",
+    "statusBarItem.remoteBackground": "{{ themes.solarized.light.gold1 }}",
+    "ports.iconRunningProcessForeground": "{{ themes.solarized.cyan }}99",
+    "statusBarItem.prominentBackground": "#{{ themes.solarized.light.cream }}",
+    "statusBarItem.prominentHoverBackground": "#{{ themes.solarized.light.cream }}99",
+    "debugToolBar.background": "#{{ themes.solarized.light.cream }}",
+    "debugExceptionWidget.background": "#{{ themes.solarized.light.cream }}",
+    "debugExceptionWidget.border": "{{ themes.solarized.magenta1 }}",
+    "pickerGroup.border": "{{ themes.solarized.cyan }}99",
+    "pickerGroup.foreground": "{{ themes.solarized.cyan }}99",
+    "extensionButton.prominentBackground": "{{ themes.solarized.yellow }}",
+    "extensionButton.prominentHoverBackground": "#584C27AA",
+    "terminal.ansiBlack": "{{ themes.solarized.base02 }}",
+    "terminal.ansiRed": "{{ themes.solarized.red }}",
+    "terminal.ansiGreen": "{{ themes.solarized.green }}",
+    "terminal.ansiYellow": "{{ themes.solarized.yellow }}",
+    "terminal.ansiBlue": "{{ themes.solarized.blue }}",
+    "terminal.ansiMagenta": "{{ themes.solarized.magenta0 }}",
+    "terminal.ansiCyan": "{{ themes.solarized.cyan }}",
+    "terminal.ansiWhite": "{{ themes.solarized.base2 }}",
+    "terminal.ansiBrightBlack": "{{ themes.solarized.base01 }}",
+    "terminal.ansiBrightRed": "{{ themes.solarized.orange }}",
+    "terminal.ansiBrightGreen": "{{ themes.solarized.base01 }}",
+    "terminal.ansiBrightYellow": "{{ themes.solarized.base00 }}",
+    "terminal.ansiBrightBlue": "{{ themes.solarized.base0 }}",
+    "terminal.ansiBrightMagenta": "{{ themes.solarized.violet }}",
+    "terminal.ansiBrightCyan": "{{ themes.solarized.base1 }}",
+    "terminal.ansiBrightWhite": "{{ themes.solarized.base2 }}",
+    "terminal.selectionBackground": "#{{ themes.solarized.light.cream }}",
+    "terminal.background": "{{ themes.solarized.base3 }}",
+    "walkThrough.embeddedEditorBackground": "{{ themes.solarized.black }}14"
+  }
+}
