@@ -44,6 +44,7 @@ const themes = {
 		},
 	},
 	selenized: {
+		bg0: "#053d48",
 		bg1: "#184956",
 		fg0: "#ADBCBC",
 		fg1: "#C8D7D8",
@@ -64,7 +65,7 @@ const themes = {
 		}
 	},
 	unusedSelenized:{
-		bg0: "#103C48",
+		bg00: "#103C48",
 		bg2: "#2D5B69",
 		dim0: "#72898F",
 		brRed: "#FF665C",
