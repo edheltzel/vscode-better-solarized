@@ -4,7 +4,9 @@
 
 ## 0.10.7 | 2024-05-26
 
-fixes typo in better-solarized-dark theme for `editorGroupHeader.tabsBackground`
+fixes (#34)[https://github.com/edheltzel/vscode-better-solarized/issues/34] typo in better-solarized-dark theme for `editorGroupHeader.tabsBackground`
+
+misc updates
 
 **Full Changelog**: https://github.com/edheltzel/vscode-better-solarized/compare/v0.10.6...v0.10.7
 
