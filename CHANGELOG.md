@@ -2,9 +2,9 @@
 
 # Change Log
 
-## 0.10.7 | 2024-05-26
+## 0.10.7 | 2024-05-28
 
-fixes (#34)[https://github.com/edheltzel/vscode-better-solarized/issues/34] typo in better-solarized-dark theme for `editorGroupHeader.tabsBackground`
+- fixes (#34)[https://github.com/edheltzel/vscode-better-solarized/issues/34] typo in better-solarized-dark theme for `editorGroupHeader.tabsBackground`
 
 misc updates
 
@@ -12,14 +12,15 @@ misc updates
 
 ## 0.10.6 | 2024-05-26
 
-Resolves issue [#33](https://github.com/edheltzel/vscode-better-solarized/issues/33)
+- Resolves issue [#33](https://github.com/edheltzel/vscode-better-solarized/issues/33)
 
 **Full Changelog**: https://github.com/edheltzel/vscode-better-solarized/compare/v0.10.5...v0.10.6
 
 ## 0.10.5 | 2024-05-26
 
 ## What's Changed
-* workflow by @edheltzel in https://github.com/edheltzel/vscode-better-solarized/pull/32
+
+- workflow by @edheltzel in https://github.com/edheltzel/vscode-better-solarized/pull/32
 
 **Full Changelog**: https://github.com/edheltzel/vscode-better-solarized/compare/v0.10.4...v0.10.5
 
