@@ -26,7 +26,6 @@ Five(5) variants:
 **Featured on**:
 
 - [vscode.email](https://mailchi.mp/vscode/80?e=b9d3c8f738) newsletter
-- [VS Code Themes](https://vscodethemes.com/e/ginfuru.ginfuru-better-solarized-dark-theme/better-selenized-dark?language=javascript)
 
 # Additional Customization and other Tweaks
 
