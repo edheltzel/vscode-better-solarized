@@ -65,7 +65,7 @@
   "scripts": {
     "build": "pnpm dlx @11ty/eleventy",
     "serve": "pnpm dlx @11ty/eleventy --watch",
-    "release": "gh release create v%npm_package_version% --generate-notes --latest",
+    "release": "gh release create v$npm_package_version --generate-notes --latest",
     "publish": "vsce publish"
   }
 }
