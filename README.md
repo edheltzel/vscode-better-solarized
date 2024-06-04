@@ -3,17 +3,9 @@
 </div>
 <br><br>
 
-# Better Solarized [![release](https://img.shields.io/github/release/edheltzel/vscode-better-solarized.svg?style=for-the-badge&logo=github&logoColor=white&colorA=101119&colorB=073642)](https://github.com/edheltzel/flightdeck/releases/latest)
+# Better Solarized + Selenized [![release](https://img.shields.io/github/release/edheltzel/vscode-better-solarized.svg?style=for-the-badge&logo=github&logoColor=white&colorA=101119&colorB=073642)](https://github.com/edheltzel/flightdeck/releases/latest)
 
-This originally was a modified version of the
-[Boxy Solarized Theme](https://github.com/ihodev/sublime-boxy), with the
-original Solarized Workbench theme for Visual Studio Code. It has since shifted
-to being it's own theme with a few tweaks and customizations, drawing
-inspiration from the original
-[Solarized](https://github.com/altercation/solarized) project and now includes
-the
-[Selenized](https://github.com/jan-warchol/selenized/blob/master/whats-wrong-with-solarized.md)
-color palette.
+This is an theme is an improvement to the built-in/original Solarized theme that comes with Visual Studio Code. It leverages [Boxy Solarized Theme](https://github.com/bofm/sublime-boxy-theme), with a several modifications, tweaks, and customizations. Better Solarized will always draw inspiration from the original [Solarized](https://github.com/altercation/solarized) project and now includes the [Selenized](https://github.com/jan-warchol/selenized/blob/master/whats-wrong-with-solarized.md) color palette.
 
 Five(5) variants:
 
@@ -23,19 +15,16 @@ Five(5) variants:
 4. Selenized Dark
 5. Selenized Light
 
-**Featured on**:
+### Featured on:
 
-- [vscode.email](https://mailchi.mp/vscode/80?e=b9d3c8f738) newsletter
+- [vscode.email](https://mailchi.mp/vscode/80?e=b9d3c8f738) newsletter.
+- located on several VSCode Theme Lists.
 
-# Additional Customization and other Tweaks
+## Additional Customization and other Tweaks
 
-> `# Additional Customization and other Tweaks`
+**See something that you'd rather change?**
 
-**See something that you'd rather change?**<br> No problem, feel free to edit
-and customize by using the `workbench.colorCustomizations` setting. Check out
-the
-[Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)
-for additional options.
+No problem, feel free to edit and customize by using the `workbench.colorCustomizations` setting. Check out the [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) for additional options.
 
 Open up your `settings.json` and hack way.
 
@@ -64,8 +53,7 @@ Open up your `settings.json` and hack way.
     }
   },
 ```
-
-(this is just an example, you can customize any color you want)
+This is just an example, you can customize any color you want)
 
 ## ScreenShots
 
@@ -110,5 +98,5 @@ Commands available via "pnpm run":
 ```
 
 - `pnpm run build` - Builds the theme files for production
-- `pnpm run buildTest` - Builds the theme files without watch
 - `pnpm run serve` - Builds the theme files and watches for changes
+- `pnpm run release` - Creates a new release using the current version in `package.json`
