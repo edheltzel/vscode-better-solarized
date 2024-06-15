@@ -5,7 +5,7 @@
 
 # Better Solarized + Selenized [![release](https://img.shields.io/github/release/edheltzel/vscode-better-solarized.svg?style=for-the-badge&logo=github&logoColor=white&colorA=101119&colorB=073642)](https://github.com/edheltzel/flightdeck/releases/latest)
 
-This is an theme is an improvement to the built-in/original Solarized theme that comes with Visual Studio Code. It leverages [Boxy Solarized Theme](https://github.com/bofm/sublime-boxy-theme), with a several modifications, tweaks, and customizations. Better Solarized will always draw inspiration from the original [Solarized](https://github.com/altercation/solarized) project and now includes the [Selenized](https://github.com/jan-warchol/selenized/blob/master/whats-wrong-with-solarized.md) color palette.
+This is an improvement to the built-in/original Solarized theme that comes with Visual Studio Code. It leverages [Boxy Solarized Theme](https://github.com/bofm/sublime-boxy-theme), with a several modifications, tweaks, and customizations. Better Solarized will always draw inspiration from the original [Solarized](https://github.com/altercation/solarized) project and now includes the [Selenized](https://github.com/jan-warchol/selenized/blob/master/whats-wrong-with-solarized.md) color palette.
 
 Five(5) variants:
 
