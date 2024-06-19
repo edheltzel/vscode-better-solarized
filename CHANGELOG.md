@@ -2,6 +2,10 @@
 
 # Change Log
 
+## 0.10.9 | 2024-06-19
+
+- fixes (#36)[https://github.com/edheltzel/vscode-better-solarized/issues/36] by adding `editorGhostTest.foreground` to all themes.
+
 ## 0.10.8 | 2024-05-28
 
 - fixes (#34)[https://github.com/edheltzel/vscode-better-solarized/issues/34] typo in better-solarized-dark theme for `editorGroupHeader.tabsBackground`
