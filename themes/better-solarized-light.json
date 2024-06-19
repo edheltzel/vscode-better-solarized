@@ -1105,6 +1105,7 @@
     "editorStickyScroll.background": "#EEE8D5",
     "editorStickyScrollHover.background": "#586E7530",
     "titleBar.activeBackground": "#EEE8D5",
+    "editorGhostText.foreground": "#90999590",
     "editorGroup.border": "#DDD6C1",
     "editorGroup.dropBackground": "#DDD6C1AA",
     "editorGroupHeader.tabsBackground": "#D9D2C2",
