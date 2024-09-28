@@ -11,6 +11,8 @@ const themes = {
 	solarized: {
 		black: "#000000",
 		white: "#FFFFFF",
+		base06: "#001e26",
+		base05: "#002731",
 		base04: "#00212B",
 		base03: "#002B36",
 		base02: "#073642",
@@ -42,6 +44,27 @@ const themes = {
 			gold1: "#AC9D57",
 			gold2: "#D3AF86",
 		},
+		highContrast:{
+			b01: "#001e26",
+			fg0: "#9bc1c2",
+			fg1: "#003847",
+			black0: "#002731",
+			black1: "#006388",
+			red0: "#d01b24",
+			red1: "#f4153b",
+			green0: "#6bbe6c",
+			green1: "#50ee84",
+			yellow0: "#a57705",
+			yellow1: "#b17e28",
+			blue0: "#2075c7",
+			blue1: "#178dc7",
+			magenta0: "#c61b6e",
+			magenta1: "#e14d8e",
+			cyan0: "#00b29e",
+			cyan1: "#00b29e",
+			white0: "#e9e2cb",
+			white1: "#fcf4dc"
+		}
 	},
 	selenized: {
 		bg0: "#053d48",
