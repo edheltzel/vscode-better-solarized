@@ -3,7 +3,9 @@
 </div>
 <br><br>
 
-# Better Solarized + Selenized [![release](https://img.shields.io/github/release/edheltzel/vscode-better-solarized.svg?style=for-the-badge&logo=github&logoColor=white&colorA=101119&colorB=073642)](https://github.com/edheltzel/flightdeck/releases/latest)
+# The Original Better Solarized + Selenized [![release](https://img.shields.io/github/release/edheltzel/vscode-better-solarized.svg?style=for-the-badge&logo=github&logoColor=white&colorA=101119&colorB=073642)](https://github.com/edheltzel/flightdeck/releases/latest)
+
+## Please ⭐ Star this project if you like it!
 
 This is an improvement to the built-in/original Solarized theme that comes with Visual Studio Code. It leverages [Boxy Solarized Theme](https://github.com/bofm/sublime-boxy-theme), with several modifications, tweaks, and customizations. Better Solarized will always draw inspiration from the original [Solarized](https://github.com/altercation/solarized) project and now includes the [Selenized](https://github.com/jan-warchol/selenized/blob/master/whats-wrong-with-solarized.md) color palette.
 
