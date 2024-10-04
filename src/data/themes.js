@@ -45,7 +45,8 @@ const themes = {
 			gold2: "#D3AF86",
 		},
 		highContrast:{
-			b01: "#001e26",
+			bg02: "#00141A",
+			bg01: "#001e26",
 			fg0: "#9bc1c2",
 			fg1: "#003847",
 			black0: "#002731",
