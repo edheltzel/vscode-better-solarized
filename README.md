@@ -5,7 +5,7 @@
 
 # The Original Better Solarized + Selenized [![release](https://img.shields.io/github/release/edheltzel/vscode-better-solarized.svg?style=for-the-badge&logo=github&logoColor=white&colorA=101119&colorB=073642)](https://github.com/edheltzel/flightdeck/releases/latest)
 
-## Please ⭐ Star this project if you like it!
+## Please ⭐ Star this project if you like it
 
 This is an improvement to the built-in/original Solarized theme that comes with Visual Studio Code. It leverages [Boxy Solarized Theme](https://github.com/bofm/sublime-boxy-theme), with several modifications, tweaks, and customizations. Better Solarized will always draw inspiration from the original [Solarized](https://github.com/altercation/solarized) project and now includes the [Selenized](https://github.com/jan-warchol/selenized/blob/master/whats-wrong-with-solarized.md) color palette.
 
@@ -17,7 +17,7 @@ Five(5) variants:
 4. Selenized Dark
 5. Selenized Light
 
-### Featured on:
+### Featured on
 
 - [vscode.email](https://mailchi.mp/vscode/80?e=b9d3c8f738) newsletter.
 - located on several VSCode Theme Lists.
@@ -55,6 +55,7 @@ Open up your `settings.json` and hack way.
     }
   },
 ```
+
 This is just an example, you can customize any color you want)
 
 ## ScreenShots
@@ -68,7 +69,6 @@ This is just an example, you can customize any color you want)
 | ![solarized Dark Terminal](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-solarized-dark-term.png)   | ![selenized Dark Terminal](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-selenized-dark-term.png)   |
 | ![solarized Light Terminal](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-solarized-light-term.png) | ![selenized Light Terminal](https://raw.github.com/ginfuru/vscode-better-solarized-dark/master/images/better-selenized-light-term.png) |
 
-
 ## Development
 
 So theme development is a little unique, in the fact that I've chosen to use [Eleventy](https://11ty.dev) to generate the JSON files using Nunjucks for templates. Eleventy is very versatile without an opinionated structure, which is why I use it.
@@ -76,12 +76,12 @@ So theme development is a little unique, in the fact that I've chosen to use [El
 Each theme is generated from the `./src/data/themes.js` file and has a companion Nunjucks template in `./src` which is then compiled into the `./themes` directory.
 
 ### Getting Started
+
 1. Clone the repository `gh repo clone edheltzel/vscode-better-solarized && cd vscode-better-solarized`
 2. Run `pnpm install`
 3. Execute the **run without debugging**: `Run > Run without debugging` OR `ctrl + F5` (see: [VSCode Debugging](https://code.visualstudio.com/Docs/editor/debugging#_run-mode)) to start development.
 4. Either open the terminal and run `pnpm run serve` or run a task with the command prompt `Tasks: Run Task` and select `npm: serve` (Either option works - I personally run the task inside of the terminal).
 5. To edit the theme colors open the `./src/data/themes.js` file and edit the colors as needed and/or edit any of the Nunjucks files in the `./src` directory.
-
 
 #### NPM Scripts
 
